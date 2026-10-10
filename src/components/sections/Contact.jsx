@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { Phone, Mail, MapPin, MessageCircle, Send, Copy, Check } from 'lucide-react';
 import { useTranslation } from '../../hooks/useTranslation';
 import siteConfig from '../../data/siteConfig.json';
