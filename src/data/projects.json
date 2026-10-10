@@ -1,0 +1,288 @@
+[
+  {
+    "id": "final-project-dahmash",
+    "category": "civic",
+    "year": "2025",
+    "location": {
+      "en": "Dahmash Village, Central District",
+      "ar": "قرية دهمش، المنطقة الوسطى",
+      "he": "כפר דהמש, מחוז המרכז"
+    },
+    "title": {
+      "en": "Dahmash Community Sanctuary & Educational Hub",
+      "ar": "مركز دهمش المجتمعي والصرح التعليمي",
+      "he": "מרכז קהילתי ועוגן חינוכי בכפר דהמש"
+    },
+    "description": {
+      "en": "Graduation thesis addressing informal planning and unrecognized villages through spatial justice. The project establishes a civic anchor—a public school integrated with a community mosque—forming the bedrock of the village, transforming educational infrastructure into an enduring symbol of communal resilience.",
+      "ar": "مشروع التخرج الذي يبحث في التخطيط غير المعترف به والعدالة المكانية. يطرح المشروع خطة بديلة تؤسس لمبنى عام يجمع بين مدرسة حديثة ومسجد جامع يشكلان حجر الأساس للقرية ورمزاً للصمود المجتمعي والتطور الحضري المستدام.",
+      "he": "פרויקט גמר הבוחן תכנון לא-מוכר וצדק מרחבי. הפרויקט מציע חלופה תכנונית המייסדת עוגן ציבורי רב-תכליתי—בית ספר משולב במבנה קהילתי—המהווה את אבן הראשה של הכפר, ומשמש כמוקד חינוכי וסמל לחוסן קהילתי."
+    },
+    "coverImage": "./images/projects/final-project-dahmash/cover.jpg",
+    "gallery": [
+      "./images/projects/final-project-dahmash/01.jpg",
+      "./images/projects/final-project-dahmash/02.jpg",
+      "./images/projects/final-project-dahmash/plan.jpg"
+    ]
+  },
+  {
+    "id": "urban-studio-wadi",
+    "category": "urban",
+    "year": "2024",
+    "location": {
+      "en": "Wadi Nisnas, Haifa",
+      "ar": "وادي النسناس، حيفا",
+      "he": "ואדי ניסנאס, חיפה"
+    },
+    "title": {
+      "en": "Veins in the Wadi — Urban Memory & Connectivity",
+      "ar": "شرايين في الوادي — الذاكرة الحضرية والترابط",
+      "he": "עורקים בוואדי — זיכרון עירוני וחיבוריות"
+    },
+    "description": {
+      "en": "An urban regeneration methodology reconnecting the historic fabric of Wadi Nisnas with downtown Haifa and the Mediterranean coastline. Introduces elevated rooftop walkways, pedestrian art corridors, and community-curated public nodes that celebrate collective heritage.",
+      "ar": "منهجية تجديد حضري تعيد ربط النسيج التاريخي لوادي النسناس بقلب حيفا والساحل البحري. يدمج المشروع ممرات أسطح علوية، ومسارات فنية مجتمعية، ونقاط التقاء تحتفي بالذاكرة الجمعية وتنعش الأسواق المحلية.",
+      "he": "תכנון התחדשות עירונית המחבר מחדש את המרקם ההיסטורי של ואדי ניסנאס עם מרכז חיפה וקו החוף. הפרויקט פורש גשרי גגות, צירי אמנות פתוחים לקהילה ומוקדי מפגש המחזקים את הזיכרון הקולקטיבי."
+    },
+    "coverImage": "./images/projects/urban-studio-wadi/cover.jpg",
+    "gallery": [
+      "./images/projects/urban-studio-wadi/01.jpg",
+      "./images/projects/urban-studio-wadi/02.jpg",
+      "./images/projects/urban-studio-wadi/plan.jpg"
+    ]
+  },
+  {
+    "id": "na-project-complex",
+    "category": "residential",
+    "year": "2024",
+    "location": {
+      "en": "Tel Aviv-Yafo",
+      "ar": "تل أبيب - يافا",
+      "he": "תל אביב - יפו"
+    },
+    "title": {
+      "en": "N.A Mixed-Use Residential & Commercial Complex",
+      "ar": "مجمع N.A متعدد الاستخدامات (سكني، مكاتب، وتجاري)",
+      "he": "מתחם N.A לעירוב שימושים (מגורים, משרדים ומסחר)"
+    },
+    "description": {
+      "en": "A multi-layered contemporary complex synthesizing high-end urban living with flexible commercial spaces and communal green courtyards. Designed with passive shading louvers, natural ventilation channels, and distinct public-private thresholds.",
+      "ar": "مجمع معماري متعدد المستويات يدمج بين السكن المعاصر والمساحات المكتبية والتجارية مع فناء بيئي أخضر. يتميز بتصاميم كواسر شمس ذكية، تهوية طبيعية، وفصل مدروس بين الفضاءات العامة والخاصة.",
+      "he": "קומפלקס רב-שכבתי עכשווי המשלב מגורים עירוניים עם חללי עבודה ומסחר לצד חצרות ירוקות. התכנון מבוסס על הצללה פסיבית, זרימת אוויר טבעית והגדרת מעברים מדורגת בין הציבורי לפרטי."
+    },
+    "coverImage": "./images/projects/na-project-complex/cover.jpg",
+    "gallery": [
+      "./images/projects/na-project-complex/01.jpg",
+      "./images/projects/na-project-complex/02.jpg",
+      "./images/projects/na-project-complex/plan.jpg"
+    ]
+  },
+  {
+    "id": "housing-collective",
+    "category": "residential",
+    "year": "2023",
+    "location": {
+      "en": "South Tel Aviv",
+      "ar": "جنوب تل أبيب",
+      "he": "דרום תל אביב"
+    },
+    "title": {
+      "en": "Modular Housing & Communal Terraces",
+      "ar": "الإسكان المعياري والشرفات التشاركية",
+      "he": "דיור מודולרי ומרפסות שיתופיות"
+    },
+    "description": {
+      "en": "Exploration of dense urban living focusing on modular apartment typologies, shared sky-gardens, and flexible interior layouts adaptable across different stages of family life.",
+      "ar": "استكشاف للعيش الحضري الكثيف يركز على نماذج سكنية معيارية، حدائق معلقة مشتركة، ومخططات داخلية مرنة تتكيف مع التغيرات الأسرية عبر الزمن.",
+      "he": "מחקר מגורים עירוני צפוף המתמקד בטיפולוגיות דיור מודולריות, גינות שמיים שיתופיות ופריסות פנים גמישות המותאמות לשלבי חיים משתנים."
+    },
+    "coverImage": "./images/projects/housing-collective/cover.jpg",
+    "gallery": [
+      "./images/projects/housing-collective/01.jpg",
+      "./images/projects/housing-collective/02.jpg",
+      "./images/projects/housing-collective/plan.jpg"
+    ]
+  },
+  {
+    "id": "small-community-inbetweav",
+    "category": "civic",
+    "year": "2023",
+    "location": {
+      "en": "Lower Galilee",
+      "ar": "الجليل الأسفل",
+      "he": "הגליל התחתון"
+    },
+    "title": {
+      "en": "Small Community Building — INBETWEAV",
+      "ar": "مبنى مجتمعي — التداخل (INBETWEAV)",
+      "he": "מבנה קהילתי — שזירה מרחבית (INBETWEAV)"
+    },
+    "description": {
+      "en": "A civic gathering center woven into rolling hillside topography. Features flexible gathering halls, artisan workshops, and an open stone amphitheater that serves cultural events and community dialogue.",
+      "ar": "مركز تجمّع مجتمعي منسوج في تضاريس المنحدرات الجبلية. يضم قاعات مرنة للفعاليات، ورش عمل حرفية، ومدرجاً حجرياً مفتوحاً يحتضن المناسبات الثقافية واللقاءات الشعبية.",
+      "he": "מרכז קהילתי המשתלב בטופוגרפיית המדרון. כולל אולמות מפגש רב-תכליתיים, סדנאות מלאכה ואמפיתיאטרון אבן פתוח לאירועי תרבות ושיח קהילתי."
+    },
+    "coverImage": "./images/projects/small-community-inbetweav/cover.jpg",
+    "gallery": [
+      "./images/projects/small-community-inbetweav/01.jpg",
+      "./images/projects/small-community-inbetweav/02.jpg",
+      "./images/projects/small-community-inbetweav/plan.jpg"
+    ]
+  },
+  {
+    "id": "digital-studio-parametric",
+    "category": "technology",
+    "year": "2024",
+    "location": {
+      "en": "TAU Computational Architecture Lab",
+      "ar": "مختبر العمارة الحاسوبية، جامعة تل أبيب",
+      "he": "מעבדת תכנון חישובי, אוניברסיטת תל אביב"
+    },
+    "title": {
+      "en": "Digital Studio — Algorithmic Enclosure & Form-Finding",
+      "ar": "الاستوديو الرقمي — النمذجة الخوارزمية واستكشاف الأشكال",
+      "he": "סטודיו דיגיטלי — מעטפת אלגוריתמית ומציאת צורה"
+    },
+    "description": {
+      "en": "Computational research into parametric surfaces, solar radiation optimization, and geometric origami folds developed using Rhino, Grasshopper, and Python for environmental performance.",
+      "ar": "بحث حوسبي متقدم في الأسطح البارامترية، وتحسين الإشعاع الشمسي، وطيات الأوريغامي الهندسية بالاعتماد على برمجيات راينو وغراسهوبر لتحقيق أقصى كفاءة بيئية.",
+      "he": "מחקר חישובי במשטחים פרמטריים, אופטימיזציית קרינת שמש וקיפולים גיאומטריים שפותחו באמצעות Rhino ו-Grasshopper לשיפור ביצועים אקלימיים."
+    },
+    "coverImage": "./images/projects/digital-studio-parametric/cover.jpg",
+    "gallery": [
+      "./images/projects/digital-studio-parametric/01.jpg",
+      "./images/projects/digital-studio-parametric/02.jpg",
+      "./images/projects/digital-studio-parametric/plan.jpg"
+    ]
+  },
+  {
+    "id": "technology-tectonics",
+    "category": "technology",
+    "year": "2023",
+    "location": {
+      "en": "Tel Aviv Coastal Strip",
+      "ar": "الواجهة الساحلية، تل أبيب",
+      "he": "רצועת החוף, תל אביב"
+    },
+    "title": {
+      "en": "High-Tech Structural Pavilion & Double Facade",
+      "ar": "جناح إنشائي تقني بواجهة مزدوجة",
+      "he": "ביתן מבני עתיר טכנולוגיה ומעטפת כפולה"
+    },
+    "description": {
+      "en": "Exploration of lightweight steel diagrid structures and bioclimatic kinetic facades. Integrates structural calculations with expressive tectonic joints and thermal chimneys.",
+      "ar": "استكشاف للمنشآت الفولاذية الشبكية الخفيفة والواجهات الحركية المناخية. يدمج الحسابات الإنشائية الدقيقة مع وصلات تكتونية معمارية ومداخن حرارية طبيعية.",
+      "he": "חקירה מבנית של קונסטרוקציות פלדה קלות ומעטפת קינטית אקלימית. שילוב בין חישובים הנדסיים לפרטי חיבור אדריכליים וארובות אוורור תרמיות."
+    },
+    "coverImage": "./images/projects/technology-tectonics/cover.jpg",
+    "gallery": [
+      "./images/projects/technology-tectonics/01.jpg",
+      "./images/projects/technology-tectonics/02.jpg",
+      "./images/projects/technology-tectonics/plan.jpg"
+    ]
+  },
+  {
+    "id": "complex-challenges-slope",
+    "category": "urban",
+    "year": "2023",
+    "location": {
+      "en": "Carmel Ridge, Haifa",
+      "ar": "سلسلة جبال الكرمل، حيفا",
+      "he": "רכס הכרמל, חיפה"
+    },
+    "title": {
+      "en": "Complex Challenges — Topographical Cliffside Intervention",
+      "ar": "تحديات معقدة — التدخل المعماري على المنحدرات الحادة",
+      "he": "אתגרים מורכבים — התערבות אדריכלית במדרון טופוגרפי"
+    },
+    "description": {
+      "en": "Architectural solution for an extreme 45-degree slope. Integrates retaining stone tiers, funicular mobility, storm runoff absorption cisterns, and stepped green terraces.",
+      "ar": "حل معماري لموقع شديد الانحدار بزاوية ٤٥ درجة. يدمج مدرجات حجرية داعمة، وسائط نقل مائلة، وخزانات لامتصاص مياه الأمطار مع شرفات خضراء متدرجة.",
+      "he": "פתרון אדריכלי למדרון תלול בשיפוע של 45 מעלות. שילוב טרסות אבן תומכות, תנועה ורטיקלית, מאגרי חלחול מי נגר ומרפסות ירוקות מדורגות."
+    },
+    "coverImage": "./images/projects/complex-challenges-slope/cover.jpg",
+    "gallery": [
+      "./images/projects/complex-challenges-slope/01.jpg",
+      "./images/projects/complex-challenges-slope/02.jpg",
+      "./images/projects/complex-challenges-slope/plan.jpg"
+    ]
+  },
+  {
+    "id": "drawings-tectonic-sections",
+    "category": "drawings",
+    "year": "2024",
+    "location": {
+      "en": "Studio Archive",
+      "ar": "أرشيف الاستوديو",
+      "he": "ארכיון הסטודיו"
+    },
+    "title": {
+      "en": "Architectural Drawings & Axonometric Sections",
+      "ar": "رسومات معمارية ومقاطع أكسونومترية",
+      "he": "רישומים אדריכליים וחתכים אקסונומטריים"
+    },
+    "description": {
+      "en": "Precision linework exploring internal spatial flows, structural stratigraphy, and technical assembly details. Drawn through combined manual drafting and BIM-derived vector overlays.",
+      "ar": "خطوط هندسية دقيقة تستكشف التدفق المكاني الداخلي، وطبقات الإنشاء، وتفاصيل التركيب التقنية. مرسومة بمزيج من الرسم اليدوي وطبقات المتجهات المشتقة من BIM.",
+      "he": "רישום קווי בדיוק מירבי החוקר זרימה מרחבית פנימית, שכבות בנייה ופרטי הרכבה הנדסיים. שילוב בין שרטוט ידני לוקטורים מתוכנות BIM."
+    },
+    "coverImage": "./images/projects/drawings-tectonic-sections/cover.jpg",
+    "gallery": [
+      "./images/projects/drawings-tectonic-sections/01.jpg",
+      "./images/projects/drawings-tectonic-sections/02.jpg",
+      "./images/projects/drawings-tectonic-sections/plan.jpg"
+    ]
+  },
+  {
+    "id": "sketches-ideation",
+    "category": "drawings",
+    "year": "2024",
+    "location": {
+      "en": "Field Notebooks & Conceptual Studies",
+      "ar": "دفاتر الميدان ودراسات المفهوم",
+      "he": "פנקסי שדה ומחקרי קונספט"
+    },
+    "title": {
+      "en": "Concept Sketches & Freehand Ideation",
+      "ar": "اسكتشات أولية واستكشاف الأفكار الحرة",
+      "he": "סקיצות רעיוניות ורישום חופשי"
+    },
+    "description": {
+      "en": "Spontaneous gestures capturing light gradients, shadow depths, and spatial proportions. Executed with ink, graphite, and Morpholio Trace during design conceptualization phases.",
+      "ar": "خطوط عفوية تلتقط تدرجات الضوء، وظلال الكتل، والتناسب المكاني. أُنجزت بالحبر والرصاص وMorpholio Trace خلال المراحل الأولى لولادة الفكرة المعمارية.",
+      "he": "מחוות קו ספונטניות הלוכדות גווני אור, עומקי צל ופרופורציות מרחביות. בוצעו בדיו, גרפיט ו-Morpholio Trace בשלבי הגיבוש הראשוניים של הרעיון."
+    },
+    "coverImage": "./images/projects/sketches-ideation/cover.jpg",
+    "gallery": [
+      "./images/projects/sketches-ideation/01.jpg",
+      "./images/projects/sketches-ideation/02.jpg",
+      "./images/projects/sketches-ideation/plan.jpg"
+    ]
+  },
+  {
+    "id": "digital-draw-art",
+    "category": "drawings",
+    "year": "2024",
+    "location": {
+      "en": "Digital Art Lab",
+      "ar": "مختبر الفن الرقمي",
+      "he": "מעבדת אמנות דיגיטלית"
+    },
+    "title": {
+      "en": "Digital Architectural Art & Atmospheric Moods",
+      "ar": "فن معماري رقمي وتعبيرات جوية",
+      "he": "אמנות אדריכלית דיגיטלית ואווירה מרחבית"
+    },
+    "description": {
+      "en": "Digital visualization exploring ethereal architectural atmosphere, material textures, and moody nocturnal lighting through Procreate, Photoshop, and Lumion render post-production.",
+      "ar": "إظهار رقمي فني يستكشف الأجواء المعمارية الحالمة، ملامس المواد، والإضاءة الليلية التعبيرية باستخدام Procreate وPhotoshop ومرحلة ما بعد الإنتاج في Lumion.",
+      "he": "הדמיות אמנותיות החוקרות אטמוספירה אדריכלית, טקסטורות חומר ותאורת לילה דרמטית באמצעות Procreate, Photoshop ועיבודים מתקדמים ב-Lumion."
+    },
+    "coverImage": "./images/projects/digital-draw-art/cover.jpg",
+    "gallery": [
+      "./images/projects/digital-draw-art/01.jpg",
+      "./images/projects/digital-draw-art/02.jpg",
+      "./images/projects/digital-draw-art/plan.jpg"
+    ]
+  }
+]

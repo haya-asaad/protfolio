@@ -1,0 +1,422 @@
+{
+  "en": {
+    "nav": {
+      "brand": "HAYA ASAAD",
+      "brandSub": "ARCHITECT & URBAN PLANNER",
+      "home": "Overview",
+      "works": "Selected Works",
+      "studio": "Studio & Bio",
+      "contact": "Contact",
+      "getInTouch": "Inquire",
+      "switchLang": "Language"
+    },
+    "hero": {
+      "badge": "Tel-Aviv University B.Arch Graduate",
+      "tagline": "Architectural Practice & Spatial Design",
+      "headline": "Transforming Spaces. Elevating Lives.",
+      "description": "Architect and urban planner merging visionary spatial concepts with human-centered functionality. Crafting vibrant, life-filled environments that engage the senses and seamlessly integrate form and community.",
+      "ctaProjects": "Explore Portfolio",
+      "ctaContact": "Start a Dialogue",
+      "metrics": {
+        "projects": "Selected Projects",
+        "education": "5-Year B.Arch",
+        "focus": "Spatial & Urban"
+      }
+    },
+    "filters": {
+      "all": "All Works",
+      "residential": "Residential & Living",
+      "urban": "Urban Planning",
+      "civic": "Civic & Community",
+      "technology": "Parametric & High-Tech",
+      "drawings": "Sketches & Art"
+    },
+    "portfolio": {
+      "badge": "Portfolio Collection",
+      "title": "Selected Architectural Works",
+      "subtitle": "A curated anthology of architectural solutions, urban interventions, and exploratory drawings.",
+      "viewProject": "View Project Details",
+      "viewGallery": "Open Gallery",
+      "metaLocation": "Location",
+      "metaYear": "Year",
+      "metaCategory": "Typology",
+      "metaScale": "Scale",
+      "itemsCount": "Projects"
+    },
+    "modal": {
+      "close": "Close (Esc)",
+      "next": "Next Image",
+      "prev": "Previous Image",
+      "imageCounter": "Image {current} of {total}",
+      "overview": "Architectural Narrative",
+      "drawings": "Drawings & Renders",
+      "gallery": "Project Gallery",
+      "closeModal": "Return to Portfolio",
+      "contactAboutProject": "Inquire About This Project"
+    },
+    "about": {
+      "badge": "Architect Profile",
+      "title": "Philosophy & Background",
+      "subtitle": "Discover the vision, technical mastery, and design principles behind every space.",
+      "lead": "I am an architecture graduate from Tel-Aviv University who enjoys exploring new architectural languages and working on diverse design challenges.",
+      "body": "Passionate about creating vibrant, life-filled spaces with unique and innovative experiences that meet human needs, engage the senses, and seamlessly integrate form and function. With extensive expertise in parametric tools, BIM (Revit), and advanced rendering pipelines, I bring architectural visions to life from conceptual sketch to technical resolution.",
+      "quote": "Exceptional architecture does not seek attention — it commands presence through tranquility, proportion, and honesty.",
+      "pillarsTitle": "Core Disciplines",
+      "pillars": [
+        {
+          "title": "Architecture",
+          "subtitle": "Transformative Solutions",
+          "desc": "Uncovering the inherent potential of space, listening deeply to the environment, natural light, and human scale."
+        },
+        {
+          "title": "Urban Planning",
+          "subtitle": "Community-Centric Approach",
+          "desc": "Shaping sustainable urban networks that foster social connection, honor cultural memory, and revitalize neighborhoods."
+        },
+        {
+          "title": "Interior Design",
+          "subtitle": "Transforming Spaces, Elevating Lives",
+          "desc": "Reflecting client identities and lifestyle nuances through meticulous material curation, light, and enduring aesthetics."
+        }
+      ],
+      "educationTitle": "Academic Credentials",
+      "education": [
+        {
+          "degree": "Bachelor of Architecture (B.Arch)",
+          "school": "Tel-Aviv University",
+          "period": "2020 – 2025",
+          "desc": "5-year comprehensive architectural curriculum focusing on urban morphology, digital design, and civic resistance."
+        },
+        {
+          "degree": "Full Matriculation Certificate",
+          "school": "Shibli High-School",
+          "period": "2014 – 2017",
+          "desc": "High honors in science and mathematics track."
+        }
+      ],
+      "softwareTitle": "Technical & Digital Arsenal",
+      "softwareSubtitle": "Proficient in end-to-end BIM, parametric modeling, real-time visualization, and editorial graphic suites."
+    },
+    "contact": {
+      "badge": "Initiate Collaboration",
+      "title": "Let's Build Something Exceptional",
+      "subtitle": "Open for architectural commissions, urban planning consultations, interior projects, and institutional collaborations.",
+      "phoneLabel": "Direct Line",
+      "emailLabel": "Email Address",
+      "studioLabel": "Studio Address",
+      "whatsappLabel": "Instant WhatsApp",
+      "form": {
+        "title": "Send a Project Inquiry",
+        "name": "Full Name",
+        "namePlaceholder": "Jane Doe",
+        "email": "Email Address",
+        "emailPlaceholder": "name@example.com",
+        "phone": "Phone Number",
+        "phonePlaceholder": "+972 ...",
+        "service": "Service / Project Type",
+        "serviceOptions": [
+          "Architectural Design",
+          "Urban Planning & Research",
+          "Interior Architecture",
+          "Computational / 3D Visualization",
+          "General Consultation"
+        ],
+        "message": "Project Vision or Message",
+        "messagePlaceholder": "Describe your project scale, location, or goals...",
+        "submitWhatsApp": "Send via WhatsApp",
+        "submitEmail": "Send via Email Client",
+        "orLabel": "or choose an instant communication channel"
+      },
+      "feedback": {
+        "copied": "Copied to clipboard!",
+        "openingApp": "Opening communication client..."
+      }
+    },
+    "footer": {
+      "brandText": "Haya Asaad — Architect & Urban Planning Studio.",
+      "rights": "All rights reserved. Designed for architectural excellence.",
+      "backToTop": "Back to Top",
+      "quickNav": "Navigation"
+    }
+  },
+  "ar": {
+    "nav": {
+      "brand": "هيا أسعد",
+      "brandSub": "مهندسة معمارية وتخطيط مدن",
+      "home": "الرئيسية",
+      "works": "المشاريع المختارة",
+      "studio": "الاستوديو والسيرة",
+      "contact": "التواصل",
+      "getInTouch": "تواصل معنا",
+      "switchLang": "اللغة"
+    },
+    "hero": {
+      "badge": "خريجة هندسة معمارية — جامعة تل أبيب",
+      "tagline": "الممارسة المعمارية والتصميم المكاني",
+      "headline": "تحويل الفضاءات. إثراء الحياة الإنسانية.",
+      "description": "مهندسة معمارية ومخططة مدن تجمع بين الرؤى المكانية المبتكرة والوظائف المتمحورة حول الإنسان. صياغة بيئات حية تلهم الحواس وتدمج بين الشكل والمجتمع بسلاسة.",
+      "ctaProjects": "استكشف المشاريع",
+      "ctaContact": "ابدأ حواراً",
+      "metrics": {
+        "projects": "مشاريع منتقاة",
+        "education": "دراسة ٥ سنوات",
+        "focus": "تخطيط ومكان"
+      }
+    },
+    "filters": {
+      "all": "جميع المشاريع",
+      "residential": "سكني وعمراني",
+      "urban": "تخطيط مدن وبيئة",
+      "civic": "مباني عامة ومجتمعية",
+      "technology": "تقني ورقمي",
+      "drawings": "رسومات وفنون"
+    },
+    "portfolio": {
+      "badge": "المعرض المعماري",
+      "title": "الأعمال المعمارية المختارة",
+      "subtitle": "مجموعة مختارة من الحلول المعمارية، التدخلات الحضرية، والرسومات التجريبية.",
+      "viewProject": "عرض تفاصيل المشروع",
+      "viewGallery": "فتح المعرض",
+      "metaLocation": "الموقع",
+      "metaYear": "السنة",
+      "metaCategory": "النوعية",
+      "metaScale": "النطاق",
+      "itemsCount": "مشاريع"
+    },
+    "modal": {
+      "close": "إغلاق (Esc)",
+      "next": "الصورة التالية",
+      "prev": "الصورة السابقة",
+      "imageCounter": "صورة {current} من {total}",
+      "overview": "المفهوم المعماري",
+      "drawings": "المخططات والتجسيم",
+      "gallery": "معرض المشروع",
+      "closeModal": "العودة للمشاريع",
+      "contactAboutProject": "استفسر عن هذا المشروع"
+    },
+    "about": {
+      "badge": "الملف المعماري",
+      "title": "الفلسفة والمسيرة المهنية",
+      "subtitle": "اكتشف الرؤية والمعايير الفنية ومبادئ التصميم الكامنة وراء كل فضاء.",
+      "lead": "خريجة هندسة معمارية من جامعة تل أبيب، شغوفة باستكشاف لغات معمارية جديدة والعمل على مشاريع تصميمية متنوعة ومعقدة.",
+      "body": "شغفي يكمن في خلق مساحات نابضة بالحياة بتجارب فريدة ومبتكرة تلبي الاحتياجات الإنسانية، وتخاطب الحواس، وتدمج بسلاسة بين الشكل والوظيفة. بفضل إتقاني العالي لبرمجيات النمذجة (Revit) التي أنجزت بها كافة مشاريعي الأكاديمية، إضافة لخبرتي العميقة في تقنيات الإظهار البصري والغرافيك.",
+      "quote": "العمارة الاستثنائية لا تسعى للفت الانتباه — بل تفرض حضورها الأصيل عبر السكينة والتوازن ومصداقية المادة.",
+      "pillarsTitle": "المجالات الرئيسية",
+      "pillars": [
+        {
+          "title": "الهندسة المعمارية",
+          "subtitle": "حلول تحويلية",
+          "desc": "كشف الإمكانات الكامنة للمكان، والإصغاء العميق للبيئة، الضوء الطبيعي، والمقياس الإنساني."
+        },
+        {
+          "title": "تخطيط المدن",
+          "subtitle": "نهج متمحور حول المجتمع",
+          "desc": "صياغة شبكات حضرية مستدامة تعزز الترابط الاجتماعي، وتحفظ الذاكرة الجمعية وتجدد الأحياء."
+        },
+        {
+          "title": "التصميم الداخلي",
+          "subtitle": "تحويل الفضاءات وإثراء الحياة",
+          "desc": "عكس هوية العميل وأسلوب حياته عبر انتقاء دقيق للمواد، وتناغم الأضواء، والجمال الخالد."
+        }
+      ],
+      "educationTitle": "المؤهلات الأكاديمية",
+      "education": [
+        {
+          "degree": "بكالوريوس هندسة معمارية (B.Arch)",
+          "school": "جامعة تل أبيب",
+          "period": "2020 – 2025",
+          "desc": "مسار دراسي مكثف مدته ٥ سنوات يركز على المورفولوجيا الحضرية، التصميم الرقمي، والمباني المجتمعية."
+        },
+        {
+          "degree": "شهادة الثانوية العامة الكاملة (بجروت)",
+          "school": "ثانوية الشبلي",
+          "period": "2014 – 2017",
+          "desc": "امتياز في مسار العلوم والرياضيات."
+        }
+      ],
+      "softwareTitle": "البرمجيات والأدوات التقنية",
+      "softwareSubtitle": "خبرة متقدمة في نمذجة معلومات البناء (BIM)، النمذجة البارامترية، والإظهار الواقعي الفائق."
+    },
+    "contact": {
+      "badge": "بدء التعاون",
+      "title": "دعنا نبني شيئاً استثنائياً معاً",
+      "subtitle": "متاحة للتصاميم المعمارية، استشارات التخطيط الحضري، مشاريع العمارة الداخلية، والمبادرات المجتمعية.",
+      "phoneLabel": "الهاتف المباشر",
+      "emailLabel": "البريد الإلكتروني",
+      "studioLabel": "موقع الاستوديو",
+      "whatsappLabel": "واتساب الفوري",
+      "form": {
+        "title": "إرسال استفسار مشروع",
+        "name": "الاسم الكامل",
+        "namePlaceholder": "الاسم الكريم",
+        "email": "البريد الإلكتروني",
+        "emailPlaceholder": "name@example.com",
+        "phone": "رقم الهاتف",
+        "phonePlaceholder": "+972 ...",
+        "service": "نوع المشروع / الخدمة",
+        "serviceOptions": [
+          "تصميم معماري",
+          "تخطيط مدن وبحوث حضرية",
+          "تصميم داخلي وفضاءات",
+          "نمذجة ثلاثية الأبعاد وإظهار بصري",
+          "استشارة معمارية عامة"
+        ],
+        "message": "تفاصيل المشروع أو الرؤية",
+        "messagePlaceholder": "صف حجم المشروع، موقعه، أو أهدافك المعمارية...",
+        "submitWhatsApp": "إرسال عبر واتساب",
+        "submitEmail": "إرسال عبر البريد الإلكتروني",
+        "orLabel": "أو اختر وسيلة تواصل فورية"
+      },
+      "feedback": {
+        "copied": "تم النسخ إلى الحافظة!",
+        "openingApp": "جارٍ فتح تطبيق المراسلة..."
+      }
+    },
+    "footer": {
+      "brandText": "هيا أسعد — استوديو الهندسة المعمارية والتخطيط الحضري.",
+      "rights": "جميع الحقوق محفوظة. صُمم برؤية معمارية حديثة.",
+      "backToTop": "العودة للأعلى",
+      "quickNav": "التنقل السريع"
+    }
+  },
+  "he": {
+    "nav": {
+      "brand": "חיה אסעד",
+      "brandSub": "אדריכלית ומתכננת ערים",
+      "home": "ראשי",
+      "works": "פרויקטים נבחרים",
+      "studio": "הסטודיו ואודות",
+      "contact": "צור קשר",
+      "getInTouch": "פנייה ישירה",
+      "switchLang": "שפה"
+    },
+    "hero": {
+      "badge": "בוגרת B.Arch — אוניברסיטת תל-אביב",
+      "tagline": "פרקטיקה אדריכלית ועיצוב מרחבי",
+      "headline": "התמרת מרחבים. העשרת החוויה האנושית.",
+      "description": "אדריכלית ומתכננת ערים המשלבת קונספטים מרחביים נועזים עם פונקציונליות ממוקדת אדם. יצירת סביבות דינמיות ומלאות חיים המעוררות את החושים ומחברות בין צורה לחברה.",
+      "ctaProjects": "לכל הפרויקטים",
+      "ctaContact": "יצירת קשר",
+      "metrics": {
+        "projects": "פרויקטים נבחרים",
+        "education": "5 שנות B.Arch",
+        "focus": "מרחב ותכנון עירוני"
+      }
+    },
+    "filters": {
+      "all": "כל הפרויקטים",
+      "residential": "מגורים ומסחר",
+      "urban": "תכנון עירוני",
+      "civic": "מבני ציבור וקהילה",
+      "technology": "טכנולוגי ופרמטרי",
+      "drawings": "רישומים ואמנות"
+    },
+    "portfolio": {
+      "badge": "אוסף העבודות",
+      "title": "פרויקטים אדריכליים נבחרים",
+      "subtitle": "מבחר פתרונות אדריכליים, התערבויות עירוניות ומחקרים מרחביים.",
+      "viewProject": "לפרטי הפרויקט",
+      "viewGallery": "לגלריה המלאה",
+      "metaLocation": "מיקום",
+      "metaYear": "שנה",
+      "metaCategory": "טיפולוגיה",
+      "metaScale": "קנה מידה",
+      "itemsCount": "פרויקטים"
+    },
+    "modal": {
+      "close": "סגור (Esc)",
+      "next": "התמונה הבאה",
+      "prev": "התמונה הקודמת",
+      "imageCounter": "תמונה {current} מתוך {total}",
+      "overview": "קונספט אדריכלי",
+      "drawings": "תוכניות והדמיות",
+      "gallery": "גלריית הפרויקט",
+      "closeModal": "חזרה לפרויקטים",
+      "contactAboutProject": "התעניינות בפרויקט זה"
+    },
+    "about": {
+      "badge": "פרופיל אדריכלי",
+      "title": "פילוסופיה ורקע מקצועי",
+      "subtitle": "החזון, השליטה הטכנולוגית ועקרונות העיצוב המנחים כל חלל.",
+      "lead": "בוגרת לימודי אדריכלות באוניברסיטת תל אביב, בעלת תשוקה לחקירת שפות אדריכליות חדשות ולהובלת פרויקטי תכנון מגוונים ומורכבים.",
+      "body": "מאמינה ביצירת חללים תוססים ועשירים בחוויות ייחודיות המענות לצרכים אנושיים, מפעילות את החושים ומשלבות באופן הרמוני בין צורה לפונקציה. שליטה גבוהה ביותר בתוכנות תכנון מתקדמות, ובפרט Revit שבה פיתחתי את כל הפרויקטים בלימודיי, לצד מיומנות רבה בהדמיות וגרפיקה אדריכלית.",
+      "quote": "אדריכלות יוצאת דופן אינה דורשת תשומת לב — היא נוכחת בעוצמה דרך שקט, פרופורציות ואותנטיות חומרית.",
+      "pillarsTitle": "תחומי התמחות",
+      "pillars": [
+        {
+          "title": "אדריכלות",
+          "subtitle": "פתרונות מחוללי שינוי",
+          "desc": "חשיפת הפוטנציאל הטבעי של המרחב, הקשבה עמוקה לסביבה, לתאורה טבעית ולקנה המידה האנושי."
+        },
+        {
+          "title": "תכנון עירוני",
+          "subtitle": "גישה ממוקדת קהילה",
+          "desc": "עיצוב רשתות עירוניות בנות-קיימא המחזקות חיבור קהילתי, מכבדות זיכרון קולקטיבי ומחדשות מרקמים עירוניים."
+        },
+        {
+          "title": "עיצוב פנים",
+          "subtitle": "טרנספורמציה של חלל והעצמת חיים",
+          "desc": "שיקוף זהות הלקוח ואורחות חייו בדיוק מירבי של בחירת חומרים, איזון גוונים ואסתטיקה על-זמנית."
+        }
+      ],
+      "educationTitle": "השכלה אקדמית",
+      "education": [
+        {
+          "degree": "בוגרת תואר באדריכלות (B.Arch)",
+          "school": "אוניברסיטת תל-אביב",
+          "period": "2020 – 2025",
+          "desc": "מסלול לימודים 5 שנתי מקיף בדגש על מורפולוגיה עירונית, תכנון פרמטרי ומבני ציבור."
+        },
+        {
+          "degree": "תעודת בגרות מלאה",
+          "school": "תיכון שיבלי",
+          "period": "2014 – 2017",
+          "desc": "הצטיינות במסלול מדעי ומתמטי."
+        }
+      ],
+      "softwareTitle": "ארגז כלים טכנולוגי",
+      "softwareSubtitle": "שליטה מלאה בתוכנות BIM, מידול פרמטרי, הדמיות ריאליסטיות וכלי גרפיקה ועריכה מתקדמים."
+    },
+    "contact": {
+      "badge": "יצירת קשר",
+      "title": "בואו ניצור מרחב יוצא דופן יחד",
+      "subtitle": "פתוחה לשיתופי פעולה אדריכליים, ייעוץ תכנון עירוני, עיצוב פנים ופרויקטים קהילתיים.",
+      "phoneLabel": "טלפון ישיר",
+      "emailLabel": "כתובת דוא\"ל",
+      "studioLabel": "כתובת הסטודיו",
+      "whatsappLabel": "וואטסאפ מהיר",
+      "form": {
+        "title": "שליחת פנייה לפרויקט",
+        "name": "שם מלא",
+        "namePlaceholder": "שם פרטי ומשפחה",
+        "email": "דואר אלקטרוני",
+        "emailPlaceholder": "name@example.com",
+        "phone": "מספר טלפון",
+        "phonePlaceholder": "+972 ...",
+        "service": "סוג הפרויקט / שירות",
+        "serviceOptions": [
+          "תכנון אדריכלי",
+          "תכנון עירוני ומחקר",
+          "אדריכלות פנים",
+          "מידול והדמיות תלת-ממד",
+          "ייעוץ אדריכלי כללי"
+        ],
+        "message": "תיאור הפרויקט או החזון",
+        "messagePlaceholder": "תאר את היקף הפרויקט, מיקומו ומטרות התכנון...",
+        "submitWhatsApp": "שליחה ב-WhatsApp",
+        "submitEmail": "שליחה בדוא\"ל",
+        "orLabel": "או בחרו בערוץ תקשורת ישיר"
+      },
+      "feedback": {
+        "copied": "הועתק ללוח!",
+        "openingApp": "פותח את אפליקציית התקשורת..."
+      }
+    },
+    "footer": {
+      "brandText": "חיה אסעד — סטודיו לאדריכלות ותכנון עירוני.",
+      "rights": "כל הזכויות שמורות. מתוכנן במצוינות אדריכלית.",
+      "backToTop": "חזרה לראש העמוד",
+      "quickNav": "ניווט מהיר"
+    }
+  }
+}

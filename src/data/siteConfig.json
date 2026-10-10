@@ -1,0 +1,57 @@
+{
+  "name": {
+    "en": "Haya Asaad",
+    "ar": "هيا أسعد",
+    "he": "חיה אסעד"
+  },
+  "role": {
+    "en": "Architect & Urban Planner",
+    "ar": "مهندسة معمارية وتخطيط مدن",
+    "he": "אדריכלית ומתכננת ערים"
+  },
+  "degree": {
+    "en": "B.Arch — Tel-Aviv University (2020-2025)",
+    "ar": "بكالوريوس هندسة معمارية — جامعة تل أبيب (2020-2025)",
+    "he": "בוגרת תואר B.Arch — אוניברסיטת תל-אביב (2020-2025)"
+  },
+  "contact": {
+    "phone": "+972 54-2000782",
+    "phoneRaw": "972542000782",
+    "email": "hayaasaad16@gmail.com",
+    "address": {
+      "en": "Chaim Levanon Street, Tel Aviv-Yafo",
+      "ar": "شارع حاييم ليفانون، تل أبيب - يافا",
+      "he": "רחוב חיים לבנון, תל אביב - יפו"
+    },
+    "whatsappUrl": "https://wa.me/972542000782",
+    "mapsUrl": "https://maps.google.com/?q=Chaim+Levanon+Street+Tel+Aviv"
+  },
+  "socials": [
+    {
+      "platform": "whatsapp",
+      "label": "WhatsApp",
+      "url": "https://wa.me/972542000782"
+    },
+    {
+      "platform": "email",
+      "label": "Email",
+      "url": "mailto:hayaasaad16@gmail.com"
+    },
+    {
+      "platform": "phone",
+      "label": "Phone",
+      "url": "tel:+972542000782"
+    },
+    {
+      "platform": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/haya-asaad"
+    },
+    {
+      "platform": "instagram",
+      "label": "Instagram",
+      "url": "https://instagram.com/haya_asaad"
+    }
+  ],
+  "formEndpoint": ""
+}
