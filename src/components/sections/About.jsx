@@ -24,28 +24,25 @@ export default function About() {
   const education = t('about.education') || [];
 
   const pillarIcons = [
-    <Building2 key="bld" className="w-5 h-5 text-[#c5a880]" />,
-    <Map key="map" className="w-5 h-5 text-[#c5a880]" />,
-    <Home key="home" className="w-5 h-5 text-[#c5a880]" />,
+    <Building2 key="bld" className="w-5 h-5 text-[#111111]" />,
+    <Map key="map" className="w-5 h-5 text-[#111111]" />,
+    <Home key="home" className="w-5 h-5 text-[#111111]" />,
   ];
 
   return (
-    <section id="studio" className="relative py-24 border-t border-white/10 bg-[#09090b]">
-      {/* Background Architectural Grid */}
-      <div className="absolute inset-0 arch-grid-bg opacity-20 pointer-events-none" />
-
+    <section id="studio" className="relative py-24 border-t border-[#E5E5E5] bg-[#F8F7F4]">
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <span className="inline-block px-3 py-1 rounded-full text-xs font-mono uppercase tracking-widest text-[#c5a880] bg-[#18181b] border border-white/10">
+          <span className="inline-block px-3 py-1 text-xs font-mono uppercase tracking-widest text-[#777777] bg-white border border-[#E5E5E5]">
             {t('about.badge')}
           </span>
 
-          <h2 className="font-serif-title text-3xl sm:text-5xl font-bold text-white tracking-tight">
+          <h2 className="font-serif-title text-3xl sm:text-5xl font-bold text-[#111111] tracking-tight">
             {t('about.title')}
           </h2>
 
-          <p className="text-sm sm:text-base text-[#a1a1aa] leading-relaxed">
+          <p className="text-sm sm:text-base text-[#555555] leading-relaxed">
             {t('about.subtitle')}
           </p>
         </div>
@@ -54,48 +51,43 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Portrait Photo Container */}
           <div className="lg:col-span-5 relative">
-            <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-[#141417] group">
+            <div className="relative aspect-[4/5] rounded-none md:rounded-sm overflow-hidden border border-[#E5E5E5] bg-white group">
               <ArchitecturalImage
                 src="./images/profile/bio.jpg"
                 alt="Haya Asaad Portrait"
                 category="Architect"
                 title="Haya Asaad, B.Arch"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                className="w-full h-full object-cover transition-opacity duration-300"
               />
 
-              {/* Decorative architectural borders */}
-              <div className="absolute inset-4 border border-white/10 pointer-events-none rounded-2xl" />
-              <div className="absolute bottom-6 start-6 end-6 p-4 rounded-xl bg-black/75 backdrop-blur-md border border-white/10">
-                <span className="block font-serif-title text-base font-bold text-white">
+              <div className="absolute bottom-4 start-4 end-4 p-4 bg-white/95 border border-[#E5E5E5] backdrop-blur-sm">
+                <span className="block font-serif-title text-base font-bold text-[#111111]">
                   Haya Asaad
                 </span>
-                <span className="block text-xs font-mono text-[#c5a880] mt-0.5">
+                <span className="block text-xs font-mono text-[#555555] mt-0.5">
                   B.Arch — Tel-Aviv University
                 </span>
               </div>
             </div>
-
-            {/* Background accent block */}
-            <div className="absolute -bottom-4 -end-4 w-full h-full border border-[#c5a880]/20 rounded-3xl -z-10 hidden sm:block" />
           </div>
 
           {/* Narrative Content */}
           <div className="lg:col-span-7 space-y-6">
-            <p className="text-lg sm:text-xl font-medium text-white leading-relaxed font-serif-title">
+            <p className="text-lg sm:text-xl font-normal text-[#111111] leading-relaxed font-serif-title">
               {t('about.lead')}
             </p>
 
-            <p className="text-sm sm:text-base text-[#a1a1aa] leading-relaxed">
+            <p className="text-sm sm:text-base text-[#555555] leading-relaxed font-normal">
               {t('about.body')}
             </p>
 
             {/* Philosophy Callout Quote */}
-            <div className="p-6 rounded-2xl bg-[#18181b]/80 border border-white/10 relative overflow-hidden">
-              <Quote className="absolute top-4 end-4 w-10 h-10 text-[#c5a880]/10" />
-              <p className="text-sm sm:text-base italic font-serif-title text-[#e4e4e7] leading-relaxed relative z-10">
+            <div className="p-6 bg-white border-s-2 border-s-[#111111] border border-[#E5E5E5] relative overflow-hidden">
+              <Quote className="absolute top-4 end-4 w-8 h-8 text-[#E5E5E5]" />
+              <p className="text-sm sm:text-base italic font-serif-title text-[#222222] leading-relaxed relative z-10">
                 "{t('about.quote')}"
               </p>
-              <span className="block text-xs font-mono text-[#c5a880] mt-3 uppercase tracking-wider">
+              <span className="block text-xs font-mono text-[#777777] mt-3 uppercase tracking-wider">
                 — Architectural Manifesto
               </span>
             </div>
@@ -104,8 +96,8 @@ export default function About() {
 
         {/* Core Architectural Pillars */}
         <div className="space-y-8">
-          <div className="border-b border-white/10 pb-4">
-            <h3 className="font-serif-title text-2xl font-bold text-white">
+          <div className="border-b border-[#E5E5E5] pb-4">
+            <h3 className="font-serif-title text-2xl font-bold text-[#111111]">
               {t('about.pillarsTitle')}
             </h3>
           </div>
@@ -115,20 +107,20 @@ export default function About() {
               pillars.map((pillar, idx) => (
                 <div
                   key={idx}
-                  className="p-6 rounded-2xl bg-[#121215] border border-white/10 hover:border-[#c5a880]/40 transition-all duration-300 space-y-3 shadow-md"
+                  className="p-6 bg-white border border-[#E5E5E5] hover:border-[#111111] transition-colors space-y-3"
                 >
-                  <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
-                    {pillarIcons[idx] || <Building2 className="w-5 h-5 text-[#c5a880]" />}
+                  <div className="w-9 h-9 bg-[#F4F4F1] border border-[#E5E5E5] flex items-center justify-center">
+                    {pillarIcons[idx] || <Building2 className="w-5 h-5 text-[#111111]" />}
                   </div>
                   <div>
-                    <h4 className="font-serif-title text-lg font-bold text-white">
+                    <h4 className="font-serif-title text-lg font-bold text-[#111111]">
                       {pillar.title}
                     </h4>
-                    <span className="text-xs font-mono text-[#c5a880] block mt-0.5">
+                    <span className="text-xs font-mono text-[#777777] block mt-0.5 uppercase tracking-wider">
                       {pillar.subtitle}
                     </span>
                   </div>
-                  <p className="text-xs text-[#a1a1aa] leading-relaxed">
+                  <p className="text-xs text-[#555555] leading-relaxed">
                     {pillar.desc}
                   </p>
                 </div>
@@ -138,11 +130,11 @@ export default function About() {
 
         {/* Education Timeline */}
         <div className="space-y-8">
-          <div className="border-b border-white/10 pb-4 flex items-center justify-between">
-            <h3 className="font-serif-title text-2xl font-bold text-white">
+          <div className="border-b border-[#E5E5E5] pb-4 flex items-center justify-between">
+            <h3 className="font-serif-title text-2xl font-bold text-[#111111]">
               {t('about.educationTitle')}
             </h3>
-            <span className="text-xs font-mono text-[#c5a880]">
+            <span className="text-xs font-mono text-[#777777]">
               2014 — 2025
             </span>
           </div>
@@ -152,27 +144,27 @@ export default function About() {
               education.map((edu, idx) => (
                 <div
                   key={idx}
-                  className="p-6 rounded-2xl bg-[#121215] border border-white/10 relative space-y-3"
+                  className="p-6 bg-white border border-[#E5E5E5] relative space-y-3"
                 >
                   <div className="flex items-center justify-between text-xs font-mono">
-                    <span className="px-2.5 py-1 rounded-full bg-[#c5a880]/15 text-[#c5a880] border border-[#c5a880]/30 font-semibold">
+                    <span className="px-2 py-0.5 bg-[#F4F4F1] text-[#111111] border border-[#E5E5E5] font-medium">
                       {edu.period}
                     </span>
-                    <span className="text-[#71717a] flex items-center gap-1">
-                      <GraduationCap className="w-3.5 h-3.5 text-[#c5a880]" />
+                    <span className="text-[#777777] flex items-center gap-1">
+                      <GraduationCap className="w-3.5 h-3.5 text-[#111111]" />
                       Accredited
                     </span>
                   </div>
 
-                  <h4 className="font-serif-title text-lg font-bold text-white">
+                  <h4 className="font-serif-title text-lg font-bold text-[#111111]">
                     {edu.degree}
                   </h4>
 
-                  <p className="text-xs font-medium text-[#c5a880]">
+                  <p className="text-xs font-medium text-[#555555]">
                     {edu.school}
                   </p>
 
-                  <p className="text-xs text-[#a1a1aa] leading-relaxed">
+                  <p className="text-xs text-[#666666] leading-relaxed">
                     {edu.desc}
                   </p>
                 </div>
@@ -182,11 +174,11 @@ export default function About() {
 
         {/* Software & Technical Arsenal */}
         <div className="space-y-8 pt-4">
-          <div className="border-b border-white/10 pb-4">
-            <h3 className="font-serif-title text-2xl font-bold text-white">
+          <div className="border-b border-[#E5E5E5] pb-4">
+            <h3 className="font-serif-title text-2xl font-bold text-[#111111]">
               {t('about.softwareTitle')}
             </h3>
-            <p className="text-xs text-[#a1a1aa] mt-1">
+            <p className="text-xs text-[#555555] mt-1">
               {t('about.softwareSubtitle')}
             </p>
           </div>
@@ -195,15 +187,15 @@ export default function About() {
             {SOFTWARE_STACK.map((item, idx) => (
               <div
                 key={idx}
-                className="p-3.5 rounded-xl bg-[#121215] border border-white/5 hover:border-[#c5a880]/40 transition-all text-center space-y-1.5 group"
+                className="p-3.5 bg-white border border-[#E5E5E5] hover:border-[#111111] transition-colors text-center space-y-1.5"
               >
-                <div className="w-8 h-8 rounded-lg bg-white/5 mx-auto flex items-center justify-center text-[#c5a880] group-hover:scale-110 transition-transform">
-                  <Cpu className="w-4 h-4" />
+                <div className="w-7 h-7 bg-[#F4F4F1] mx-auto flex items-center justify-center text-[#111111]">
+                  <Cpu className="w-3.5 h-3.5" />
                 </div>
-                <span className="block text-xs font-medium text-white truncate">
+                <span className="block text-xs font-medium text-[#111111] truncate">
                   {item.name}
                 </span>
-                <span className="block text-[10px] font-mono text-[#71717a] truncate">
+                <span className="block text-[10px] font-mono text-[#888888] truncate uppercase">
                   {item.category}
                 </span>
               </div>

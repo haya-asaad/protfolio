@@ -27,7 +27,6 @@ export default function LightboxModal({
     onIndexChange((currentIndex + 1) % total);
   }, [currentIndex, total, onIndexChange]);
 
-  // Keyboard navigation
   useEffect(() => {
     if (!isOpen) return;
 
@@ -57,18 +56,18 @@ export default function LightboxModal({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="fixed inset-0 z-50 bg-black/95 backdrop-blur-2xl flex flex-col justify-between p-4 sm:p-6"
+        className="fixed inset-0 z-50 bg-[#FAF9F6]/98 backdrop-blur-md flex flex-col justify-between p-4 sm:p-6"
         role="dialog"
         aria-modal="true"
         aria-label="Architectural image inspection lightbox"
       >
         {/* Top Header Bar */}
-        <div className="relative z-10 flex items-center justify-between border-b border-white/10 pb-4">
+        <div className="relative z-10 flex items-center justify-between border-b border-[#E5E5E5] pb-4">
           <div>
-            <h4 className="text-sm font-medium text-white truncate max-w-xs sm:max-w-md">
+            <h4 className="text-sm font-medium text-[#111111] truncate max-w-xs sm:max-w-md">
               {projectTitle}
             </h4>
-            <p className="text-[11px] font-mono text-[#c5a880] uppercase tracking-wider">
+            <p className="text-[11px] font-mono text-[#777777] uppercase tracking-wider">
               {t('modal.imageCounter', { current: currentIndex + 1, total })}
             </p>
           </div>
@@ -76,7 +75,7 @@ export default function LightboxModal({
           <button
             onClick={onClose}
             aria-label={t('modal.close')}
-            className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+            className="p-2 rounded-xs bg-white hover:bg-[#EFEFEA] text-[#111111] transition-colors border border-[#E5E5E5]"
           >
             <X className="w-5 h-5" />
           </button>
@@ -89,9 +88,9 @@ export default function LightboxModal({
             <button
               onClick={handlePrev}
               aria-label={t('modal.prev')}
-              className="absolute start-2 sm:start-6 z-20 p-3 rounded-full bg-black/60 hover:bg-[#c5a880] text-white hover:text-black border border-white/20 transition-all duration-200 backdrop-blur-md shadow-xl"
+              className="absolute start-2 sm:start-6 z-20 p-3 rounded-xs bg-white hover:bg-[#111111] text-[#111111] hover:text-white border border-[#E5E5E5] transition-colors shadow-sm"
             >
-              {isRTL ? <ChevronRight className="w-6 h-6" /> : <ChevronLeft className="w-6 h-6" />}
+              {isRTL ? <ChevronRight className="w-5 h-5" /> : <ChevronLeft className="w-5 h-5" />}
             </button>
           )}
 
@@ -103,7 +102,7 @@ export default function LightboxModal({
               alt={`${projectTitle} - view ${currentIndex + 1}`}
               category={category}
               title={`${projectTitle} (${currentIndex + 1}/${total})`}
-              className="max-h-[75vh] max-w-full rounded-lg shadow-2xl object-contain border border-white/10"
+              className="max-h-[75vh] max-w-full rounded-none object-contain border border-[#E5E5E5] shadow-sm"
             />
           </div>
 
@@ -112,25 +111,25 @@ export default function LightboxModal({
             <button
               onClick={handleNext}
               aria-label={t('modal.next')}
-              className="absolute end-2 sm:end-6 z-20 p-3 rounded-full bg-black/60 hover:bg-[#c5a880] text-white hover:text-black border border-white/20 transition-all duration-200 backdrop-blur-md shadow-xl"
+              className="absolute end-2 sm:end-6 z-20 p-3 rounded-xs bg-white hover:bg-[#111111] text-[#111111] hover:text-white border border-[#E5E5E5] transition-colors shadow-sm"
             >
-              {isRTL ? <ChevronLeft className="w-6 h-6" /> : <ChevronRight className="w-6 h-6" />}
+              {isRTL ? <ChevronLeft className="w-5 h-5" /> : <ChevronRight className="w-5 h-5" />}
             </button>
           )}
         </div>
 
         {/* Bottom Thumbnail Strip */}
         {total > 1 && (
-          <div className="relative z-10 flex items-center justify-center gap-2 overflow-x-auto py-2 border-t border-white/10 max-w-2xl mx-auto w-full">
+          <div className="relative z-10 flex items-center justify-center gap-2 overflow-x-auto py-2 border-t border-[#E5E5E5] max-w-2xl mx-auto w-full">
             {images.map((img, idx) => (
               <button
                 key={img + idx}
                 onClick={() => onIndexChange(idx)}
                 aria-label={`View image ${idx + 1}`}
-                className={`relative w-14 h-10 rounded-md overflow-hidden shrink-0 border transition-all ${
+                className={`relative w-14 h-10 overflow-hidden shrink-0 border transition-all ${
                   currentIndex === idx
-                    ? 'border-[#c5a880] scale-105 shadow-md'
-                    : 'border-white/10 opacity-50 hover:opacity-100'
+                    ? 'border-[#111111] scale-105'
+                    : 'border-[#E5E5E5] opacity-60 hover:opacity-100'
                 }`}
               >
                 <ArchitecturalImage

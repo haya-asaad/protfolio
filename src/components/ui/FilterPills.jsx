@@ -22,21 +22,19 @@ export default function FilterPills({
             role="tab"
             aria-selected={isActive}
             onClick={() => onSelectCategory(catKey)}
-            className={`group inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 select-none ${
+            className={`group inline-flex items-center gap-2 px-4 py-2 rounded-sm text-xs sm:text-sm font-medium transition-colors select-none ${
               isActive
-                ? 'bg-[#c5a880] text-black shadow-lg shadow-[#c5a880]/20 font-semibold'
-                : 'bg-[#18181b] text-[#a1a1aa] border border-white/5 hover:border-white/20 hover:text-white'
+                ? 'bg-[#111111] text-white shadow-none'
+                : 'bg-[#F4F4F1] text-[#555555] border border-[#E5E5E5] hover:border-[#CCCCCC] hover:text-[#111111]'
             }`}
           >
             <span>{label}</span>
             <span
-              className={`px-1.5 py-0.5 rounded-full text-[10px] font-mono transition-colors ${
-                isActive
-                  ? 'bg-black/20 text-black font-bold'
-                  : 'bg-white/5 text-[#71717a] group-hover:text-white'
+              className={`text-[10px] font-mono transition-colors ${
+                isActive ? 'text-[#AAAAAA]' : 'text-[#888888] group-hover:text-[#111111]'
               }`}
             >
-              {count}
+              [{count}]
             </span>
           </button>
         );

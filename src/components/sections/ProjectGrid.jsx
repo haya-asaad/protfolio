@@ -14,7 +14,6 @@ export default function ProjectGrid({
   const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState('all');
 
-  // Compute category counts
   const categoryCounts = useMemo(() => {
     const counts = { all: projects.length };
     projects.forEach((proj) => {
@@ -24,26 +23,25 @@ export default function ProjectGrid({
     return counts;
   }, [projects]);
 
-  // Filter projects
   const filteredProjects = useMemo(() => {
     if (activeCategory === 'all') return projects;
     return projects.filter((p) => p.category === activeCategory);
   }, [projects, activeCategory]);
 
   return (
-    <section id="works" className="relative py-24 border-t border-white/10 bg-[#0c0c0e]">
+    <section id="works" className="relative py-24 border-t border-[#E5E5E5] bg-[#FAF9F6]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <span className="inline-block px-3 py-1 rounded-full text-xs font-mono uppercase tracking-widest text-[#c5a880] bg-[#18181b] border border-white/10">
+          <span className="inline-block px-3 py-1 text-xs font-mono uppercase tracking-widest text-[#777777] bg-[#F4F4F1] border border-[#E5E5E5]">
             {t('portfolio.badge')}
           </span>
 
-          <h2 className="font-serif-title text-3xl sm:text-5xl font-bold text-white tracking-tight">
+          <h2 className="font-serif-title text-3xl sm:text-5xl font-bold text-[#111111] tracking-tight">
             {t('portfolio.title')}
           </h2>
 
-          <p className="text-sm sm:text-base text-[#a1a1aa] leading-relaxed">
+          <p className="text-sm sm:text-base text-[#555555] leading-relaxed">
             {t('portfolio.subtitle')}
           </p>
         </div>
@@ -57,12 +55,12 @@ export default function ProjectGrid({
         />
 
         {/* Counter Bar */}
-        <div className="flex items-center justify-between text-xs font-mono text-[#71717a] border-b border-white/5 pb-3">
+        <div className="flex items-center justify-between text-xs font-mono text-[#888888] border-b border-[#E5E5E5] pb-3">
           <span>
-            SHOWING {filteredProjects.length} OF {projects.length} {t('portfolio.itemsCount').toUpperCase()}
+            CATALOGUE: {filteredProjects.length} OF {projects.length} {t('portfolio.itemsCount').toUpperCase()}
           </span>
-          <span className="text-[#c5a880]">
-            FILTER // {activeCategory.toUpperCase()}
+          <span className="text-[#111111] uppercase">
+            TYPOLOGY // {activeCategory}
           </span>
         </div>
 
@@ -76,10 +74,10 @@ export default function ProjectGrid({
               <motion.div
                 key={project.id}
                 layout
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                transition={{ duration: 0.4, delay: index * 0.05 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3, delay: index * 0.03 }}
               >
                 <ProjectCard
                   project={project}

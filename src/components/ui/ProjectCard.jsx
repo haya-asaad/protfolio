@@ -17,9 +17,9 @@ export default function ProjectCard({
   const categoryLabel = t(`filters.${project.category}`);
 
   return (
-    <article className="group relative bg-[#121215] border border-white/10 rounded-2xl overflow-hidden hover:border-[#c5a880]/50 transition-all duration-300 flex flex-col h-full shadow-lg hover:shadow-2xl hover:shadow-black/60">
-      {/* Top Image Frame with Aspect Ratio */}
-      <div className="relative aspect-[16/10] overflow-hidden bg-[#18181b]">
+    <article className="group relative bg-white border border-[#E5E5E5] rounded-sm overflow-hidden hover:border-[#111111] transition-colors flex flex-col h-full">
+      {/* Top Image Frame */}
+      <div className="relative aspect-[16/10] overflow-hidden bg-[#F4F4F1] border-b border-[#EAEAE6]">
         <ArchitecturalImage
           src={project.coverImage}
           alt={title}
@@ -29,12 +29,12 @@ export default function ProjectCard({
           onClick={() => onOpenDetails(project)}
         />
 
-        {/* Overlay Badges */}
+        {/* Minimalist Overlay Badges */}
         <div className="absolute top-3 start-3 end-3 flex items-center justify-between pointer-events-none z-10">
-          <span className="px-2.5 py-1 rounded-full text-[10px] font-mono uppercase tracking-wider bg-black/60 backdrop-blur-md text-[#c5a880] border border-white/10">
+          <span className="px-2.5 py-0.5 rounded-xs text-[10px] font-mono uppercase tracking-wider bg-white/95 text-[#111111] border border-[#E5E5E5]">
             {categoryLabel}
           </span>
-          <span className="px-2 py-1 rounded-full text-[10px] font-mono bg-black/60 backdrop-blur-md text-[#a1a1aa] border border-white/10">
+          <span className="px-2 py-0.5 rounded-xs text-[10px] font-mono bg-white/95 text-[#555555] border border-[#E5E5E5]">
             {project.year}
           </span>
         </div>
@@ -47,7 +47,7 @@ export default function ProjectCard({
               onOpenLightbox(project, 0);
             }}
             aria-label={`Open gallery for ${title}`}
-            className="absolute bottom-3 end-3 z-10 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium bg-black/75 hover:bg-[#c5a880] text-white hover:text-black border border-white/10 transition-all duration-200 backdrop-blur-md shadow-md"
+            className="absolute bottom-3 end-3 z-10 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xs text-[11px] font-medium bg-white/95 hover:bg-[#111111] text-[#111111] hover:text-white border border-[#E5E5E5] transition-colors shadow-none"
           >
             <Images className="w-3.5 h-3.5" />
             <span>{project.gallery.length + 1}</span>
@@ -59,9 +59,9 @@ export default function ProjectCard({
       <div className="p-6 flex flex-col flex-grow justify-between space-y-4">
         <div>
           {/* Metadata Row */}
-          <div className="flex items-center gap-2 text-xs text-[#a1a1aa] font-mono mb-2">
+          <div className="flex items-center gap-2 text-xs text-[#888888] font-mono mb-2">
             <span className="flex items-center gap-1">
-              <MapPin className="w-3.5 h-3.5 text-[#c5a880]" />
+              <MapPin className="w-3.5 h-3.5 text-[#111111]" />
               <span className="truncate max-w-[200px]">{location}</span>
             </span>
           </div>
@@ -69,28 +69,28 @@ export default function ProjectCard({
           {/* Project Title */}
           <h3
             onClick={() => onOpenDetails(project)}
-            className="font-serif-title text-xl font-bold text-white group-hover:text-[#c5a880] transition-colors cursor-pointer line-clamp-1"
+            className="font-serif-title text-xl font-bold text-[#111111] group-hover:text-[#333333] transition-colors cursor-pointer line-clamp-1"
           >
             {title}
           </h3>
 
           {/* Project Concept Excerpt */}
-          <p className="mt-2 text-xs text-[#a1a1aa] line-clamp-2 leading-relaxed">
+          <p className="mt-2 text-xs text-[#555555] line-clamp-2 leading-relaxed font-normal">
             {description}
           </p>
         </div>
 
         {/* Action Footnote */}
-        <div className="pt-4 border-t border-white/5 flex items-center justify-between">
+        <div className="pt-4 border-t border-[#EEEEEE] flex items-center justify-between">
           <button
             onClick={() => onOpenDetails(project)}
-            className="inline-flex items-center gap-1.5 text-xs font-medium text-[#c5a880] hover:text-[#e4cfb4] transition-colors"
+            className="inline-flex items-center gap-1.5 text-xs font-medium text-[#111111] uppercase tracking-wider hover:text-[#555555] transition-colors"
           >
             <span>{t('portfolio.viewProject')}</span>
             <ArrowUpRight className="w-3.5 h-3.5" />
           </button>
 
-          <span className="text-[10px] font-mono text-[#71717a]">
+          <span className="text-[10px] font-mono text-[#888888]">
             REF #{String(index + 1).padStart(2, '0')}
           </span>
         </div>

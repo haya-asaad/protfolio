@@ -13,11 +13,11 @@ export default function LanguageSwitcher({ className = '' }) {
 
   return (
     <div
-      className={`inline-flex items-center gap-1 p-1 rounded-full bg-[#18181b]/80 border border-white/10 backdrop-blur-md ${className}`}
+      className={`inline-flex items-center gap-1 p-1 rounded-sm bg-[#F4F4F1] border border-[#E5E5E5] ${className}`}
       role="region"
       aria-label="Language Selector"
     >
-      <span className="ps-2 pe-1 text-[#71717a] hidden sm:inline-flex">
+      <span className="ps-2 pe-1 text-[#888888] hidden sm:inline-flex">
         <Globe className="w-3.5 h-3.5" />
       </span>
       {LANGUAGES.map((item) => {
@@ -27,10 +27,10 @@ export default function LanguageSwitcher({ className = '' }) {
             key={item.code}
             onClick={() => setLang(item.code)}
             aria-label={`Switch language to ${item.full}`}
-            className={`px-3 py-1 text-xs font-medium rounded-full transition-all duration-200 select-none ${
+            className={`px-2.5 py-1 text-xs font-medium rounded-sm transition-all duration-150 select-none ${
               isActive
-                ? 'bg-[#c5a880] text-black shadow-md font-semibold'
-                : 'text-[#a1a1aa] hover:text-white hover:bg-white/5'
+                ? 'bg-[#111111] text-white shadow-none'
+                : 'text-[#666666] hover:text-[#111111] hover:bg-black/5'
             }`}
           >
             {item.label}

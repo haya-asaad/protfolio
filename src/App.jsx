@@ -67,7 +67,7 @@ function PortfolioApp() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0c0c0e] text-[#e4e4e7] flex flex-col selection:bg-[#c5a880] selection:text-black">
+    <div className="min-h-screen bg-[#FAF9F6] text-[#111111] flex flex-col selection:bg-[#111111] selection:text-white">
       {/* Sticky Header */}
       <Navbar />
 

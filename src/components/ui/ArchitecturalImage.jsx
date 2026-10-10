@@ -3,7 +3,7 @@ import { Compass, Maximize2 } from 'lucide-react';
 
 export default function ArchitecturalImage({
   src,
-  alt = 'Architectural project image',
+  alt = 'Architectural project plate',
   className = '',
   category = 'architecture',
   title = '',
@@ -12,11 +12,10 @@ export default function ArchitecturalImage({
   const [hasError, setHasError] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
 
-  // If image fails to load or hasn't loaded yet, we show this ultra-refined architectural blueprint fallback
   return (
     <div
       onClick={onClick}
-      className={`relative overflow-hidden bg-[#141417] select-none ${className} ${onClick ? 'cursor-pointer' : ''}`}
+      className={`relative overflow-hidden bg-[#F4F4F1] border border-[#E8E8E4] select-none ${className} ${onClick ? 'cursor-pointer' : ''}`}
     >
       {!hasError ? (
         <img
@@ -25,70 +24,61 @@ export default function ArchitecturalImage({
           loading="lazy"
           onLoad={() => setIsLoaded(true)}
           onError={() => setHasError(true)}
-          className={`w-full h-full object-cover transition-all duration-700 ${
-            isLoaded ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
+          className={`w-full h-full object-cover transition-opacity duration-500 ${
+            isLoaded ? 'opacity-100' : 'opacity-0'
           }`}
         />
       ) : null}
 
-      {/* Elegant Fallback or Preload Wireframe */}
+      {/* Clean Gallery Fallback Plate */}
       {(!isLoaded || hasError) && (
-        <div className={`absolute inset-0 flex flex-col justify-between p-6 bg-[#121215] border border-white/5 ${hasError ? 'opacity-100' : 'opacity-40 animate-pulse'}`}>
-          {/* Subtle blueprint grid */}
-          <div className="absolute inset-0 arch-grid-bg opacity-40 pointer-events-none" />
-
+        <div className={`absolute inset-0 flex flex-col justify-between p-6 bg-[#F8F7F4] ${hasError ? 'opacity-100' : 'opacity-60'}`}>
           {/* Top header markings */}
-          <div className="relative z-10 flex items-center justify-between text-[10px] tracking-widest text-[#a1a1aa]/60 uppercase font-mono">
+          <div className="relative z-10 flex items-center justify-between text-[10px] tracking-widest text-[#777777] uppercase font-mono border-b border-[#E8E8E4] pb-2">
             <span className="flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#c5a880]/60 inline-block" />
+              <span className="w-1.5 h-1.5 bg-[#111111] inline-block" />
               {category}
             </span>
             <span className="flex items-center gap-1">
-              <Compass className="w-3 h-3 text-[#c5a880]" />
-              N 32°06' E 34°48'
+              <Compass className="w-3 h-3 text-[#111111]" />
+              PLATE // REF
             </span>
           </div>
 
-          {/* Center architectural isometric crosshair */}
-          <div className="relative z-10 my-auto text-center py-8">
-            <div className="relative inline-block mx-auto mb-3">
-              <svg className="w-16 h-16 text-[#c5a880]/40 mx-auto" viewBox="0 0 64 64" fill="none" stroke="currentColor">
-                <rect x="12" y="12" width="40" height="40" strokeWidth="1" strokeDasharray="3 3" />
-                <path d="M12 32 H52 M32 12 V52" strokeWidth="0.75" />
-                <path d="M22 22 L42 42 M22 42 L42 22" strokeWidth="0.5" strokeOpacity="0.5" />
-                <circle cx="32" cy="32" r="3" fill="#c5a880" fillOpacity="0.6" />
+          {/* Center architectural elevation wireframe */}
+          <div className="relative z-10 my-auto text-center py-6">
+            <div className="relative inline-block mx-auto mb-2">
+              <svg className="w-16 h-16 text-[#333333] mx-auto stroke-1" viewBox="0 0 64 64" fill="none" stroke="currentColor">
+                <rect x="14" y="14" width="36" height="36" strokeWidth="0.75" />
+                <line x1="14" y1="32" x2="50" y2="32" strokeWidth="0.5" strokeDasharray="2 2" />
+                <line x1="32" y1="14" x2="32" y2="50" strokeWidth="0.5" strokeDasharray="2 2" />
+                <rect x="22" y="22" width="20" height="20" strokeWidth="0.5" />
               </svg>
             </div>
             {title && (
-              <p className="text-xs font-medium text-[#d4d4d8] tracking-wide max-w-[80%] mx-auto truncate">
+              <p className="text-xs font-medium text-[#111111] tracking-wide max-w-[85%] mx-auto truncate">
                 {title}
               </p>
             )}
-            <p className="text-[10px] font-mono text-[#71717a] mt-1">
-              Architectural Render & Plate
+            <p className="text-[10px] font-mono text-[#888888] mt-0.5">
+              Architectural Drawing &amp; Plate
             </p>
           </div>
 
           {/* Bottom dimension markers */}
-          <div className="relative z-10 flex items-center justify-between text-[9px] font-mono text-[#71717a] border-t border-white/5 pt-2">
+          <div className="relative z-10 flex items-center justify-between text-[9px] font-mono text-[#888888] border-t border-[#E8E8E4] pt-2">
             <span>SCALE 1:100</span>
-            <span className="text-[#c5a880]/70">REF // {category.toUpperCase()}</span>
-            <span>REVIT / BIM</span>
+            <span className="text-[#111111] uppercase">{category}</span>
+            <span>REVIT / CAD</span>
           </div>
-
-          {/* Corner crosshairs */}
-          <span className="absolute top-2 start-2 text-white/20 font-mono text-[9px]">+</span>
-          <span className="absolute top-2 end-2 text-white/20 font-mono text-[9px]">+</span>
-          <span className="absolute bottom-2 start-2 text-white/20 font-mono text-[9px]">+</span>
-          <span className="absolute bottom-2 end-2 text-white/20 font-mono text-[9px]">+</span>
         </div>
       )}
 
       {/* Subtle hover overlay for clickable images */}
       {onClick && isLoaded && !hasError && (
-        <div className="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-          <span className="p-3 rounded-full bg-black/60 backdrop-blur-md text-white border border-white/20 shadow-xl transform scale-90 hover:scale-100 transition-transform">
-            <Maximize2 className="w-5 h-5" />
+        <div className="absolute inset-0 bg-[#111111]/15 opacity-0 hover:opacity-100 transition-opacity duration-200 flex items-center justify-center">
+          <span className="p-3 bg-[#111111] text-white shadow-sm transition-transform">
+            <Maximize2 className="w-4 h-4" />
           </span>
         </div>
       )}

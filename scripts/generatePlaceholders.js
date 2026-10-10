@@ -37,8 +37,8 @@ function createChunk(type, data) {
   return Buffer.concat([len, typeAndData, crc]);
 }
 
-// Generate an elegant architectural gradient PNG
-function generateArchitecturalPng(width = 800, height = 600, r = 26, g = 28, b = 32) {
+// Generate an elegant, gallery-grade neutral off-white architectural plate
+function generateGalleryPng(width = 800, height = 600, baseR = 245, baseG = 244, baseB = 240) {
   const signature = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
 
   // IHDR: 13 bytes
@@ -53,33 +53,28 @@ function generateArchitecturalPng(width = 800, height = 600, r = 26, g = 28, b =
 
   const ihdrChunk = createChunk('IHDR', ihdr);
 
-  // Raw uncompressed scanlines: each row starts with filter byte 0
   const rowSize = 1 + width * 3;
   const rawData = Buffer.alloc(height * rowSize);
 
   for (let y = 0; y < height; y++) {
     const rowOffset = y * rowSize;
     rawData[rowOffset] = 0; // Filter: none
-    const factor = 1 - (y / height) * 0.3; // subtle gradient
+    const factor = 1 - (y / height) * 0.04;
 
     for (let x = 0; x < width; x++) {
       const pxOffset = rowOffset + 1 + x * 3;
-      // Grid line check
-      const isGrid = (x % 40 === 0) || (y % 40 === 0);
-      const isBorder = x < 2 || x > width - 3 || y < 2 || y > height - 3;
+      const isBorder = x < 1 || x > width - 2 || y < 1 || y > height - 2;
+      const isInnerBorder = (x === 24 || x === width - 25) && (y >= 24 && y <= height - 25) ||
+                            (y === 24 || y === height - 25) && (x >= 24 && x <= width - 25);
 
-      if (isBorder) {
-        rawData[pxOffset] = 120;
-        rawData[pxOffset + 1] = 105;
-        rawData[pxOffset + 2] = 85;
-      } else if (isGrid) {
-        rawData[pxOffset] = Math.min(255, Math.floor(r * factor + 18));
-        rawData[pxOffset + 1] = Math.min(255, Math.floor(g * factor + 18));
-        rawData[pxOffset + 2] = Math.min(255, Math.floor(b * factor + 22));
+      if (isBorder || isInnerBorder) {
+        rawData[pxOffset] = 224;
+        rawData[pxOffset + 1] = 224;
+        rawData[pxOffset + 2] = 220;
       } else {
-        rawData[pxOffset] = Math.floor(r * factor);
-        rawData[pxOffset + 1] = Math.floor(g * factor);
-        rawData[pxOffset + 2] = Math.floor(b * factor);
+        rawData[pxOffset] = Math.floor(baseR * factor);
+        rawData[pxOffset + 1] = Math.floor(baseG * factor);
+        rawData[pxOffset + 2] = Math.floor(baseB * factor);
       }
     }
   }
@@ -98,30 +93,29 @@ const publicDir = path.resolve(__dirname, '../public');
 const profileDir = path.join(publicDir, 'images/profile');
 fs.mkdirSync(profileDir, { recursive: true });
 
-// Profile photo
-const profilePng = generateArchitecturalPng(600, 750, 35, 33, 30);
+// Gallery profile photo placeholder
+const profilePng = generateGalleryPng(600, 750, 240, 239, 235);
 fs.writeFileSync(path.join(profileDir, 'bio.jpg'), profilePng);
-console.log('Created bio.jpg placeholder');
+console.log('Created bio.jpg gallery placeholder');
 
 // Projects
 projects.forEach((proj, idx) => {
   const projDir = path.join(publicDir, 'images/projects', proj.id);
   fs.mkdirSync(projDir, { recursive: true });
 
-  // Generate cover and gallery
-  const coverPng = generateArchitecturalPng(900, 600, 24 + (idx % 4) * 4, 25 + (idx % 3) * 3, 28);
+  const coverPng = generateGalleryPng(900, 600, 246 - (idx % 3) * 2, 245 - (idx % 2) * 2, 242);
   fs.writeFileSync(path.join(projDir, 'cover.jpg'), coverPng);
 
-  const g1Png = generateArchitecturalPng(900, 600, 28, 30, 32);
+  const g1Png = generateGalleryPng(900, 600, 244, 243, 240);
   fs.writeFileSync(path.join(projDir, '01.jpg'), g1Png);
 
-  const g2Png = generateArchitecturalPng(900, 600, 22, 23, 26);
+  const g2Png = generateGalleryPng(900, 600, 242, 241, 238);
   fs.writeFileSync(path.join(projDir, '02.jpg'), g2Png);
 
-  const planPng = generateArchitecturalPng(900, 600, 18, 20, 24);
+  const planPng = generateGalleryPng(900, 600, 248, 247, 244);
   fs.writeFileSync(path.join(projDir, 'plan.jpg'), planPng);
 
-  console.log(`Created placeholders for ${proj.id}`);
+  console.log(`Updated gallery placeholders for ${proj.id}`);
 });
 
-console.log('All placeholder image paths generated successfully!');
+console.log('All gallery placeholder images updated successfully!');

@@ -28,7 +28,6 @@ export default function Contact() {
     setTimeout(() => setFeedbackMsg(null), 3500);
   };
 
-  // WhatsApp Action
   const handleSendWhatsApp = (e) => {
     e.preventDefault();
     const text = `*New Architectural Inquiry — Haya Asaad Portfolio*
@@ -44,7 +43,6 @@ ${formData.message || 'I would like to discuss an architectural project.'}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
-  // Email Action
   const handleSendEmail = (e) => {
     e.preventDefault();
     const subject = encodeURIComponent(`Project Inquiry: ${formData.service} — ${formData.name || 'Client'}`);
@@ -71,29 +69,26 @@ ${formData.name || ''}`);
   const services = t('contact.form.serviceOptions') || [];
 
   return (
-    <section id="contact" className="relative py-24 border-t border-white/10 bg-[#0c0c0e]">
-      {/* Background Architectural Grid */}
-      <div className="absolute inset-0 arch-grid-bg opacity-20 pointer-events-none" />
-
+    <section id="contact" className="relative py-24 border-t border-[#E5E5E5] bg-[#FAF9F6]">
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <span className="inline-block px-3 py-1 rounded-full text-xs font-mono uppercase tracking-widest text-[#c5a880] bg-[#18181b] border border-white/10">
+          <span className="inline-block px-3 py-1 text-xs font-mono uppercase tracking-widest text-[#777777] bg-white border border-[#E5E5E5]">
             {t('contact.badge')}
           </span>
 
-          <h2 className="font-serif-title text-3xl sm:text-5xl font-bold text-white tracking-tight">
+          <h2 className="font-serif-title text-3xl sm:text-5xl font-bold text-[#111111] tracking-tight">
             {t('contact.title')}
           </h2>
 
-          <p className="text-sm sm:text-base text-[#a1a1aa] leading-relaxed">
+          <p className="text-sm sm:text-base text-[#555555] leading-relaxed">
             {t('contact.subtitle')}
           </p>
         </div>
 
         {/* Floating feedback toast */}
         {feedbackMsg && (
-          <div className="fixed bottom-6 end-6 z-50 px-4 py-2.5 rounded-xl bg-[#c5a880] text-black font-semibold text-xs shadow-2xl flex items-center gap-2 animate-bounce">
+          <div className="fixed bottom-6 end-6 z-50 px-4 py-2.5 bg-[#111111] text-white font-medium text-xs shadow-lg flex items-center gap-2">
             <Check className="w-4 h-4" />
             <span>{feedbackMsg}</span>
           </div>
@@ -102,23 +97,22 @@ ${formData.name || ''}`);
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           {/* Direct Channels Column */}
           <div className="lg:col-span-5 space-y-6">
-            <h3 className="font-serif-title text-2xl font-bold text-white border-b border-white/10 pb-4">
+            <h3 className="font-serif-title text-2xl font-bold text-[#111111] border-b border-[#E5E5E5] pb-4">
               Direct Communication
             </h3>
 
-            {/* Direct Cards */}
             <div className="space-y-4">
               {/* WhatsApp Card */}
-              <div className="p-5 rounded-2xl bg-[#121215] border border-white/10 hover:border-emerald-500/40 transition-all flex items-center justify-between group">
+              <div className="p-5 bg-white border border-[#E5E5E5] hover:border-[#111111] transition-colors flex items-center justify-between group">
                 <div className="flex items-center gap-4">
-                  <div className="w-11 h-11 rounded-xl bg-emerald-950/40 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+                  <div className="w-10 h-10 bg-[#F4F4F1] border border-[#E5E5E5] flex items-center justify-center text-[#111111]">
                     <MessageCircle className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-xs font-mono text-[#71717a] block">
+                    <span className="text-xs font-mono text-[#777777] block uppercase tracking-wider">
                       {t('contact.whatsappLabel')}
                     </span>
-                    <span className="text-sm font-semibold text-white group-hover:text-emerald-300 transition-colors">
+                    <span className="text-sm font-semibold text-[#111111]">
                       {siteConfig.contact.phone}
                     </span>
                   </div>
@@ -128,25 +122,25 @@ ${formData.name || ''}`);
                   href={siteConfig.contact.whatsappUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="px-3 py-1.5 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-300 hover:bg-emerald-500 hover:text-black transition-colors"
+                  className="px-3.5 py-1.5 text-xs font-medium bg-[#111111] text-white hover:bg-[#333333] transition-colors"
                 >
                   Chat
                 </a>
               </div>
 
               {/* Phone Card */}
-              <div className="p-5 rounded-2xl bg-[#121215] border border-white/10 hover:border-[#c5a880]/40 transition-all flex items-center justify-between group">
+              <div className="p-5 bg-white border border-[#E5E5E5] hover:border-[#111111] transition-colors flex items-center justify-between group">
                 <div className="flex items-center gap-4">
-                  <div className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-[#c5a880]">
+                  <div className="w-10 h-10 bg-[#F4F4F1] border border-[#E5E5E5] flex items-center justify-center text-[#111111]">
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-xs font-mono text-[#71717a] block">
+                    <span className="text-xs font-mono text-[#777777] block uppercase tracking-wider">
                       {t('contact.phoneLabel')}
                     </span>
                     <a
                       href={`tel:${siteConfig.contact.phone}`}
-                      className="text-sm font-semibold text-white group-hover:text-[#c5a880] transition-colors dir-ltr block"
+                      className="text-sm font-semibold text-[#111111] hover:text-[#555555] transition-colors dir-ltr block"
                     >
                       {siteConfig.contact.phone}
                     </a>
@@ -156,10 +150,10 @@ ${formData.name || ''}`);
                 <button
                   onClick={() => handleCopy(siteConfig.contact.phone, 'phone')}
                   title="Copy Phone"
-                  className="p-2 rounded-full bg-white/5 hover:bg-white/10 text-[#a1a1aa] hover:text-white transition-colors"
+                  className="p-2 bg-[#F4F4F1] border border-[#E5E5E5] hover:bg-[#111111] text-[#111111] hover:text-white transition-colors"
                 >
                   {copiedKey === 'phone' ? (
-                    <Check className="w-4 h-4 text-emerald-400" />
+                    <Check className="w-4 h-4 text-emerald-600" />
                   ) : (
                     <Copy className="w-4 h-4" />
                   )}
@@ -167,18 +161,18 @@ ${formData.name || ''}`);
               </div>
 
               {/* Email Card */}
-              <div className="p-5 rounded-2xl bg-[#121215] border border-white/10 hover:border-[#c5a880]/40 transition-all flex items-center justify-between group">
+              <div className="p-5 bg-white border border-[#E5E5E5] hover:border-[#111111] transition-colors flex items-center justify-between group">
                 <div className="flex items-center gap-4">
-                  <div className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-[#c5a880]">
+                  <div className="w-10 h-10 bg-[#F4F4F1] border border-[#E5E5E5] flex items-center justify-center text-[#111111]">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-xs font-mono text-[#71717a] block">
+                    <span className="text-xs font-mono text-[#777777] block uppercase tracking-wider">
                       {t('contact.emailLabel')}
                     </span>
                     <a
                       href={`mailto:${siteConfig.contact.email}`}
-                      className="text-sm font-semibold text-white group-hover:text-[#c5a880] transition-colors block"
+                      className="text-sm font-semibold text-[#111111] hover:text-[#555555] transition-colors block"
                     >
                       {siteConfig.contact.email}
                     </a>
@@ -188,10 +182,10 @@ ${formData.name || ''}`);
                 <button
                   onClick={() => handleCopy(siteConfig.contact.email, 'email')}
                   title="Copy Email"
-                  className="p-2 rounded-full bg-white/5 hover:bg-white/10 text-[#a1a1aa] hover:text-white transition-colors"
+                  className="p-2 bg-[#F4F4F1] border border-[#E5E5E5] hover:bg-[#111111] text-[#111111] hover:text-white transition-colors"
                 >
                   {copiedKey === 'email' ? (
-                    <Check className="w-4 h-4 text-emerald-400" />
+                    <Check className="w-4 h-4 text-emerald-600" />
                   ) : (
                     <Copy className="w-4 h-4" />
                   )}
@@ -199,16 +193,16 @@ ${formData.name || ''}`);
               </div>
 
               {/* Address Card */}
-              <div className="p-5 rounded-2xl bg-[#121215] border border-white/10 hover:border-[#c5a880]/40 transition-all flex items-center justify-between group">
+              <div className="p-5 bg-white border border-[#E5E5E5] hover:border-[#111111] transition-colors flex items-center justify-between group">
                 <div className="flex items-center gap-4">
-                  <div className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-[#c5a880]">
+                  <div className="w-10 h-10 bg-[#F4F4F1] border border-[#E5E5E5] flex items-center justify-center text-[#111111]">
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-xs font-mono text-[#71717a] block">
+                    <span className="text-xs font-mono text-[#777777] block uppercase tracking-wider">
                       {t('contact.studioLabel')}
                     </span>
-                    <span className="text-sm font-semibold text-white block">
+                    <span className="text-sm font-semibold text-[#111111] block">
                       {getLocalized(siteConfig.contact.address)}
                     </span>
                   </div>
@@ -218,7 +212,7 @@ ${formData.name || ''}`);
                   href={siteConfig.contact.mapsUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="px-3 py-1.5 rounded-full text-xs font-medium bg-white/5 text-[#a1a1aa] hover:text-white hover:bg-white/10 transition-colors"
+                  className="px-3 py-1 text-xs font-medium bg-[#F4F4F1] border border-[#E5E5E5] text-[#111111] hover:bg-[#111111] hover:text-white transition-colors"
                 >
                   Map
                 </a>
@@ -228,12 +222,12 @@ ${formData.name || ''}`);
 
           {/* Interactive Form Column */}
           <div className="lg:col-span-7">
-            <div className="p-8 sm:p-10 rounded-3xl bg-[#121215] border border-white/10 shadow-xl space-y-6">
-              <div className="border-b border-white/10 pb-4">
-                <h3 className="font-serif-title text-2xl font-bold text-white">
+            <div className="p-8 sm:p-10 bg-white border border-[#E5E5E5] space-y-6">
+              <div className="border-b border-[#E5E5E5] pb-4">
+                <h3 className="font-serif-title text-2xl font-bold text-[#111111]">
                   {t('contact.form.title')}
                 </h3>
-                <p className="text-xs text-[#a1a1aa] mt-1">
+                <p className="text-xs text-[#555555] mt-1">
                   Choose to send directly via WhatsApp or your preferred email application.
                 </p>
               </div>
@@ -241,7 +235,7 @@ ${formData.name || ''}`);
               <form className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs font-mono text-[#a1a1aa] mb-1.5">
+                    <label className="block text-xs font-mono text-[#555555] uppercase tracking-wider mb-1.5">
                       {t('contact.form.name')}
                     </label>
                     <input
@@ -249,12 +243,12 @@ ${formData.name || ''}`);
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       placeholder={t('contact.form.namePlaceholder')}
-                      className="w-full px-4 py-3 rounded-xl bg-black/40 border border-white/10 text-white placeholder-[#52525b] text-sm focus:outline-none focus:border-[#c5a880]"
+                      className="w-full px-4 py-3 bg-[#FAF9F6] border border-[#E5E5E5] text-[#111111] placeholder-[#999999] text-sm focus:outline-none focus:border-[#111111]"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-xs font-mono text-[#a1a1aa] mb-1.5">
+                    <label className="block text-xs font-mono text-[#555555] uppercase tracking-wider mb-1.5">
                       {t('contact.form.phone')}
                     </label>
                     <input
@@ -262,14 +256,14 @@ ${formData.name || ''}`);
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       placeholder={t('contact.form.phonePlaceholder')}
-                      className="w-full px-4 py-3 rounded-xl bg-black/40 border border-white/10 text-white placeholder-[#52525b] text-sm focus:outline-none focus:border-[#c5a880]"
+                      className="w-full px-4 py-3 bg-[#FAF9F6] border border-[#E5E5E5] text-[#111111] placeholder-[#999999] text-sm focus:outline-none focus:border-[#111111]"
                     />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs font-mono text-[#a1a1aa] mb-1.5">
+                    <label className="block text-xs font-mono text-[#555555] uppercase tracking-wider mb-1.5">
                       {t('contact.form.email')}
                     </label>
                     <input
@@ -277,18 +271,18 @@ ${formData.name || ''}`);
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       placeholder={t('contact.form.emailPlaceholder')}
-                      className="w-full px-4 py-3 rounded-xl bg-black/40 border border-white/10 text-white placeholder-[#52525b] text-sm focus:outline-none focus:border-[#c5a880]"
+                      className="w-full px-4 py-3 bg-[#FAF9F6] border border-[#E5E5E5] text-[#111111] placeholder-[#999999] text-sm focus:outline-none focus:border-[#111111]"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-xs font-mono text-[#a1a1aa] mb-1.5">
+                    <label className="block text-xs font-mono text-[#555555] uppercase tracking-wider mb-1.5">
                       {t('contact.form.service')}
                     </label>
                     <select
                       value={formData.service}
                       onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl bg-[#18181b] border border-white/10 text-white text-sm focus:outline-none focus:border-[#c5a880]"
+                      className="w-full px-4 py-3 bg-[#FAF9F6] border border-[#E5E5E5] text-[#111111] text-sm focus:outline-none focus:border-[#111111]"
                     >
                       {Array.isArray(services) &&
                         services.map((srv, idx) => (
@@ -301,7 +295,7 @@ ${formData.name || ''}`);
                 </div>
 
                 <div>
-                  <label className="block text-xs font-mono text-[#a1a1aa] mb-1.5">
+                  <label className="block text-xs font-mono text-[#555555] uppercase tracking-wider mb-1.5">
                     {t('contact.form.message')}
                   </label>
                   <textarea
@@ -309,7 +303,7 @@ ${formData.name || ''}`);
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     placeholder={t('contact.form.messagePlaceholder')}
-                    className="w-full px-4 py-3 rounded-xl bg-black/40 border border-white/10 text-white placeholder-[#52525b] text-sm focus:outline-none focus:border-[#c5a880]"
+                    className="w-full px-4 py-3 bg-[#FAF9F6] border border-[#E5E5E5] text-[#111111] placeholder-[#999999] text-sm focus:outline-none focus:border-[#111111]"
                   ></textarea>
                 </div>
 
@@ -318,7 +312,7 @@ ${formData.name || ''}`);
                   <button
                     type="button"
                     onClick={handleSendWhatsApp}
-                    className="inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs shadow-lg transition-colors"
+                    className="inline-flex items-center justify-center gap-2 py-3 px-6 bg-[#111111] hover:bg-[#333333] text-white font-medium text-xs uppercase tracking-wider transition-colors"
                   >
                     <MessageCircle className="w-4 h-4" />
                     <span>{t('contact.form.submitWhatsApp')}</span>
@@ -327,7 +321,7 @@ ${formData.name || ''}`);
                   <button
                     type="button"
                     onClick={handleSendEmail}
-                    className="inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl bg-[#c5a880] hover:bg-[#d8bfa0] text-black font-semibold text-xs shadow-lg transition-colors"
+                    className="inline-flex items-center justify-center gap-2 py-3 px-6 bg-transparent hover:bg-[#111111] hover:text-white text-[#111111] border border-[#111111] font-medium text-xs uppercase tracking-wider transition-colors"
                   >
                     <Send className="w-4 h-4" />
                     <span>{t('contact.form.submitEmail')}</span>

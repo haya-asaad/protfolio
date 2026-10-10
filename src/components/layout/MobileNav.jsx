@@ -30,22 +30,22 @@ export default function MobileNav({ isOpen, onClose }) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-50 bg-black/80 backdrop-blur-xl md:hidden flex flex-col justify-between p-6 sm:p-8"
+          className="fixed inset-0 z-50 bg-[#FAF9F6] flex flex-col justify-between p-6 sm:p-8"
         >
           {/* Header */}
-          <div className="flex items-center justify-between border-b border-white/10 pb-4">
+          <div className="flex items-center justify-between border-b border-[#E5E5E5] pb-4">
             <div>
-              <span className="font-serif-title text-xl font-bold tracking-wider text-white">
+              <span className="font-serif-title text-xl font-bold tracking-wider text-[#111111]">
                 {t('nav.brand')}
               </span>
-              <p className="text-[10px] tracking-widest text-[#a1a1aa] uppercase font-mono">
+              <p className="text-[10px] tracking-widest text-[#777777] uppercase font-mono">
                 {t('nav.brandSub')}
               </p>
             </div>
             <button
               onClick={onClose}
               aria-label="Close menu"
-              className="p-2.5 rounded-full bg-white/5 border border-white/10 text-white hover:bg-white/10 transition-colors"
+              className="p-2.5 rounded-sm bg-[#F4F4F1] border border-[#E5E5E5] text-[#111111] hover:bg-[#EFEFEA] transition-colors"
             >
               <X className="w-5 h-5" />
             </button>
@@ -56,22 +56,22 @@ export default function MobileNav({ isOpen, onClose }) {
             {navLinks.map((link, idx) => (
               <motion.button
                 key={link.href}
-                initial={{ opacity: 0, x: -20 }}
+                initial={{ opacity: 0, x: -15 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.05 * idx }}
+                transition={{ delay: 0.04 * idx }}
                 onClick={() => handleLinkClick(link.href)}
-                className="text-start flex items-center justify-between text-2xl font-serif-title font-medium text-[#d4d4d8] hover:text-[#c5a880] transition-colors py-2 border-b border-white/5"
+                className="text-start flex items-center justify-between text-2xl font-serif-title font-medium text-[#111111] hover:text-[#555555] transition-colors py-3 border-b border-[#EAEAE6]"
               >
                 <span>{link.label}</span>
-                <span className="font-mono text-xs text-[#71717a]">0{idx + 1}</span>
+                <span className="font-mono text-xs text-[#888888]">0{idx + 1}</span>
               </motion.button>
             ))}
           </div>
 
           {/* Footer with language switch and direct actions */}
-          <div className="space-y-6 pt-4 border-t border-white/10">
+          <div className="space-y-6 pt-4 border-t border-[#E5E5E5]">
             <div className="flex items-center justify-between">
-              <span className="text-xs text-[#a1a1aa] font-mono uppercase tracking-wider">
+              <span className="text-xs text-[#777777] font-mono uppercase tracking-wider">
                 {t('nav.switchLang')}
               </span>
               <LanguageSwitcher />
@@ -82,14 +82,14 @@ export default function MobileNav({ isOpen, onClose }) {
                 href={siteConfig.contact.whatsappUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-emerald-950/40 border border-emerald-500/30 text-emerald-300 text-xs font-medium hover:bg-emerald-900/50 transition-colors"
+                className="flex items-center justify-center gap-2 py-3 px-4 rounded-sm bg-[#111111] text-white text-xs font-medium hover:bg-[#333333] transition-colors"
               >
                 <MessageCircle className="w-4 h-4" />
                 <span>WhatsApp</span>
               </a>
               <a
                 href={`mailto:${siteConfig.contact.email}`}
-                className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-white/5 border border-white/10 text-white text-xs font-medium hover:bg-white/10 transition-colors"
+                className="flex items-center justify-center gap-2 py-3 px-4 rounded-sm bg-white border border-[#E5E5E5] text-[#111111] text-xs font-medium hover:bg-[#F4F4F1] transition-colors"
               >
                 <Mail className="w-4 h-4" />
                 <span>Email</span>
