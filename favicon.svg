@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" fill="#FAF9F6" rx="8"/>
+  <rect x="2" y="2" width="60" height="60" fill="none" stroke="#E5E5E5" stroke-width="1" rx="6"/>
+  <!-- Stylized Geometric H & A Monogram in matte black -->
+  <path d="M16 16 L16 48 M16 32 L32 32 M32 16 L32 48" stroke="#111111" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M38 48 L48 16 L58 48 M41 38 L55 38" stroke="#111111" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>
