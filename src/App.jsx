@@ -35,9 +35,13 @@ function PortfolioApp() {
   });
 
   useEffect(() => {
-    const handleHashChange = () => {
+    const syncRouteFromLocation = () => {
       const nextRoute = parseHashRoute(window.location.hash);
       setRoute(nextRoute);
+
+      if (!window.history.state?.lightbox) {
+        setLightboxState((prev) => (prev.isOpen ? { ...prev, isOpen: false } : prev));
+      }
 
       if (!nextRoute.project && nextRoute.sectionId) {
         requestAnimationFrame(() => {
@@ -49,8 +53,12 @@ function PortfolioApp() {
       }
     };
 
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    window.addEventListener('hashchange', syncRouteFromLocation);
+    window.addEventListener('popstate', syncRouteFromLocation);
+    return () => {
+      window.removeEventListener('hashchange', syncRouteFromLocation);
+      window.removeEventListener('popstate', syncRouteFromLocation);
+    };
   }, []);
 
   const handleOpenDetails = (project) => {
@@ -90,6 +98,10 @@ function PortfolioApp() {
       allImages = [project.coverImage, ...galleryCovers].filter(Boolean);
     }
 
+    if (!window.history.state?.lightbox) {
+      window.history.pushState({ lightbox: true }, '', window.location.href);
+    }
+
     setLightboxState({
       isOpen: true,
       images: allImages,
@@ -100,7 +112,11 @@ function PortfolioApp() {
   };
 
   const handleCloseLightbox = () => {
-    setLightboxState((prev) => ({ ...prev, isOpen: false }));
+    if (window.history.state?.lightbox) {
+      window.history.back();
+    } else {
+      setLightboxState((prev) => ({ ...prev, isOpen: false }));
+    }
   };
 
   const currentProjectIndex = route.project

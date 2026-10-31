@@ -161,13 +161,14 @@ export default function ProjectDetailModal({
         </div>
 
         {/* Primary Cover Image Frame */}
-        <div className="relative aspect-[16/9] overflow-hidden border border-[#E5E5E5] group bg-white">
+        <div className="relative flex items-center justify-center overflow-hidden border border-[#E5E5E5] group bg-white">
           <ArchitecturalImage
             src={project.coverImage}
             alt={title}
             category={project.category}
             title={title}
-            className="w-full h-full cursor-pointer"
+            className="w-full h-auto border-0 bg-white cursor-pointer"
+            imgClassName="w-full h-auto max-h-[82vh] object-contain block mx-auto"
             onClick={() => onOpenLightbox(project, 0)}
           />
           <button

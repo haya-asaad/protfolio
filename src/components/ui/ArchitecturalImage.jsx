@@ -5,6 +5,7 @@ export default function ArchitecturalImage({
   src,
   alt = 'Architectural project plate',
   className = '',
+  imgClassName = 'w-full h-full object-cover',
   category = 'architecture',
   title = '',
   onClick,
@@ -24,7 +25,7 @@ export default function ArchitecturalImage({
           loading="lazy"
           onLoad={() => setIsLoaded(true)}
           onError={() => setHasError(true)}
-          className={`w-full h-full object-cover transition-opacity duration-500 ${
+          className={`${imgClassName} transition-opacity duration-500 ${
             isLoaded ? 'opacity-100' : 'opacity-0'
           }`}
         />

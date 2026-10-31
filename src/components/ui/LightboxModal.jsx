@@ -95,14 +95,15 @@ export default function LightboxModal({
           )}
 
           {/* Active Image container */}
-          <div className="relative max-w-5xl max-h-[75vh] w-full h-full flex items-center justify-center">
+          <div className="relative flex items-center justify-center max-w-full max-h-[76vh]">
             <ArchitecturalImage
               key={currentImage}
               src={currentImage}
               alt={`${projectTitle} - view ${currentIndex + 1}`}
               category={category}
               title={`${projectTitle} (${currentIndex + 1}/${total})`}
-              className="max-h-[75vh] max-w-full rounded-none object-contain border border-[#E5E5E5] shadow-sm"
+              className="inline-flex items-center justify-center w-auto h-auto max-w-[88vw] sm:max-w-[80vw] max-h-[76vh] rounded-none border border-[#E5E5E5] shadow-sm bg-white"
+              imgClassName="w-auto h-auto max-w-[88vw] sm:max-w-[80vw] max-h-[76vh] object-contain block"
             />
           </div>
 
