@@ -33,7 +33,7 @@ export default function ProjectGrid({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <span className="inline-block px-3 py-1 text-xs font-mono uppercase tracking-widest text-[#777777] bg-[#F4F4F1] border border-[#E5E5E5]">
+          <span className="inline-block px-3 py-1 text-xs font-mono font-medium uppercase tracking-widest text-[#333333] bg-[#F4F4F1] border border-[#E5E5E5]">
             {t('portfolio.badge')}
           </span>
 
@@ -41,7 +41,7 @@ export default function ProjectGrid({
             {t('portfolio.title')}
           </h2>
 
-          <p className="text-sm sm:text-base text-[#555555] leading-relaxed">
+          <p className="text-sm sm:text-base text-[#333333] leading-relaxed">
             {t('portfolio.subtitle')}
           </p>
         </div>
@@ -55,7 +55,7 @@ export default function ProjectGrid({
         />
 
         {/* Counter Bar */}
-        <div className="flex items-center justify-between text-xs font-mono text-[#888888] border-b border-[#E5E5E5] pb-3">
+        <div className="flex items-center justify-between text-xs font-mono font-medium text-[#444444] border-b border-[#E5E5E5] pb-3">
           <span>
             CATALOGUE: {filteredProjects.length} OF {projects.length} {t('portfolio.itemsCount').toUpperCase()}
           </span>

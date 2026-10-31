@@ -67,7 +67,7 @@ export default function LightboxModal({
             <h4 className="text-sm font-medium text-[#111111] truncate max-w-xs sm:max-w-md">
               {projectTitle}
             </h4>
-            <p className="text-[11px] font-mono text-[#777777] uppercase tracking-wider">
+            <p className="text-[11px] font-mono font-medium text-[#444444] uppercase tracking-wider">
               {t('modal.imageCounter', { current: currentIndex + 1, total })}
             </p>
           </div>

@@ -34,7 +34,7 @@ export default function ArchitecturalImage({
       {(!isLoaded || hasError) && (
         <div className={`absolute inset-0 flex flex-col justify-between p-6 bg-[#F8F7F4] ${hasError ? 'opacity-100' : 'opacity-60'}`}>
           {/* Top header markings */}
-          <div className="relative z-10 flex items-center justify-between text-[10px] tracking-widest text-[#777777] uppercase font-mono border-b border-[#E8E8E4] pb-2">
+          <div className="relative z-10 flex items-center justify-between text-[10px] tracking-widest text-[#444444] font-medium uppercase font-mono border-b border-[#E8E8E4] pb-2">
             <span className="flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 bg-[#111111] inline-block" />
               {category}
@@ -60,13 +60,13 @@ export default function ArchitecturalImage({
                 {title}
               </p>
             )}
-            <p className="text-[10px] font-mono text-[#888888] mt-0.5">
+            <p className="text-[10px] font-mono font-medium text-[#444444] mt-0.5">
               Architectural Drawing &amp; Plate
             </p>
           </div>
 
           {/* Bottom dimension markers */}
-          <div className="relative z-10 flex items-center justify-between text-[9px] font-mono text-[#888888] border-t border-[#E8E8E4] pt-2">
+          <div className="relative z-10 flex items-center justify-between text-[9px] font-mono font-medium text-[#444444] border-t border-[#E8E8E4] pt-2">
             <span>SCALE 1:100</span>
             <span className="text-[#111111] uppercase">{category}</span>
             <span>REVIT / CAD</span>

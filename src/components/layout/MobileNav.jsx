@@ -38,7 +38,7 @@ export default function MobileNav({ isOpen, onClose }) {
               <span className="font-serif-title text-xl font-bold tracking-wider text-[#111111]">
                 {t('nav.brand')}
               </span>
-              <p className="text-[10px] tracking-widest text-[#777777] uppercase font-mono">
+              <p className="text-[10px] tracking-widest text-[#444444] font-medium uppercase font-mono">
                 {t('nav.brandSub')}
               </p>
             </div>
@@ -71,7 +71,7 @@ export default function MobileNav({ isOpen, onClose }) {
           {/* Footer with language switch and direct actions */}
           <div className="space-y-6 pt-4 border-t border-[#E5E5E5]">
             <div className="flex items-center justify-between">
-              <span className="text-xs text-[#777777] font-mono uppercase tracking-wider">
+              <span className="text-xs text-[#444444] font-mono font-medium uppercase tracking-wider">
                 {t('nav.switchLang')}
               </span>
               <LanguageSwitcher />

@@ -73,7 +73,7 @@ ${formData.name || ''}`);
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <span className="inline-block px-3 py-1 text-xs font-mono uppercase tracking-widest text-[#777777] bg-white border border-[#E5E5E5]">
+          <span className="inline-block px-3 py-1 text-xs font-mono font-medium uppercase tracking-widest text-[#333333] bg-white border border-[#E5E5E5]">
             {t('contact.badge')}
           </span>
 
@@ -81,7 +81,7 @@ ${formData.name || ''}`);
             {t('contact.title')}
           </h2>
 
-          <p className="text-sm sm:text-base text-[#555555] leading-relaxed">
+          <p className="text-sm sm:text-base text-[#333333] leading-relaxed">
             {t('contact.subtitle')}
           </p>
         </div>
@@ -109,10 +109,10 @@ ${formData.name || ''}`);
                     <MessageCircle className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-xs font-mono text-[#777777] block uppercase tracking-wider">
+                    <span className="text-xs font-mono font-medium text-[#444444] block uppercase tracking-wider">
                       {t('contact.whatsappLabel')}
                     </span>
-                    <span className="text-sm font-semibold text-[#111111]">
+                    <span dir="ltr" className="text-sm font-semibold text-[#111111] dir-ltr inline-block">
                       {siteConfig.contact.phone}
                     </span>
                   </div>
@@ -135,12 +135,13 @@ ${formData.name || ''}`);
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-xs font-mono text-[#777777] block uppercase tracking-wider">
+                    <span className="text-xs font-mono font-medium text-[#444444] block uppercase tracking-wider">
                       {t('contact.phoneLabel')}
                     </span>
                     <a
                       href={`tel:${siteConfig.contact.phone}`}
-                      className="text-sm font-semibold text-[#111111] hover:text-[#555555] transition-colors dir-ltr block"
+                      dir="ltr"
+                      className="text-sm font-semibold text-[#111111] hover:text-[#555555] transition-colors dir-ltr inline-block"
                     >
                       {siteConfig.contact.phone}
                     </a>
@@ -167,7 +168,7 @@ ${formData.name || ''}`);
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-xs font-mono text-[#777777] block uppercase tracking-wider">
+                    <span className="text-xs font-mono font-medium text-[#444444] block uppercase tracking-wider">
                       {t('contact.emailLabel')}
                     </span>
                     <a
@@ -199,7 +200,7 @@ ${formData.name || ''}`);
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-xs font-mono text-[#777777] block uppercase tracking-wider">
+                    <span className="text-xs font-mono font-medium text-[#444444] block uppercase tracking-wider">
                       {t('contact.studioLabel')}
                     </span>
                     <span className="text-sm font-semibold text-[#111111] block">
@@ -253,10 +254,11 @@ ${formData.name || ''}`);
                     </label>
                     <input
                       type="tel"
+                      dir="ltr"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       placeholder={t('contact.form.phonePlaceholder')}
-                      className="w-full px-4 py-3 bg-[#FAF9F6] border border-[#E5E5E5] text-[#111111] placeholder-[#999999] text-sm focus:outline-none focus:border-[#111111]"
+                      className="w-full px-4 py-3 bg-[#FAF9F6] border border-[#E5E5E5] text-[#111111] placeholder-[#999999] text-sm focus:outline-none focus:border-[#111111] dir-ltr rtl:text-right"
                     />
                   </div>
                 </div>

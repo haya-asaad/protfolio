@@ -26,13 +26,13 @@ export default function Footer() {
                 <h3 className="font-serif-title text-lg font-bold text-[#111111] tracking-wide">
                   {t('nav.brand')}
                 </h3>
-                <p className="text-[10px] tracking-widest text-[#777777] uppercase font-mono">
+                <p className="text-[10px] tracking-widest text-[#444444] font-medium uppercase font-mono">
                   {t('nav.brandSub')}
                 </p>
               </div>
             </div>
 
-            <p className="text-[#555555] max-w-md text-xs leading-relaxed">
+            <p className="text-[#333333] max-w-md text-xs leading-relaxed">
               {t('about.lead')}
             </p>
 
@@ -44,10 +44,10 @@ export default function Footer() {
 
           {/* Col 2: Fast Navigation */}
           <div>
-            <h4 className="text-xs font-mono uppercase tracking-widest text-[#777777] mb-4">
+            <h4 className="text-xs font-mono font-medium uppercase tracking-widest text-[#444444] mb-4">
               {t('footer.quickNav')}
             </h4>
-            <ul className="space-y-2.5 text-xs text-[#555555]">
+            <ul className="space-y-2.5 text-xs text-[#333333]">
               <li>
                 <a href="#hero" className="hover:text-[#111111] transition-colors">
                   {t('nav.home')}
@@ -73,17 +73,17 @@ export default function Footer() {
 
           {/* Col 3: Direct Studio Info */}
           <div>
-            <h4 className="text-xs font-mono uppercase tracking-widest text-[#777777] mb-4">
+            <h4 className="text-xs font-mono font-medium uppercase tracking-widest text-[#444444] mb-4">
               {t('contact.title')}
             </h4>
-            <ul className="space-y-2.5 text-xs text-[#555555]">
+            <ul className="space-y-2.5 text-xs text-[#333333]">
               <li className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5 text-[#111111] shrink-0" />
                 <span>{getLocalized(siteConfig.contact.address)}</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-[#111111] shrink-0" />
-                <a href={`tel:${siteConfig.contact.phone}`} className="hover:text-[#111111] transition-colors dir-ltr">
+                <a href={`tel:${siteConfig.contact.phone}`} dir="ltr" className="hover:text-[#111111] transition-colors dir-ltr inline-block">
                   {siteConfig.contact.phone}
                 </a>
               </li>
@@ -104,7 +104,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#777777]">
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#444444]">
           <p>© {CURRENT_YEAR} {t('footer.brandText')} {t('footer.rights')}</p>
 
           <button

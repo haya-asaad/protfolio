@@ -34,7 +34,7 @@ export default function About() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <span className="inline-block px-3 py-1 text-xs font-mono uppercase tracking-widest text-[#777777] bg-white border border-[#E5E5E5]">
+          <span className="inline-block px-3 py-1 text-xs font-mono font-medium uppercase tracking-widest text-[#333333] bg-white border border-[#E5E5E5]">
             {t('about.badge')}
           </span>
 
@@ -42,7 +42,7 @@ export default function About() {
             {t('about.title')}
           </h2>
 
-          <p className="text-sm sm:text-base text-[#555555] leading-relaxed">
+          <p className="text-sm sm:text-base text-[#333333] leading-relaxed">
             {t('about.subtitle')}
           </p>
         </div>
@@ -77,7 +77,7 @@ export default function About() {
               {t('about.lead')}
             </p>
 
-            <p className="text-sm sm:text-base text-[#555555] leading-relaxed font-normal">
+            <p className="text-sm sm:text-base text-[#333333] leading-relaxed font-normal">
               {t('about.body')}
             </p>
 
@@ -87,7 +87,7 @@ export default function About() {
               <p className="text-sm sm:text-base italic font-serif-title text-[#222222] leading-relaxed relative z-10">
                 "{t('about.quote')}"
               </p>
-              <span className="block text-xs font-mono text-[#777777] mt-3 uppercase tracking-wider">
+              <span className="block text-xs font-mono font-medium text-[#444444] mt-3 uppercase tracking-wider">
                 — Architectural Manifesto
               </span>
             </div>
@@ -116,11 +116,11 @@ export default function About() {
                     <h4 className="font-serif-title text-lg font-bold text-[#111111]">
                       {pillar.title}
                     </h4>
-                    <span className="text-xs font-mono text-[#777777] block mt-0.5 uppercase tracking-wider">
+                    <span className="text-xs font-mono font-medium text-[#444444] block mt-0.5 uppercase tracking-wider">
                       {pillar.subtitle}
                     </span>
                   </div>
-                  <p className="text-xs text-[#555555] leading-relaxed">
+                  <p className="text-xs text-[#333333] leading-relaxed">
                     {pillar.desc}
                   </p>
                 </div>
@@ -134,7 +134,7 @@ export default function About() {
             <h3 className="font-serif-title text-2xl font-bold text-[#111111]">
               {t('about.educationTitle')}
             </h3>
-            <span className="text-xs font-mono text-[#777777]">
+            <span className="text-xs font-mono font-medium text-[#444444]">
               2014 — 2025
             </span>
           </div>
@@ -150,7 +150,7 @@ export default function About() {
                     <span className="px-2 py-0.5 bg-[#F4F4F1] text-[#111111] border border-[#E5E5E5] font-medium">
                       {edu.period}
                     </span>
-                    <span className="text-[#777777] flex items-center gap-1">
+                    <span className="text-[#444444] font-medium flex items-center gap-1">
                       <GraduationCap className="w-3.5 h-3.5 text-[#111111]" />
                       Accredited
                     </span>
@@ -160,11 +160,11 @@ export default function About() {
                     {edu.degree}
                   </h4>
 
-                  <p className="text-xs font-medium text-[#555555]">
+                  <p className="text-xs font-semibold text-[#333333]">
                     {edu.school}
                   </p>
 
-                  <p className="text-xs text-[#666666] leading-relaxed">
+                  <p className="text-xs text-[#333333] leading-relaxed">
                     {edu.desc}
                   </p>
                 </div>

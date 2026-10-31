@@ -17,7 +17,7 @@ export default function Hero({ totalProjects = 11 }) {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 px-3 py-1 bg-[#F4F4F1] border border-[#E5E5E5] text-[11px] font-mono tracking-widest text-[#555555] uppercase"
+          className="inline-flex items-center gap-2 px-3 py-1 bg-[#F4F4F1] border border-[#E5E5E5] text-xs font-mono font-medium tracking-widest text-[#333333] uppercase"
         >
           <span>{t('hero.badge')}</span>
         </motion.div>
@@ -27,7 +27,7 @@ export default function Hero({ totalProjects = 11 }) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-xs sm:text-sm font-mono tracking-widest text-[#777777] uppercase"
+          className="text-xs sm:text-sm font-mono font-medium tracking-widest text-[#444444] uppercase"
         >
           {t('hero.tagline')} • TEL AVIV
         </motion.p>
@@ -47,7 +47,7 @@ export default function Hero({ totalProjects = 11 }) {
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.25 }}
-          className="text-base sm:text-lg text-[#555555] max-w-2xl mx-auto leading-relaxed font-normal"
+          className="text-base sm:text-lg text-[#333333] max-w-2xl mx-auto leading-relaxed font-normal"
         >
           {t('hero.description')}
         </motion.p>
@@ -87,7 +87,7 @@ export default function Hero({ totalProjects = 11 }) {
             <span className="block text-2xl sm:text-3xl font-serif-title font-bold text-[#111111]">
               {totalProjects}
             </span>
-            <span className="block text-[11px] font-mono text-[#888888] mt-1 uppercase tracking-wider">
+            <span className="block text-xs font-mono font-medium text-[#444444] mt-1 uppercase tracking-wider">
               {t('hero.metrics.projects')}
             </span>
           </div>
@@ -96,7 +96,7 @@ export default function Hero({ totalProjects = 11 }) {
             <span className="block text-2xl sm:text-3xl font-serif-title font-bold text-[#111111]">
               TAU
             </span>
-            <span className="block text-[11px] font-mono text-[#888888] mt-1 uppercase tracking-wider">
+            <span className="block text-xs font-mono font-medium text-[#444444] mt-1 uppercase tracking-wider">
               {t('hero.metrics.education')}
             </span>
           </div>
@@ -105,7 +105,7 @@ export default function Hero({ totalProjects = 11 }) {
             <span className="block text-2xl sm:text-3xl font-serif-title font-bold text-[#111111]">
               BIM
             </span>
-            <span className="block text-[11px] font-mono text-[#888888] mt-1 uppercase tracking-wider">
+            <span className="block text-xs font-mono font-medium text-[#444444] mt-1 uppercase tracking-wider">
               Revit / Rhino
             </span>
           </div>

@@ -52,6 +52,28 @@ html[data-lang="he"] .font-serif-title {
   letter-spacing: normal;
 }
 
+html[data-lang="ar"] .font-mono {
+  font-family: var(--font-arabic);
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+html[data-lang="he"] .font-mono {
+  font-family: var(--font-hebrew);
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+html[data-lang="ar"] [class*="tracking-"],
+html[data-lang="he"] [class*="tracking-"] {
+  letter-spacing: normal;
+}
+
+.dir-ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
 /* Sleek minimalist gallery scrollbar */
 ::-webkit-scrollbar {
   width: 5px;

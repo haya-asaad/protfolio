@@ -59,7 +59,7 @@ export default function ProjectCard({
       <div className="p-6 flex flex-col flex-grow justify-between space-y-4">
         <div>
           {/* Metadata Row */}
-          <div className="flex items-center gap-2 text-xs text-[#888888] font-mono mb-2">
+          <div className="flex items-center gap-2 text-xs text-[#444444] font-mono font-medium mb-2">
             <span className="flex items-center gap-1">
               <MapPin className="w-3.5 h-3.5 text-[#111111]" />
               <span className="truncate max-w-[200px]">{location}</span>
@@ -75,7 +75,7 @@ export default function ProjectCard({
           </h3>
 
           {/* Project Concept Excerpt */}
-          <p className="mt-2 text-xs text-[#555555] line-clamp-2 leading-relaxed font-normal">
+          <p className="mt-2 text-xs text-[#333333] line-clamp-2 leading-relaxed font-normal">
             {description}
           </p>
         </div>
@@ -90,7 +90,7 @@ export default function ProjectCard({
             <ArrowUpRight className="w-3.5 h-3.5" />
           </button>
 
-          <span className="text-[10px] font-mono text-[#888888]">
+          <span className="text-[10px] font-mono font-medium text-[#555555]">
             REF #{String(index + 1).padStart(2, '0')}
           </span>
         </div>

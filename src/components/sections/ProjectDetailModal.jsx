@@ -106,7 +106,7 @@ export default function ProjectDetailModal({
             {/* Architectural Specifications Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 p-4 rounded-none bg-[#F8F7F4] border border-[#E5E5E5] font-mono text-xs">
               <div>
-                <span className="block text-[10px] text-[#777777] uppercase tracking-wider">
+                <span className="block text-[10px] font-medium text-[#444444] uppercase tracking-wider">
                   {t('portfolio.metaLocation')}
                 </span>
                 <span className="text-[#111111] font-medium flex items-center gap-1 mt-1">
@@ -116,7 +116,7 @@ export default function ProjectDetailModal({
               </div>
 
               <div>
-                <span className="block text-[10px] text-[#777777] uppercase tracking-wider">
+                <span className="block text-[10px] font-medium text-[#444444] uppercase tracking-wider">
                   {t('portfolio.metaYear')}
                 </span>
                 <span className="text-[#111111] font-medium flex items-center gap-1 mt-1">
@@ -126,7 +126,7 @@ export default function ProjectDetailModal({
               </div>
 
               <div>
-                <span className="block text-[10px] text-[#777777] uppercase tracking-wider">
+                <span className="block text-[10px] font-medium text-[#444444] uppercase tracking-wider">
                   {t('portfolio.metaCategory')}
                 </span>
                 <span className="text-[#111111] font-medium flex items-center gap-1 mt-1">
@@ -136,7 +136,7 @@ export default function ProjectDetailModal({
               </div>
 
               <div>
-                <span className="block text-[10px] text-[#777777] uppercase tracking-wider">
+                <span className="block text-[10px] font-medium text-[#444444] uppercase tracking-wider">
                   PLATES
                 </span>
                 <span className="text-[#111111] font-medium block mt-1">

@@ -46,14 +46,14 @@ export default function Navbar() {
               <span className="font-serif-title text-base sm:text-lg font-bold tracking-wide text-[#111111] block leading-tight">
                 {t('nav.brand')}
               </span>
-              <span className="text-[10px] sm:text-[11px] tracking-widest text-[#777777] uppercase font-mono block">
+              <span className="text-[10px] sm:text-[11px] tracking-widest text-[#444444] font-medium uppercase font-mono block">
                 {t('nav.brandSub')}
               </span>
             </div>
           </a>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden md:flex items-center gap-8 text-xs uppercase tracking-wider font-medium text-[#555555]">
+          <nav className="hidden md:flex items-center gap-8 text-xs uppercase tracking-wider font-medium text-[#333333]">
             {navLinks.map((link) => (
               <a
                 key={link.href}
