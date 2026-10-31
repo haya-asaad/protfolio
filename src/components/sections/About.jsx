@@ -54,7 +54,7 @@ export default function About() {
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-[4/5] rounded-none md:rounded-sm overflow-hidden border border-[#E5E5E5] bg-white group">
               <ArchitecturalImage
-                src="./images/profile/me.JPG"
+                src="./images/profile/me.webp"
                 alt="Haya Asaad Portrait"
                 category="Architect"
                 title="Haya Asaad, B.Arch"

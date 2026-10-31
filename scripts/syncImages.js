@@ -13,7 +13,30 @@ const publicProjectsDir = path.resolve(__dirname, '../public/images/projects');
 function getImagesInDir(dirPath, relativePrefix) {
   if (!fs.existsSync(dirPath)) return [];
   const entries = fs.readdirSync(dirPath, { withFileTypes: true });
-  return entries
+  const imageFiles = entries
+    .filter((entry) => entry.isFile() && IMAGE_EXTENSIONS.has(path.extname(entry.name).toLowerCase()))
+    .map((entry) => entry.name);
+
+  // Automatically remove ~3.2KB generated placeholder gallery files (01.jpg, 02.jpg, plan.jpg)
+  // if real non-cover gallery images have been added to this folder
+  const nonCoverFiles = imageFiles.filter((name) => !name.toLowerCase().startsWith('cover.'));
+  const placeholderGalleryFiles = nonCoverFiles.filter((name) => {
+    if (!['01.jpg', '02.jpg', 'plan.jpg'].includes(name)) return false;
+    try {
+      return fs.statSync(path.join(dirPath, name)).size < 5000;
+    } catch {
+      return false;
+    }
+  });
+
+  if (placeholderGalleryFiles.length > 0 && nonCoverFiles.length > placeholderGalleryFiles.length) {
+    for (const pName of placeholderGalleryFiles) {
+      fs.unlinkSync(path.join(dirPath, pName));
+    }
+  }
+
+  const finalEntries = fs.readdirSync(dirPath, { withFileTypes: true });
+  return finalEntries
     .filter((entry) => entry.isFile() && IMAGE_EXTENSIONS.has(path.extname(entry.name).toLowerCase()))
     .map((entry) => entry.name)
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
