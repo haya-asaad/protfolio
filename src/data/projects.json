@@ -1,231 +1,924 @@
 [
   {
-    "id": "final-project-dahmash",
-    "category": "civic",
-    "year": "2025",
-    "location": {
-      "en": "Dahmash Village, Central District",
-      "ar": "قرية دهمش، المنطقة الوسطى",
-      "he": "כפר דהמש, מחוז המרכז"
-    },
-    "title": {
-      "en": "Dahmash Community Sanctuary & Educational Hub",
-      "ar": "مركز دهمش المجتمعي والصرح التعليمي",
-      "he": "מרכז קהילתי ועוגן חינוכי בכפר דהמש"
-    },
-    "description": {
-      "en": "Graduation thesis addressing informal planning and unrecognized villages through spatial justice. The project establishes a civic anchor—a public school integrated with a community mosque—forming the bedrock of the village, transforming educational infrastructure into an enduring symbol of communal resilience.",
-      "ar": "مشروع التخرج الذي يبحث في التخطيط غير المعترف به والعدالة المكانية. يطرح المشروع خطة بديلة تؤسس لمبنى عام يجمع بين مدرسة حديثة ومسجد جامع يشكلان حجر الأساس للقرية ورمزاً للصمود المجتمعي والتطور الحضري المستدام.",
-      "he": "פרויקט גמר הבוחן תכנון לא-מוכר וצדק מרחבי. הפרויקט מציע חלופה תכנונית המייסדת עוגן ציבורי רב-תכליתי—בית ספר משולב במבנה קהילתי—המהווה את אבן הראשה של הכפר, ומשמש כמוקד חינוכי וסמל לחוסן קהילתי."
-    },
-    "coverImage": "./images/projects/final-project-dahmash/cover.jpg",
-    "gallery": [
-      "./images/projects/final-project-dahmash/01.jpg",
-      "./images/projects/final-project-dahmash/02.jpg",
-      "./images/projects/final-project-dahmash/plan.jpg"
-    ]
-  },
-  {
-    "id": "urban-studio-wadi",
-    "category": "urban",
-    "year": "2024",
-    "location": {
-      "en": "Wadi Nisnas, Haifa",
-      "ar": "وادي النسناس، حيفا",
-      "he": "ואדי ניסנאס, חיפה"
-    },
-    "title": {
-      "en": "Veins in the Wadi — Urban Memory & Connectivity",
-      "ar": "شرايين في الوادي — الذاكرة الحضرية والترابط",
-      "he": "עורקים בוואדי — זיכרון עירוני וחיבוריות"
-    },
-    "description": {
-      "en": "An urban regeneration methodology reconnecting the historic fabric of Wadi Nisnas with downtown Haifa and the Mediterranean coastline. Introduces elevated rooftop walkways, pedestrian art corridors, and community-curated public nodes that celebrate collective heritage.",
-      "ar": "منهجية تجديد حضري تعيد ربط النسيج التاريخي لوادي النسناس بقلب حيفا والساحل البحري. يدمج المشروع ممرات أسطح علوية، ومسارات فنية مجتمعية، ونقاط التقاء تحتفي بالذاكرة الجمعية وتنعش الأسواق المحلية.",
-      "he": "תכנון התחדשות עירונית המחבר מחדש את המרקם ההיסטורי של ואדי ניסנאס עם מרכז חיפה וקו החוף. הפרויקט פורש גשרי גגות, צירי אמנות פתוחים לקהילה ומוקדי מפגש המחזקים את הזיכרון הקולקטיבי."
-    },
-    "coverImage": "./images/projects/urban-studio-wadi/cover.jpg",
-    "gallery": [
-      "./images/projects/urban-studio-wadi/01.jpg",
-      "./images/projects/urban-studio-wadi/02.jpg",
-      "./images/projects/urban-studio-wadi/plan.jpg"
-    ]
-  },
-  {
     "id": "na-project-complex",
     "category": "residential",
-    "year": "2024",
+    "year": {
+      "en": "2026",
+      "ar": "2026",
+      "he": "2026"
+    },
     "location": {
-      "en": "Tel Aviv-Yafo",
-      "ar": "تل أبيب - يافا",
-      "he": "תל אביב - יפו"
+      "en": "Nazareth",
+      "ar": "الناصرة",
+      "he": "Nazareth"
     },
     "title": {
-      "en": "N.A Mixed-Use Residential & Commercial Complex",
-      "ar": "مجمع N.A متعدد الاستخدامات (سكني، مكاتب، وتجاري)",
-      "he": "מתחם N.A לעירוב שימושים (מגורים, משרדים ומסחר)"
+      "en": "N.A Project",
+      "ar": "مشروع N.A",
+      "he": "N.A Project"
     },
     "description": {
-      "en": "A multi-layered contemporary complex synthesizing high-end urban living with flexible commercial spaces and communal green courtyards. Designed with passive shading louvers, natural ventilation channels, and distinct public-private thresholds.",
-      "ar": "مجمع معماري متعدد المستويات يدمج بين السكن المعاصر والمساحات المكتبية والتجارية مع فناء بيئي أخضر. يتميز بتصاميم كواسر شمس ذكية، تهوية طبيعية، وفصل مدروس بين الفضاءات العامة والخاصة.",
-      "he": "קומפלקס רב-שכבתי עכשווי המשלב מגורים עירוניים עם חללי עבודה ומסחר לצד חצרות ירוקות. התכנון מבוסס על הצללה פסיבית, זרימת אוויר טבעית והגדרת מעברים מדורגת בין הציבורי לפרטי."
+      "en": "מגורים , משרדים, ומסחר",
+      "ar": "سكن، مكاتب، وتجارة",
+      "he": "מגורים , משרדים, ומסחר"
     },
     "coverImage": "./images/projects/na-project-complex/cover.jpg",
     "gallery": [
       "./images/projects/na-project-complex/01.jpg",
       "./images/projects/na-project-complex/02.jpg",
-      "./images/projects/na-project-complex/plan.jpg"
+      "./images/projects/na-project-complex/plan.jpg",
+      "./images/projects/na-project-complex/פינתהאוס.jpg",
+      "./images/projects/na-project-complex/תכנית סופית_page-0001.avif"
+    ]
+  },
+  {
+    "id": "final-project-dahmash",
+    "category": "civic",
+    "projectName": {
+      "en": "Land Of Walls - By Our Hands",
+      "ar": "أرض الجدران - بأيدينا",
+      "he": "ארץ החומות - בידינו"
+    },
+    "year": {
+      "en": "August 2025",
+      "ar": "أغسطس 2025",
+      "he": "אוגוסט 2025"
+    },
+    "location": {
+      "en": "Dahmash Village",
+      "ar": "قرية دهمش",
+      "he": "כפר דהמש"
+    },
+    "supervisors": {
+      "en": "Written under the supervision of: Dr. Dikla Yizhar.\nProject designed under the supervision of: Architect Daniel Lazar .",
+      "ar": "كُتب بإشراف: د. ديكلا يزهار.\nصُمم المشروع بإشراف: المهندس المعماري دانيال لازار.",
+      "he": "Written under the supervision of: Dr. Dikla Yizhar.\nProject designed under the supervision of: Architect Daniel Lazar ."
+    },
+    "links": [
+      {
+        "type": "book",
+        "url": "https://anyflip.com/bookcase/jskfe",
+        "label": {
+          "en": "Project Book",
+          "ar": "كتاب المشروع",
+          "he": "ספר הפרויקט"
+        }
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=8cGBgiiJjS8",
+        "label": {
+          "en": "Project Video",
+          "ar": "فيديو المشروع",
+          "he": "סרטון הפרויקט"
+        }
+      }
+    ],
+    "title": {
+      "en": "Final Project",
+      "ar": "مشروع التخرج",
+      "he": "פרויקט גמר"
+    },
+    "description": {
+      "en": "One of the most complex and widespread phenomena within the borders of Israel—particularly in Arab localities—is the phenomenon of informal planning and construction, as well as the existence of unrecognized villages, as defined legally.\n\nThese are Arab settlements not officially acknowledged by the state, meaning they have no municipal or regional authority to manage them and no legally defined jurisdictional boundaries.\n\nAs a result, their residents do not receive basic services such as water, electricity, healthcare, education, or telecommunication, and there is no planned infrastructure for roads or public transportation.\n\nThese villages do not appear on official maps, nor are there road signs directing to them. In addition, no polling stations are located within them during elections, even though their residents are Israeli citizens and vote in nearby recognized Arab towns (Makhol VePerach, p.11).\n\nThis reality reflects the concept of the “Present Absentee.”\n\nMost of the buildings in these villages are defined by the state as illegal constructions.\n\nHowever, this situation is not the result of individual choices, but rather a direct outcome of state policies that have failed to recognize the genuine needs of the Arab population and have restricted their urban development.\n\nConsequently, many residents have been forced to build their homes without permits, leaving them under the constant threat of demolition as part of an ongoing policy of destruction.\n\nThe roots of informal planning and the existence of unrecognized Arab villages in Israel go back 77 years, since the 1948 war.\n\nTo this day, the state has not taken meaningful steps to resolve the issue, continuing instead to justify demolitions on the grounds of non-recognition.\n\nMost efforts toward recognition and alternative planning solutions have been initiated by organizations for alternative planning and human rights.\n\nDahmash Village serves as a striking example: located on agricultural land in central Israel, its residents have, for many years, petitioned the courts for building permits and the right to recognition, yet the state continues to deny them this possibility.\n\nIn response to ongoing demolition policies, residents have built walls around themselves, seeking a sense of safety and protection.\n\nThis project proposes to study the village—its history and lived reality— and to develop a fair and dignified living environment.\n\nFrom this emerges the central research question:\nIn the absence of state recognition and in light of the ongoing neglect of the needs of Arab citizens, what is the alternative plan for improving the lives of those who were forced to build without permits and who live in constant fear due to persistent demolition policies within their unrecognized villages?\n\nAccordingly, the alternative plan aims not merely to create an independent, self-functioning village, but to establish a public building—the school—connected to the mosque, forming together the foundation stone of the village.\n\nThis building becomes both a symbolic and physical act of resistance to the demolition policy and a community hub, transforming the school into the most vital and sought-after educational institution in the region.",
+      "ar": "تُعدّ ظاهرة التخطيط والبناء غير الرسمي، فضلاً عن وجود القرى غير المعترف بها قانونياً، واحدة من أكثر الظواهر تعقيداً وانتشاراً داخل حدود إسرائيل—ولا سيما في البلدات العربية.\n\nوهي تجمعات عربية لا تعترف بها الدولة رسمياً، مما يعني عدم وجود سلطة بلدية أو إقليمية تديرها، وعدم وجود حدود ولاية قانونية محددة لها.\n\nونتيجة لذلك، لا يحصل سكانها على الخدمات الأساسية مثل المياه والكهرباء والرعاية الصحية والتعليم والاتصالات، ولا توجد بنية تحتية مخططة للطرق أو المواصلات العامة.\n\nلا تظهر هذه القرى على الخرائط الرسمية، ولا توجد لافتات طرق ترشد إليها. علاوة على ذلك، لا توضع فيها صناديق اقتراع خلال الانتخابات، رغم أن سكانها مواطنون إسرائيليون يصوتون في البلدات العربية المعترف بها المجاورة (محول وبيراح، ص 11).\n\nيعكس هذا الواقع مفهوم \"الحاضر الغائب\".\n\nتُصنّف الدولة معظم المباني في هذه القرى على أنها أبنية غير قانونية.\n\nإلا أن هذا الوضع ليس نتيجة خيارات فردية، بل هو نتيجة مباشرة لسياسات الدولة التي تقاعست عن الاعتراف بالاحتياجات الحقيقية للسكان العرب وقيّدت تطورهم العمراني.\n\nونتيجة لذلك، اضطر العديد من السكان إلى بناء منازلهم دون تراخيص، مما جعلهم تحت تهديد دائم بالهدم كجزء من سياسة تدمير مستمرة.\n\nتعود جذور التخطيط غير الرسمي ووجود القرى العربية غير المعترف بها في إسرائيل إلى 77 عاماً، منذ حرب عام 1948.\n\nوحتى يومنا هذا، لم تتخذ الدولة خطوات جادة لحل هذه القضية، بل تستمر في تبرير عمليات الهدم بحجة عدم الاعتراف.\n\nوقد بادرت منظمات التخطيط البديل وحقوق الإنسان بمعظم الجهود الرامية إلى انتزاع الاعتراف وإيجاد حلول تخطيطية بديلة.\n\nوتُشكّل قرية دهمش مثالاً بارزاً على ذلك؛ فهي تقع على أرض زراعية في وسط البلاد، وقد التمس سكانها المحاكم لسنوات طويلة للحصول على تراخيص بناء والحق في الاعتراف، إلا أن الدولة تواصل حرمانهم من هذه الإمكانية.\n\nورداً على سياسات الهدم المستمرة، بنى السكان جدراناً حول أنفسهم بحثاً عن الشعور بالأمان والحماية.\n\nيقترح هذا المشروع دراسة القرية—تاريخها وواقعها المعاش—وتطوير بيئة معيشية عادلة وكريمة.\n\nومن هنا ينبثق سؤال البحث المركزي:\nفي ظل غياب اعتراف الدولة وفي ضوء الإهمال المستمر لاحتياجات المواطنين العرب، ما هي الخطة البديلة لتحسين حياة أولئك الذين اضطروا للبناء دون تراخيص ويعيشون في خوف دائم بسبب سياسات الهدم المستمرة داخل قراهم غير المعترف بها؟\n\nوبناءً على ذلك، لا تهدف الخطة البديلة إلى مجرد إنشاء قرية مستقلة ذاتية الأداء فحسب، بل إلى تأسيس مبنى عام—المدرسة—متصل بالمسجد، ليشكلا معاً حجر الأساس للقرية.\n\nيصبح هذا المبنى فعلاً رمزياً ومادياً للمقاومة في وجه سياسة الهدم ومركزاً مجتمعياً يحوّل المدرسة إلى المؤسسة التعليمية الأكثر حيوية وطلباً في المنطقة.",
+      "he": "אחת התופעות המורכבות והנפוצות ביותר בגבולות ישראל - ובמיוחד ביישובים ערביים - היא תופעת התכנון והבנייה הבלתי פורמליים, כמו גם קיומם של כפרים לא מוכרים, כפי שמוגדרים בחוק.\n\nאלו יישובים ערביים שאינם מוכרים רשמית על ידי המדינה, כלומר אין להם סמכות מוניציפלית או אזורית לנהל אותם ואין להם גבולות שיפוט מוגדרים בחוק.\n\nכתוצאה מכך, תושביהם אינם מקבלים שירותים בסיסיים כגון מים, חשמל, שירותי בריאות, חינוך או תקשורת, ואין תשתית מתוכננת לכבישים או לתחבורה ציבורית.\n\nכפרים אלה אינם מופיעים במפות רשמיות, וגם אין שלטי דרכים המכוונים אליהם. בנוסף, אין קלפיות בתוכם במהלך בחירות, למרות שתושביהם הם אזרחי ישראל ומצביעים ביישובים ערביים מוכרים סמוכים (מחול ופרח, עמ' 11).\n\nמציאות זו משקפת את תפיסת \"הנוכח והנעדר\".\n\nרוב המבנים בכפרים אלה מוגדרים על ידי המדינה כבנייה בלתי חוקית.\n\nעם זאת, מצב זה אינו תוצאה של בחירות אישיות, אלא תוצאה ישירה של מדיניות המדינה שנכשלה להכיר בצרכים האמיתיים של האוכלוסייה הערבית והגבילה את פיתוחה העירוני.\n\nכתוצאה מכך, תושבים רבים נאלצו לבנות את בתיהם ללא היתרים, מה שהותיר אותם תחת איום מתמיד של הריסה כחלק ממדיניות הרס מתמשכת.\n\nשורשי התכנון הבלתי פורמלי וקיומם של כפרים ערביים לא מוכרים בישראל נעוצים 77 שנים אחורה, מאז מלחמת 1948.\n\nעד היום, המדינה לא נקטה צעדים משמעותיים לפתרון הבעיה, אלא ממשיכה להצדיק הריסות בנימוק של אי הכרה.\n\nרוב המאמצים להכרה ולפתרונות תכנון חלופיים יזמו ארגונים לתכנון אלטרנטיבי וזכויות אדם.\n\nכפר דהמש משמש דוגמה בולטת: הוא ממוקם על אדמה חקלאית במרכז ישראל, ותושביו עתרו במשך שנים רבות לבתי המשפט בבקשה להיתרי בנייה ולזכות להכרה, אך המדינה ממשיכה למנוע מהם אפשרות זו.\n\nבתגובה למדיניות ההריסה המתמשכת, התושבים בנו חומות סביב עצמם, בחיפוש אחר תחושת ביטחון והגנה.\n\nפרויקט זה מציע לחקור את הכפר - את ההיסטוריה שלו ואת המציאות החיה שלו - ולפתח סביבת חיים הוגנת ומכובדת.\n\nמכאן עולה שאלת המחקר המרכזית:\nבהיעדר הכרה מדינתית ולאור ההזנחה המתמשכת של צורכי האזרחים הערבים, מהי התוכנית החלופית לשיפור חייהם של אלו שנאלצו לבנות ללא היתרים וחיים בפחד מתמיד עקב מדיניות הריסה מתמשכת בתוך כפריהם הלא מוכרים?\n\nבהתאם לכך, התוכנית החלופית שואפת לא רק ליצור כפר עצמאי ומתפקד באופן עצמאי, אלא להקים בניין ציבורי - בית הספר - המחובר למסגד, ומהווה יחד את אבן הפינה של הכפר.\n\nבניין זה הופך הן לפעולה סמלית והן פיזית של התנגדות למדיניות ההריסה ולמרכז קהילתי, והופך את בית הספר למוסד החינוכי החיוני והמבוקש ביותר באזור."
+    },
+    "coverImage": "./images/projects/final-project-dahmash/cover.png",
+    "gallery": [
+      {
+        "id": "education-and-religion-exterior",
+        "title": {
+          "en": "Education And Religion - Exterior",
+          "ar": "التعليم والدين - الخارج",
+          "he": "חינוך ודת - חוץ"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/education-and-religion-exterior/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (1).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (1).png",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (2).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (3).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (4).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (5).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (6).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (7).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (8).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (9).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (10).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (11).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior  (12).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior .png",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior plan.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/Educatin And Religion - Exterior מבט עיר  .png",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/החומה מתוך בית הספר .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/המסגד מהגשר - ערב.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/המסגד מהגשר -הקיר הפנימי הוא הקיר הקיים .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/המסגד.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/חוץ  .png",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/חוץ כביש .png",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/חצר בית ספר.png",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/חקלאות על הגגות  (1).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/חקלאות על הגגות  (2).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/חקלאות על הגגות  (3).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/חקלאות על הגגות  (4).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/חקלאות על הגגות  (5).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/חקלאות על הגגות .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/מבט כניסה דרך שער ושומר בית ספר חזית צפונית.png",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/מבט פנימי .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-exterior/מעבר (בקומה ב)  מהחממה לספריה .jpg"
+        ]
+      },
+      {
+        "id": "education-and-religion-interior",
+        "title": {
+          "en": "Education And Religion - Interior design + 2D plans 1:50",
+          "ar": "التعليم والدين - التصميم الداخلي + مخططات 1:50",
+          "he": "חינוך ודת - עיצוב פנים + תוכניות דו-ממדיות 1:50"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/education-and-religion-interior/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/education-and-religion-interior/01.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/02.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/אומנות 1 .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/אומנות 1 + 2 + תוכניות.png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/אומנות 2 .png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/אזור כיתות 1-6 , חממה .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/אזור כתות 7-12.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/אזור קבלה , מורים , כיתות 7-12.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/גן copy .png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/גן ילדים + תכנית .png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/המסגד - תוכניות.png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/המסגד.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/חדרי מורים + קבלה .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/חממה (1).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/חממה + תוכנית.png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/חממה.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/חממה.png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/כיתות 1-6 (1).png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/כיתות 1-6 (2).png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/כיתות 1-6 תוכניות .png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/כיתות 1-6.png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/כיתות 7-12 .png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/לימוד דת .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/לימוד דת + תוכנית.png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/מדעים 1 (1).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/מדעים 1 + 2 תוכניות.png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/מדעים 1.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/מדעים 2 copy.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/מדרגות שמחברת בין קומה א ו ב בספרייה .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/ספרייה 2  - חלק ילדים , קומה א (1).png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/ספרייה 2  - חלק ילדים , קומה א (2).png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/ספרייה 2  - חלק ילדים , קומה א.png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/ספרייה 2 + 3 תוכניות.png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/ספרייה 3 - לימוד קבוצות , קומה ב  (1).jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/ספרייה 3 - לימוד קבוצות , קומה ב .jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/ספרייה חלק לימוד יחיד -  חלק דתי .png",
+          "./images/projects/final-project-dahmash/education-and-religion-interior/ספרייה חלק לימוד יחיד -  חלק דתי + תכנית.png"
+        ]
+      },
+      {
+        "id": "education-and-religion-section",
+        "title": {
+          "en": "Education And Religion - Section",
+          "ar": "التعليم والدين - مقطع",
+          "he": "חינוך ודת - חתך"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/education-and-religion-section/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/education-and-religion-section/01.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-section/02.jpg",
+          "./images/projects/final-project-dahmash/education-and-religion-section/Educatin And Religion - 3d section .png"
+        ]
+      },
+      {
+        "id": "education-and-religion-3d-2d-plans",
+        "title": {
+          "en": "Education And Religion - 3d - 2D plans",
+          "ar": "التعليم والدين - مخططات ثلاثية وثنائية الأبعاد",
+          "he": "חינוך ודת - תוכניות תלת-ממדיות ודו-ממדיות"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/education-and-religion-3d-2d-plans/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/education-and-religion-3d-2d-plans/קומה א.png",
+          "./images/projects/final-project-dahmash/education-and-religion-3d-2d-plans/קומה ב.png",
+          "./images/projects/final-project-dahmash/education-and-religion-3d-2d-plans/קומת קרקע .png",
+          "./images/projects/final-project-dahmash/education-and-religion-3d-2d-plans/קרקע   2.png",
+          "./images/projects/final-project-dahmash/education-and-religion-3d-2d-plans/תכנית סביבה .png",
+          "./images/projects/final-project-dahmash/education-and-religion-3d-2d-plans/תכנית קומה א + ב .png"
+        ]
+      },
+      {
+        "id": "details",
+        "title": {
+          "en": "Details",
+          "ar": "التفاصيل",
+          "he": "פרטים"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/details/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/details/3d 1.png",
+          "./images/projects/final-project-dahmash/details/חזית מערבית 4.png",
+          "./images/projects/final-project-dahmash/details/חתך פרט2.png",
+          "./images/projects/final-project-dahmash/details/תכנית 3.png"
+        ]
+      },
+      {
+        "id": "collages",
+        "title": {
+          "en": "Collages",
+          "ar": "كولاج",
+          "he": "קולאז'ים"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/collages/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/collages/01.jpg",
+          "./images/projects/final-project-dahmash/collages/1.png",
+          "./images/projects/final-project-dahmash/collages/02.jpg",
+          "./images/projects/final-project-dahmash/collages/png (1).jpg",
+          "./images/projects/final-project-dahmash/collages/png (1).png",
+          "./images/projects/final-project-dahmash/collages/png (2).jpg",
+          "./images/projects/final-project-dahmash/collages/png-8fd1bb075db34cff94bcdf7b473b9621.jpg",
+          "./images/projects/final-project-dahmash/collages/png.jpg",
+          "./images/projects/final-project-dahmash/collages/png.png",
+          "./images/projects/final-project-dahmash/collages/מצב קיים - חומות.png",
+          "./images/projects/final-project-dahmash/collages/קולאז' - לחומר ההתערבות בבניה.png"
+        ]
+      },
+      {
+        "id": "general-analysis-map-of-the-area",
+        "title": {
+          "en": "General analysis map of the area",
+          "ar": "خريطة التحليل العام للمنطقة",
+          "he": "מפת ניתוח כללית של האזור"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/general-analysis-map-of-the-area/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/general-analysis-map-of-the-area/01.jpg",
+          "./images/projects/final-project-dahmash/general-analysis-map-of-the-area/02.jpg",
+          "./images/projects/final-project-dahmash/general-analysis-map-of-the-area/ניתוח אזור כללי.png"
+        ]
+      },
+      {
+        "id": "intervention-in-particular-the-walls-barriers",
+        "title": {
+          "en": "Intervention in particular - the walls barriers",
+          "ar": "التدخل على وجه الخصوص - الجدران والحواجز",
+          "he": "התערבות בפרט - קירות המחסומים"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/01.jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/02.jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/Intervention In Particular -The Walls Barriers. (1).jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/Intervention In Particular -The Walls Barriers. (2).jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/Intervention In Particular -The Walls Barriers. (3).jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/Intervention In Particular -The Walls Barriers. (4).jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/Intervention In Particular -The Walls Barriers. (5).jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/Intervention In Particular -The Walls Barriers. (6).jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/Intervention In Particular -The Walls Barriers. (7).jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/Intervention In Particular -The Walls Barriers. (8).jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/Intervention In Particular -The Walls Barriers. (9).jpg",
+          "./images/projects/final-project-dahmash/intervention-in-particular-the-walls-barriers/Intervention In Particular -The Walls Barriers..jpg"
+        ]
+      },
+      {
+        "id": "maps-and-urban",
+        "title": {
+          "en": "Maps and Urban",
+          "ar": "الخرائط والتخطيط الحضري",
+          "he": "מפות ועירוני"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/maps-and-urban/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/maps-and-urban/01.jpg",
+          "./images/projects/final-project-dahmash/maps-and-urban/1.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/02.jpg",
+          "./images/projects/final-project-dahmash/maps-and-urban/2.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/3.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/4.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/5.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/6.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/7.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/8.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/9.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/10.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/11.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/12.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/13.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/14.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/15 A.jpg",
+          "./images/projects/final-project-dahmash/maps-and-urban/15.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/16.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/17.png",
+          "./images/projects/final-project-dahmash/maps-and-urban/18.jpg",
+          "./images/projects/final-project-dahmash/maps-and-urban/19.jpg"
+        ]
+      },
+      {
+        "id": "concept-models",
+        "title": {
+          "en": "Concept Models",
+          "ar": "نماذج المفهوم",
+          "he": "מודלים קונספט"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/concept-models/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/concept-models/m0 1.jpg",
+          "./images/projects/final-project-dahmash/concept-models/mo 2.jpg",
+          "./images/projects/final-project-dahmash/concept-models/mo 3.jpg",
+          "./images/projects/final-project-dahmash/concept-models/mo 5.jpg",
+          "./images/projects/final-project-dahmash/concept-models/mo 6_edited.jpg",
+          "./images/projects/final-project-dahmash/concept-models/mo 6.jpg",
+          "./images/projects/final-project-dahmash/concept-models/MO 7.jpg"
+        ]
+      },
+      {
+        "id": "village-analysis-map",
+        "title": {
+          "en": "Village Analysis Map",
+          "ar": "خريطة تحليل القرية",
+          "he": "מפת ניתוח הכפר"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/village-analysis-map/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/village-analysis-map/01.jpg",
+          "./images/projects/final-project-dahmash/village-analysis-map/02.jpg",
+          "./images/projects/final-project-dahmash/village-analysis-map/ניתוח חומות ושערים .png",
+          "./images/projects/final-project-dahmash/village-analysis-map/ניתוח לכפר.png",
+          "./images/projects/final-project-dahmash/village-analysis-map/ניתוח למשפחות , מסגד , מכולת.png",
+          "./images/projects/final-project-dahmash/village-analysis-map/ניתוח תנועה.png"
+        ]
+      },
+      {
+        "id": "3d-models",
+        "title": {
+          "en": "3D Models",
+          "ar": "النماذج ثلاثية الأبعاد",
+          "he": "מודלים תלת-ממדיים"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/3d-models/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/3d-models/01.jpg",
+          "./images/projects/final-project-dahmash/3d-models/02.jpg",
+          "./images/projects/final-project-dahmash/3d-models/3D Fainal Model  (1).jpg",
+          "./images/projects/final-project-dahmash/3d-models/3D Fainal Model  (2).jpg",
+          "./images/projects/final-project-dahmash/3d-models/3D Fainal Model _edited.jpg",
+          "./images/projects/final-project-dahmash/3d-models/3D Fainal Model .jpg",
+          "./images/projects/final-project-dahmash/3d-models/3D Fainal Model-Semester 1.jpg",
+          "./images/projects/final-project-dahmash/3d-models/3d model fainal (3).jpg"
+        ]
+      },
+      {
+        "id": "geometry-shapes",
+        "title": {
+          "en": "Geometry Shapes",
+          "ar": "الأشكال الهندسية",
+          "he": "גיאומטריה - צורות"
+        },
+        "coverImage": "./images/projects/final-project-dahmash/geometry-shapes/cover.jpg",
+        "images": [
+          "./images/projects/final-project-dahmash/geometry-shapes/1.png",
+          "./images/projects/final-project-dahmash/geometry-shapes/2.png",
+          "./images/projects/final-project-dahmash/geometry-shapes/3.png",
+          "./images/projects/final-project-dahmash/geometry-shapes/4.png",
+          "./images/projects/final-project-dahmash/geometry-shapes/5.png",
+          "./images/projects/final-project-dahmash/geometry-shapes/6.png",
+          "./images/projects/final-project-dahmash/geometry-shapes/7.png",
+          "./images/projects/final-project-dahmash/geometry-shapes/8.png"
+        ]
+      }
     ]
   },
   {
     "id": "housing-collective",
     "category": "residential",
-    "year": "2023",
-    "location": {
-      "en": "South Tel Aviv",
-      "ar": "جنوب تل أبيب",
-      "he": "דרום תל אביב"
+    "projectName": {
+      "en": "Tel-V.Home",
+      "ar": "Tel-V.Home",
+      "he": "טל-ו.הום"
     },
+    "year": {
+      "en": "January 2023",
+      "ar": "يناير 2023",
+      "he": "ינואר 2023"
+    },
+    "location": {
+      "en": "Tel Aviv",
+      "ar": "تل أبيب",
+      "he": "תל אביב"
+    },
+    "links": [
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ct1a7MBNhQA",
+        "label": {
+          "en": "Project Video",
+          "ar": "فيديو المشروع",
+          "he": "סרטון הפרויקט"
+        }
+      }
+    ],
     "title": {
-      "en": "Modular Housing & Communal Terraces",
-      "ar": "الإسكان المعياري والشرفات التشاركية",
-      "he": "דיור מודולרי ומרפסות שיתופיות"
+      "en": "Housing",
+      "ar": "الإسكان",
+      "he": "דיור"
     },
     "description": {
-      "en": "Exploration of dense urban living focusing on modular apartment typologies, shared sky-gardens, and flexible interior layouts adaptable across different stages of family life.",
-      "ar": "استكشاف للعيش الحضري الكثيف يركز على نماذج سكنية معيارية، حدائق معلقة مشتركة، ومخططات داخلية مرنة تتكيف مع التغيرات الأسرية عبر الزمن.",
-      "he": "מחקר מגורים עירוני צפוף המתמקד בטיפולוגיות דיור מודולריות, גינות שמיים שיתופיות ופריסות פנים גמישות המותאמות לשלבי חיים משתנים."
+      "en": "A residential project consisting of 120 housing units over an area of 4,000 dunams in the Sde Dov area, Tel Aviv.\n\nThe project explores the concept of family and the socially cohesive community that exists within traditional villages, and extends this idea toward the modern city—diverse and complex yet socially fragmented—to propose a civil, socially connected urban society.\n\nIt aims to create a strong and safe environment inspired by the living room and courtyard of the rural house, which serve as central spaces for family gatherings and for strengthening social ties.\n\nIn many urban residential buildings, common spaces are barely used by the residents; they often exist only as small seating areas near entrances or inactive front/back yards.\n\nTherefore, this project seeks to allow the city to absorb the values of the rural home—learning from its safe, supportive, and emotionally rich spatial logic—and to reinterpret them within the emotionally neutral urban environment.\n\nThe ground floor includes commercial areas, cafés, educational and study spaces, and open green courtyards accessible to all, not just to the building’s residents.\n\nApartment Types\nThe building features a diversity of apartment types accommodating various family structures (five in total):\n• A – Apartment for a single resident\n• B – Apartment for a couple\n• C – Apartment for a family with one child\n• D – Apartment for a family with 2–3 children\n• E – Duplex apartment for large families with 4–5 children\n\nThe arrangement of the apartments promotes healthy neighborly relations:\nA may border A or B;\nB may border A, B, or C;\nC may border B, C, or D;\nD may border C, D, or E;\nE may border D or E.\n\nThe internal layout moves from private to semi-public: all areas are private except for the inner courtyard, which sometimes faces a neighboring courtyard to encourage visual connection.\nA large integrated storage wall runs through the apartment, functioning both as storage and as part of the circulation route, maximizing the use of interior space.\n\nShared Spaces\nThe main structural element of the building also serves a dual function: to generate shared spaces.\nThese appear within residential floors, connect different levels, and extend up to the roof—creating interaction between residents from different floors.\nThe result resembles small living rooms within the large structure, echoing the intimacy of a family living room, turning the entire building into one big family.\n\nGreen Space\nThe green area is designed inside the building rather than in front or behind it.\nIt forms the largest communal space, accommodating a large number of residents.\nIts plants and trees are reminiscent of those in rural courtyards, evoking the emotional sense of “home” and unity despite individual differences.\n\nCirculation System\nFinally, all of these social connections are reinforced through a clear and connective circulation system linking the various floors, ensuring both movement and social continuity throughout the building.",
+      "ar": "مشروع سكني يتكون من 120 وحدة سكنية على مساحة 4,000 دونم في منطقة سديه دوف، تل أبيب.\n\nيستكشف المشروع مفهوم العائلة والمجتمع المتماسك اجتماعياً الموجود داخل القرى التقليدية، ويوسّع هذه الفكرة نحو المدينة الحديثة—المتنوعة والمعقدة ولكن المفككة اجتماعياً—لاقتراح مجتمع حضري مدني مترابط اجتماعياً.\n\nيهدف المشروع إلى خلق بيئة قوية وآمنة مستوحاة من غرفة المعيشة والفناء في البيت الريفي، اللذين يعملان كمساحتين مركزيتين للتجمعات العائلية وتعزيز الروابط الاجتماعية.\n\nفي العديد من المباني السكنية الحضرية، نادراً ما يستخدم السكان المساحات المشتركة؛ إذ غالباً ما تقتصر على مناطق جلوس صغيرة قرب المداخل أو ساحات أمامية وخلفية غير نشطة.\n\nلذلك يسعى هذا المشروع إلى تمكين المدينة من استيعاب قيم البيت الريفي—والتعلم من منطقه المكاني الآمن والداعم والغني عاطفياً—وإعادة صياغتها داخل البيئة الحضرية المحايدة عاطفياً.\n\nيشمل الطابق الأرضي مناطق تجارية، ومقاهي، ومساحات تعليمية ودراسية، وأفنية خضراء مفتوحة متاحة للجميع وليس فقط لسكان المبنى.\n\nأنواع الشقق\nيضم المبنى تنوعاً في أنماط الشقق التي تلائم مختلف التراكيب العائلية (خمسة أنماط إجمالاً):\n• A – شقة لساكن منفرد\n• B – شقة لزوجين\n• C – شقة لعائلة لديها طفل واحد\n• D – شقة لعائلة لديها 2–3 أطفال\n• E – شقة دوبلكس للعائلات الكبيرة التي لديها 4–5 أطفال\n\nيعزز ترتيب الشقق علاقات الجوار الصحية:\nالنمط A قد يجاور A أو B؛\nالنمط B قد يجاور A أو B أو C؛\nالنمط C قد يجاور B أو C أو D؛\nالنمط D قد يجاور C أو D أو E؛\nالنمط E قد يجاور D أو E.\n\nينتقل التخطيط الداخلي من الخاص إلى شبه العام: جميع المساحات خاصة باستثناء الفناء الداخلي الذي يقابل أحياناً فناءً مجاوراً لتشجيع التواصل البصري.\nويمتد جدار تخزين مدمج كبير عبر الشقة، ليعمل كمساحة تخزين وكجزء من مسار الحركة في آن واحد، مما يحقق أقصى استفادة من المساحة الداخلية.\n\nالمساحات المشتركة\nيؤدي العنصر الإنشائي الرئيسي للمبنى وظيفة مزدوجة أيضاً: توليد المساحات المشتركة.\nتظهر هذه المساحات داخل طوابق السكن، وتربط بين المستويات المختلفة، وتمتد حتى السطح—خالقـةً تفاعلاً بين السكان من مختلف الطوابق.\nوتشبه النتيجة غرف معيشة صغيرة داخل الهيكل الكبير، مما يعكس حميمية غرفة المعيشة العائلية ويحول المبنى بأكمله إلى عائلة واحدة كبيرة.\n\nالمساحة الخضراء\nصُممت المنطقة الخضراء داخل المبنى بدلاً من وضعها أمامه أو خلفه.\nوهي تشكل أكبر مساحة مجتمعية تستوعب عدداً كبيراً من السكان.\nوتذكّر نباتاتها وأشجارها بتلك الموجودة في الأفنية الريفية، مما يثير الشعور العاطفي بـ\"البيت\" والوحدة على الرغم من الاختلافات الفردية.\n\nنظام الحركة\nأخيراً، تتعزز جميع هذه الروابط الاجتماعية من خلال نظام حركة واضح ومترابط يصل بين الطوابق المختلفة، مما يضمن انسيابية الحركة والاستمرارية الاجتماعية في جميع أنحاء المبنى.",
+      "he": "פרויקט מגורים המורכב מ-120 יחידות דיור על פני שטח של 4,000 דונם באזור שדה דב, תל אביב.\n\nהפרויקט בוחן את מושג המשפחה והקהילה המגובשת מבחינה חברתית הקיימת בתוך כפרים מסורתיים, ומרחיב רעיון זה לעבר העיר המודרנית - מגוונת ומורכבת אך מקוטעת חברתית - כדי להציע חברה עירונית אזרחית ומחוברת חברתית.\n\nהפרויקט שואף ליצור סביבה חזקה ובטוחה בהשראת סלון וחצר הבית הכפרי, המשמשים כמרחבים מרכזיים למפגשים משפחתיים ולחיזוק קשרים חברתיים.\n\nבבנייני מגורים עירוניים רבים, חללים משותפים כמעט ולא משמשים את הדיירים; לעתים קרובות הם קיימים רק כאזורי ישיבה קטנים ליד כניסות או חצרות קדמיות/אחוריות לא פעילות.\n\nלכן, פרויקט זה מבקש לאפשר לעיר לקלוט את ערכי הבית הכפרי - ללמוד מההיגיון המרחבי הבטוח, התומך והעשיר רגשית שלו - ולפרש אותם מחדש בתוך הסביבה העירונית הנייטרלית מבחינה רגשית.\n\nקומת הקרקע כוללת אזורי מסחר, בתי קפה, חללי חינוך ולימוד וחצרות ירוקות פתוחות הנגישות לכולם, לא רק לדיירי הבניין.\n\nסוגי דירות\nהבניין כולל מגוון סוגי דירות המותאמים למבני משפחה שונים (חמש בסך הכל):\n• א' - דירה לדייר יחיד\n• ב' - דירה לזוג\n• ג' - דירה למשפחה עם ילד אחד\n• ד' - דירה למשפחה עם 2-3 ילדים\n• ה' - דירת דופלקס למשפחות גדולות עם 4-5 ילדים\n\nסידור הדירות מקדם יחסי שכנות בריאים:\nא' עשויה לגבל ב-א' או ב';\nב' עשויה לגבל ב-א', ב' או ג';\nג' עשויה לגבל ב-ב', ג' או ד';\nד' עשויה לגבל ב-ג', ד' או ה';\nה' עשויה לגבל ב-ד' או ה'.\n\nהפריסה הפנימית עוברת מפרטי לציבורי למחצה: כל האזורים פרטיים למעט החצר הפנימית, שלעיתים פונה לחצר שכנה כדי לעודד חיבור חזותי.\nקיר אחסון משולב גדול עובר דרך הדירה, ומתפקד הן כאחסון והן כחלק מנתיב התנועה, וממקסם את ניצול החלל הפנימי.\n\nמרחבים משותפים\nהאלמנט המבני העיקרי של הבניין משרת גם תפקיד כפול: יצירת מרחבים משותפים.\nאלה מופיעים בתוך קומות מגורים, מחברים מפלסים שונים, ומתמשכים עד לגג - ויוצרים אינטראקציה בין דיירים מקומות שונות.\nהתוצאה דומה לסלונים קטנים בתוך המבנה הגדול, מהדהד את האינטימיות של סלון משפחתי, והופך את הבניין כולו למשפחה אחת גדולה.\n\nמרחב ירוק\nהאזור הירוק תוכנן בתוך הבניין ולא מלפניו או מאחוריו.\nהוא יוצר את המרחב המשותף הגדול ביותר, ומכיל מספר רב של דיירים.\nהצמחים והעצים שלו מזכירים את אלה שבחצרות כפריות, ומעוררים את תחושת ה\"בית\" והאחדות למרות הבדלים אישיים.\n\nמערכת מחזור הדם\nלבסוף, כל הקשרים החברתיים הללו מחוזקים באמצעות מערכת מחזור הדם ברורה ומחברת המקשרת בין הקומות השונות, ומבטיחה תנועה והמשכיות חברתית ברחבי הבניין."
     },
     "coverImage": "./images/projects/housing-collective/cover.jpg",
     "gallery": [
-      "./images/projects/housing-collective/01.jpg",
-      "./images/projects/housing-collective/02.jpg",
-      "./images/projects/housing-collective/plan.jpg"
-    ]
-  },
-  {
-    "id": "small-community-inbetweav",
-    "category": "civic",
-    "year": "2023",
-    "location": {
-      "en": "Lower Galilee",
-      "ar": "الجليل الأسفل",
-      "he": "הגליל התחתון"
-    },
-    "title": {
-      "en": "Small Community Building — INBETWEAV",
-      "ar": "مبنى مجتمعي — التداخل (INBETWEAV)",
-      "he": "מבנה קהילתי — שזירה מרחבית (INBETWEAV)"
-    },
-    "description": {
-      "en": "A civic gathering center woven into rolling hillside topography. Features flexible gathering halls, artisan workshops, and an open stone amphitheater that serves cultural events and community dialogue.",
-      "ar": "مركز تجمّع مجتمعي منسوج في تضاريس المنحدرات الجبلية. يضم قاعات مرنة للفعاليات، ورش عمل حرفية، ومدرجاً حجرياً مفتوحاً يحتضن المناسبات الثقافية واللقاءات الشعبية.",
-      "he": "מרכז קהילתי המשתלב בטופוגרפיית המדרון. כולל אולמות מפגש רב-תכליתיים, סדנאות מלאכה ואמפיתיאטרון אבן פתוח לאירועי תרבות ושיח קהילתי."
-    },
-    "coverImage": "./images/projects/small-community-inbetweav/cover.jpg",
-    "gallery": [
-      "./images/projects/small-community-inbetweav/01.jpg",
-      "./images/projects/small-community-inbetweav/02.jpg",
-      "./images/projects/small-community-inbetweav/plan.jpg"
-    ]
-  },
-  {
-    "id": "digital-studio-parametric",
-    "category": "technology",
-    "year": "2024",
-    "location": {
-      "en": "TAU Computational Architecture Lab",
-      "ar": "مختبر العمارة الحاسوبية، جامعة تل أبيب",
-      "he": "מעבדת תכנון חישובי, אוניברסיטת תל אביב"
-    },
-    "title": {
-      "en": "Digital Studio — Algorithmic Enclosure & Form-Finding",
-      "ar": "الاستوديو الرقمي — النمذجة الخوارزمية واستكشاف الأشكال",
-      "he": "סטודיו דיגיטלי — מעטפת אלגוריתמית ומציאת צורה"
-    },
-    "description": {
-      "en": "Computational research into parametric surfaces, solar radiation optimization, and geometric origami folds developed using Rhino, Grasshopper, and Python for environmental performance.",
-      "ar": "بحث حوسبي متقدم في الأسطح البارامترية، وتحسين الإشعاع الشمسي، وطيات الأوريغامي الهندسية بالاعتماد على برمجيات راينو وغراسهوبر لتحقيق أقصى كفاءة بيئية.",
-      "he": "מחקר חישובי במשטחים פרמטריים, אופטימיזציית קרינת שמש וקיפולים גיאומטריים שפותחו באמצעות Rhino ו-Grasshopper לשיפור ביצועים אקלימיים."
-    },
-    "coverImage": "./images/projects/digital-studio-parametric/cover.jpg",
-    "gallery": [
-      "./images/projects/digital-studio-parametric/01.jpg",
-      "./images/projects/digital-studio-parametric/02.jpg",
-      "./images/projects/digital-studio-parametric/plan.jpg"
+      {
+        "id": "simulations",
+        "title": {
+          "en": "Simulations",
+          "ar": "محاكاة ثلاثية الأبعاد",
+          "he": "סימולציות"
+        },
+        "coverImage": "./images/projects/housing-collective/simulations/cover.jpg",
+        "images": [
+          "./images/projects/housing-collective/simulations/01.jpg",
+          "./images/projects/housing-collective/simulations/02.jpg"
+        ]
+      },
+      {
+        "id": "simulation",
+        "title": {
+          "en": "Simulation",
+          "ar": "محاكاة",
+          "he": "סימולציה"
+        },
+        "coverImage": "./images/projects/housing-collective/simulation/cover.jpg",
+        "images": [
+          "./images/projects/housing-collective/simulation/01.jpg",
+          "./images/projects/housing-collective/simulation/02.jpg"
+        ]
+      },
+      {
+        "id": "2d-plans-and-sections",
+        "title": {
+          "en": "2D Plans And Sections",
+          "ar": "المخططات والمقاطع ثنائية الأبعاد",
+          "he": "תוכניות וחתכים דו-ממדיים"
+        },
+        "coverImage": "./images/projects/housing-collective/2d-plans-and-sections/cover.jpg",
+        "images": [
+          "./images/projects/housing-collective/2d-plans-and-sections/01.jpg",
+          "./images/projects/housing-collective/2d-plans-and-sections/02.jpg"
+        ]
+      },
+      {
+        "id": "apartments",
+        "title": {
+          "en": "Apartments",
+          "ar": "الشقق",
+          "he": "דירות"
+        },
+        "coverImage": "./images/projects/housing-collective/apartments/cover.jpg",
+        "images": [
+          "./images/projects/housing-collective/apartments/01.jpg",
+          "./images/projects/housing-collective/apartments/02.jpg"
+        ]
+      },
+      {
+        "id": "sketches",
+        "title": {
+          "en": "Sketches",
+          "ar": "اسكتشات",
+          "he": "סקיצות"
+        },
+        "coverImage": "./images/projects/housing-collective/sketches/cover.jpg",
+        "images": [
+          "./images/projects/housing-collective/sketches/01.jpg",
+          "./images/projects/housing-collective/sketches/02.jpg"
+        ]
+      },
+      {
+        "id": "collages",
+        "title": {
+          "en": "Collages",
+          "ar": "كولاج",
+          "he": "קולאז'ים"
+        },
+        "coverImage": "./images/projects/housing-collective/collages/cover.jpg",
+        "images": [
+          "./images/projects/housing-collective/collages/01.jpg",
+          "./images/projects/housing-collective/collages/02.jpg"
+        ]
+      },
+      {
+        "id": "3d-model",
+        "title": {
+          "en": "3D Model",
+          "ar": "النموذج ثلاثي الأبعاد",
+          "he": "מודל תלת-ממדי"
+        },
+        "coverImage": "./images/projects/housing-collective/3d-model/cover.jpg",
+        "images": [
+          "./images/projects/housing-collective/3d-model/01.jpg",
+          "./images/projects/housing-collective/3d-model/02.jpg"
+        ]
+      },
+      {
+        "id": "concept-models",
+        "title": {
+          "en": "Concept Models",
+          "ar": "نماذج المفهوم",
+          "he": "מודלים קונספט"
+        },
+        "coverImage": "./images/projects/housing-collective/concept-models/cover.jpg",
+        "images": [
+          "./images/projects/housing-collective/concept-models/01.jpg",
+          "./images/projects/housing-collective/concept-models/02.jpg"
+        ]
+      },
+      {
+        "id": "3d-schema",
+        "title": {
+          "en": "3D Schema",
+          "ar": "مخطط ثلاثي الأبعاد",
+          "he": "סכמה תלת-ממדית"
+        },
+        "coverImage": "./images/projects/housing-collective/3d-schema/cover.jpg",
+        "images": [
+          "./images/projects/housing-collective/3d-schema/01.jpg",
+          "./images/projects/housing-collective/3d-schema/02.jpg"
+        ]
+      }
     ]
   },
   {
     "id": "technology-tectonics",
     "category": "technology",
-    "year": "2023",
-    "location": {
-      "en": "Tel Aviv Coastal Strip",
-      "ar": "الواجهة الساحلية، تل أبيب",
-      "he": "רצועת החוף, תל אביב"
+    "year": {
+      "en": "January 2023",
+      "ar": "يناير 2023",
+      "he": "ינואר 2023"
     },
+    "location": {
+      "en": "Tel Aviv University",
+      "ar": "جامعة تل أبيب",
+      "he": "אוניברסיטת תל אביב"
+    },
+    "links": [
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kHwtfLAtleY",
+        "label": {
+          "en": "Project Video",
+          "ar": "فيديو المشروع",
+          "he": "סרטון הפרויקט"
+        }
+      }
+    ],
     "title": {
-      "en": "High-Tech Structural Pavilion & Double Facade",
-      "ar": "جناح إنشائي تقني بواجهة مزدوجة",
-      "he": "ביתן מבני עתיר טכנולוגיה ומעטפת כפולה"
+      "en": "Technology",
+      "ar": "التكنولوجيا",
+      "he": "טכנולוגי"
     },
     "description": {
-      "en": "Exploration of lightweight steel diagrid structures and bioclimatic kinetic facades. Integrates structural calculations with expressive tectonic joints and thermal chimneys.",
-      "ar": "استكشاف للمنشآت الفولاذية الشبكية الخفيفة والواجهات الحركية المناخية. يدمج الحسابات الإنشائية الدقيقة مع وصلات تكتونية معمارية ومداخن حرارية طبيعية.",
-      "he": "חקירה מבנית של קונסטרוקציות פלדה קלות ומעטפת קינטית אקלימית. שילוב בין חישובים הנדסיים לפרטי חיבור אדריכליים וארובות אוורור תרמיות."
+      "en": "Program\nThe building is inspired by the works of Mondrian, whose artworks are abstract and based on primary colors. Our structure is built around a water-movement system. We enter on an outdoor platform, and as we proceed inside, the distribution of light reflects the inspiration drawn from the artwork—gradually dimming as we go deeper into the building, to preserve the art pieces. Along the path, we begin to see fewer solid walls and more glass ones; we walk on a glass floor above the water. Continuing along the route, we reach a greenhouse space and a fish pool, where the roof is open to allow rainwater to connect with the pool. These two spaces cannot be physically touched but only observed. At the end of the building, we arrive at an amphitheater with seating and restrooms for visitors; next to it, there is a sitting area composed of cubes in Mondrian’s colors and various sizes. The path is designed so that as we move forward, we continue discovering new elements rather than returning to ones we have already seen.\n\nSite Location\nI chose to place the building at a point that serves as a meeting spot between several stations within the university. It is located near the Beit Midrash area, a place where many students gather to sit, talk, or relax—whether in groups or individually—and it faces the central library, which attracts students from all disciplines. This spot naturally becomes a point of encounter between students coming from the School of Architecture, Mexico Building, or the Faculty of Management, as well as those arriving from the direction of Oranim, the Faculty of Medicine, or the synagogue. The form of the building is inspired by Mondrian’s compositions, and the ground itself follows a grid structure made up of square units.\n\nRelation of the Building to the Existing Sculpture\nThe building does not hide the sculpture or destroy it because of its presence. Instead of covering or overpowering it, the structure becomes an integral part of the existing facades and the surrounding environment. Rather than competing with the artwork, the building is designed to complement it — maintaining a dialogue between the old and the new, and between architecture and art.\n\nThe building includes several main spaces.\nMovement takes place mostly on an outdoor floor and partly on a glass floor above the water.\nA space for viewing the artwork.\nA greenhouse space.\nA fish pond area.\nRestroom facilities.\nA seating area with sculptural elements in the main hall of the building.",
+      "ar": "البرنامج المعماري\nالمبنى مستوحى من أعمال موندريان (Mondrian)، الذي تتميز لوحاته بالتجريد والاعتماد على الألوان الأساسية. بُني هيكلنا حول نظام لحركة المياه. ندخل عبر منصة خارجية، وكلما تقدمنا إلى الداخل، يعكس توزيع الضوء الإلهام المستمد من العمل الفني—حيث يخفت تدريجياً كلما تعمقنا في المبنى للحفاظ على القطع الفنية. وعلى طول المسار، نبدأ برؤية جدران صماء أقل وجدران زجاجية أكثر؛ فنسير على أرضية زجاجية فوق الماء. وبمواصلة السير على طول المسار، نصل إلى مساحة دفيئة زراعية وبركة أسماك، حيث يكون السقف مفتوحاً للسماح لمياه الأمطار بالاتصال بالبركة. لا يمكن لمس هذين الفضاءين مادياً، بل يقتصر الأمر على مشاهدتهما فقط. وفي نهاية المبنى، نصل إلى مدرج يضم مقاعد ودورات مياه للزوار؛ وبجانبه منطقة جلوس مكونة من مكعبات بألوان موندريان وبأحجام مختلفة. صُمم المسار بحيث نواصل اكتشاف عناصر جديدة كلما تقدمنا للأمام بدلاً من العودة إلى العناصر التي رأيناها مسبقاً.\n\nموقع المشروع\nاخترت وضع المبنى في نقطة تعمل كملتقى بين عدة محطات داخل الجامعة. فهو يقع بالقرب من منطقة \"بيت مدراش\"، وهو مكان يتجمع فيه العديد من الطلاب للجلوس أو التحدث أو الاسترخاء—سواء في مجموعات أو بشكل فردي—ويقابل المكتبة المركزية التي تجذب الطلاب من كافة التخصصات. وتتحول هذه النقطة بطبيعتها إلى نقطة التقاء بين الطلاب القادمين من مدرسة الهندسة المعمارية، أو مبنى مكسيكو، أو كلية الإدارة، وكذلك القادمين من اتجاه أورانيم، أو كلية الطب، أو الكنيس. شكل المبنى مستوحى من تكوينات موندريان، وتتبع الأرضية نفسها بنية شبكية مكونة من وحدات مربعة.\n\nعلاقة المبنى بالمنحوتة القائمة\nلا يخفي المبنى المنحوتة ولا يلغيها بسبب وجوده. فبدلاً من تغطيتها أو الطغيان عليها، يصبح الهيكل جزءاً لا يتجزأ من الواجهات القائمة والبيئة المحيطة. وبدلاً من منافسة العمل الفني، صُمم المبنى ليكمّله — محافظاً على حوار بين القديم والجديد، وبين العمارة والفن.\n\nيضم المبنى عدة فضاءات رئيسية:\nتجري الحركة في معظمها على أرضية خارجية وجزئياً على أرضية زجاجية فوق الماء.\nفضاء لمشاهدة الأعمال الفنية.\nفضاء دفيئة نباتية.\nمنطقة بركة أسماك.\nمرافق دورات مياه.\nمنطقة جلوس بعناصر نحتية في القاعة الرئيسية للمبنى.",
+      "he": "תוכנית הבניין נוצר בהשראת עבודותיו של מונדריאן, שיצירותיו מופשטות ומבוססות על צבעי יסוד. המבנה שלנו בנוי סביב מערכת תנועת מים. אנו נכנסים על במה חיצונית, וככל שאנו מתקדמים פנימה, פיזור האור משקף את ההשראה שנלקחה מהיצירה - מתעמעם בהדרגה ככל שאנו מעמיקים לתוך הבניין, כדי לשמר את יצירות האמנות. לאורך השביל, אנו מתחילים לראות פחות קירות מוצקים ויותר קירות מזכוכית; אנו הולכים על רצפת זכוכית מעל המים. בהמשך המסלול, אנו מגיעים לחלל חממה ולבריכת דגים, שם הגג פתוח כדי לאפשר למי גשמים להתחבר לבריכה. לא ניתן לגעת פיזית בשני החללים הללו אלא רק להתבונן בהם. בקצה הבניין, אנו מגיעים לאמפיתיאטרון עם מקומות ישיבה ושירותים למבקרים; לידו, יש אזור ישיבה המורכב מקוביות בצבעי מונדריאן ובגדלים שונים. השביל מתוכנן כך שככל שאנו מתקדמים, נמשיך לגלות אלמנטים חדשים במקום לחזור לאלה שכבר ראינו.\n\nמיקום האתר\nבחרתי למקם את הבניין בנקודה המשמשת כנקודת מפגש בין מספר תחנות בתוך האוניברסיטה. הוא ממוקם בסמוך לאזור בית המדרש, מקום בו מתאספים סטודנטים רבים כדי לשבת, לשוחח או להירגע - בין אם בקבוצות ובין אם באופן אישי - והוא פונה לספרייה המרכזית, המושכת אליו סטודנטים מכל התחומים. נקודה זו הופכת באופן טבעי לנקודת מפגש בין סטודנטים המגיעים מבית הספר לאדריכלות, מבניין מקסיקו או מהפקולטה לניהול, כמו גם אלו המגיעים מכיוון אורנים, הפקולטה לרפואה או בית הכנסת. צורת הבניין בהשראת קומפוזיציות של מונדריאן, והקרקע עצמה עוקבת אחר מבנה רשת המורכב מיחידות ריבועיות.\n\nיחס הבניין לפסל הקיים\nהבניין אינו מסתיר את הפסל או הורס אותו בגלל נוכחותו. במקום לכסות אותו או להשתלט עליו, המבנה הופך לחלק בלתי נפרד מהחזיתות הקיימות ומהסביבה הסובבת אותו. במקום להתחרות ביצירות האמנות, הבניין נועד להשלים אותן - תוך שמירה על דיאלוג בין הישן לחדש, ובין האדריכלות לאמנות.\n\nהבניין כולל מספר חללים עיקריים.\nהתנועה מתרחשת בעיקר על רצפה חיצונית ובחלקה על רצפת זכוכית מעל המים.\nמרחב לצפייה ביצירות האמנות.\nחלל חממה.\nאזור בריכת דגים.\nמתקני שירותים.\nאזור ישיבה עם אלמנטים פיסוליים באולם הראשי של הבניין."
     },
     "coverImage": "./images/projects/technology-tectonics/cover.jpg",
     "gallery": [
-      "./images/projects/technology-tectonics/01.jpg",
-      "./images/projects/technology-tectonics/02.jpg",
-      "./images/projects/technology-tectonics/plan.jpg"
+      {
+        "id": "simulations",
+        "title": {
+          "en": "Simulations",
+          "ar": "محاكاة",
+          "he": "סימולציות"
+        },
+        "coverImage": "./images/projects/technology-tectonics/simulations/cover.jpg",
+        "images": [
+          "./images/projects/technology-tectonics/simulations/01.jpg",
+          "./images/projects/technology-tectonics/simulations/02.jpg"
+        ]
+      },
+      {
+        "id": "about-the-project",
+        "title": {
+          "en": "About the Project",
+          "ar": "عن المشروع",
+          "he": "אודות הפרויקט"
+        },
+        "coverImage": "./images/projects/technology-tectonics/about-the-project/cover.jpg",
+        "images": [
+          "./images/projects/technology-tectonics/about-the-project/01.jpg",
+          "./images/projects/technology-tectonics/about-the-project/02.jpg"
+        ]
+      },
+      {
+        "id": "site-plan",
+        "title": {
+          "en": "Site Plan",
+          "ar": "المخطط العام للموقع",
+          "he": "תוכנית העמדה"
+        },
+        "coverImage": "./images/projects/technology-tectonics/site-plan/cover.jpg",
+        "images": [
+          "./images/projects/technology-tectonics/site-plan/01.jpg",
+          "./images/projects/technology-tectonics/site-plan/02.jpg"
+        ]
+      },
+      {
+        "id": "floor-plan-1-50",
+        "title": {
+          "en": "Floor Plan 1:50",
+          "ar": "مسقط أفقي 1:50",
+          "he": "תוכנית קומה 1:50"
+        },
+        "coverImage": "./images/projects/technology-tectonics/floor-plan-1-50/cover.jpg",
+        "images": [
+          "./images/projects/technology-tectonics/floor-plan-1-50/01.jpg",
+          "./images/projects/technology-tectonics/floor-plan-1-50/02.jpg"
+        ]
+      },
+      {
+        "id": "roof-plan",
+        "title": {
+          "en": "Roof Plan",
+          "ar": "مخطط السقف",
+          "he": "תוכנית גג"
+        },
+        "coverImage": "./images/projects/technology-tectonics/roof-plan/cover.jpg",
+        "images": [
+          "./images/projects/technology-tectonics/roof-plan/01.jpg",
+          "./images/projects/technology-tectonics/roof-plan/02.jpg"
+        ]
+      },
+      {
+        "id": "site-section",
+        "title": {
+          "en": "Site Section",
+          "ar": "مقطع الموقع",
+          "he": "חתך סביבה"
+        },
+        "coverImage": "./images/projects/technology-tectonics/site-section/cover.jpg",
+        "images": [
+          "./images/projects/technology-tectonics/site-section/01.jpg",
+          "./images/projects/technology-tectonics/site-section/02.jpg"
+        ]
+      },
+      {
+        "id": "sections",
+        "title": {
+          "en": "Sections",
+          "ar": "المقاطع",
+          "he": "חתכים"
+        },
+        "coverImage": "./images/projects/technology-tectonics/sections/cover.jpg",
+        "images": [
+          "./images/projects/technology-tectonics/sections/01.jpg",
+          "./images/projects/technology-tectonics/sections/02.jpg"
+        ]
+      },
+      {
+        "id": "facades",
+        "title": {
+          "en": "Facades",
+          "ar": "الواجهات",
+          "he": "חזיתות"
+        },
+        "coverImage": "./images/projects/technology-tectonics/facades/cover.jpg",
+        "images": [
+          "./images/projects/technology-tectonics/facades/01.jpg",
+          "./images/projects/technology-tectonics/facades/02.jpg"
+        ]
+      },
+      {
+        "id": "details",
+        "title": {
+          "en": "Details",
+          "ar": "التفاصيل",
+          "he": "פרטים"
+        },
+        "coverImage": "./images/projects/technology-tectonics/details/cover.jpg",
+        "images": [
+          "./images/projects/technology-tectonics/details/01.jpg",
+          "./images/projects/technology-tectonics/details/02.jpg"
+        ]
+      },
+      {
+        "id": "3d-models",
+        "title": {
+          "en": "3D Models",
+          "ar": "النماذج ثلاثية الأبعاد",
+          "he": "מודלים תלת-ממדיים"
+        },
+        "coverImage": "./images/projects/technology-tectonics/3d-models/cover.jpg",
+        "images": [
+          "./images/projects/technology-tectonics/3d-models/01.jpg",
+          "./images/projects/technology-tectonics/3d-models/02.jpg"
+        ]
+      }
     ]
   },
   {
     "id": "complex-challenges-slope",
     "category": "urban",
-    "year": "2023",
+    "year": {
+      "en": "September 2024",
+      "ar": "سبتمبر 2024",
+      "he": "ספטמבר 2024"
+    },
     "location": {
-      "en": "Carmel Ridge, Haifa",
-      "ar": "سلسلة جبال الكرمل، حيفا",
-      "he": "רכס הכרמל, חיפה"
+      "en": "Port of Le Havre, France",
+      "ar": "ميناء لو هافر، فرنسا",
+      "he": "נמל לה האבר, צרפת"
     },
     "title": {
-      "en": "Complex Challenges — Topographical Cliffside Intervention",
-      "ar": "تحديات معقدة — التدخل المعماري على المنحدرات الحادة",
-      "he": "אתגרים מורכבים — התערבות אדריכלית במדרון טופוגרפי"
+      "en": "Complex Challenges",
+      "ar": "تحديات معقدة",
+      "he": "אתגרים מורכבים"
     },
     "description": {
-      "en": "Architectural solution for an extreme 45-degree slope. Integrates retaining stone tiers, funicular mobility, storm runoff absorption cisterns, and stepped green terraces.",
-      "ar": "حل معماري لموقع شديد الانحدار بزاوية ٤٥ درجة. يدمج مدرجات حجرية داعمة، وسائط نقل مائلة، وخزانات لامتصاص مياه الأمطار مع شرفات خضراء متدرجة.",
-      "he": "פתרון אדריכלי למדרון תלול בשיפוע של 45 מעלות. שילוב טרסות אבן תומכות, תנועה ורטיקלית, מאגרי חלחול מי נגר ומרפסות ירוקות מדורגות."
+      "en": "At the bustling Port of Le Havre, the Museum of Circular Textiles emerges as a transformative project, merging Normandy’s maritime heritage with cutting-edge solutions for the global textile waste crisis\n\nConcept and Inspiration\nOur design pays tribute to Normandy’s maritime legacy, inspired by the region's historic shipwrecks. By integrating the original wall of the existing structure with a dramatic glass façade, the museum connects past and future while engaging with the active port environment.\n\nAddressing Textile Waste\nThe museum tackles the pressing issue of textile waste, where discarded clothing from affluent countries causes severe damage in less developed regions. Our goal is to showcase how these textiles can be remanufactured into valuable resources. Key to this mission is the involvement of local factories at the Port of Le Havre. These factories will play a central role in remanufacturing textiles, creating a sustainable supply chain that benefits both the environment and the local economy.\n\nDesign and Features\nThe museum’s steel structure, with its seemingly chaotic arrangement, represents the disorder of textile waste and functions as a screen for dynamic digital exhibits. Visitors will navigate a spiral pathway around this central feature, experiencing the transformation of waste into sustainable solutions.\nThe journey begins with a long, illuminated corridor that shifts visitors from the reality of waste to a realm of zero waste. The experience culminates with a ride in a glass elevator designed like a ship’s bow, leading to a green oasis symbolizing a sustainable future.\n\nA Memorable Departure\nTo complete their visit, guests will depart through the green oasis and embark on a boat journey along the Seine River. This serene conclusion not only enhances their experience but also reinforces the museum’s message of sustainability and harmony with nature.\n\nFunctions and Impact\nThe museum’s ground floor will feature rotating exhibitions, showcasing works by artists and craftsmen focused on sustainability. The partially underwater design pays homage to the historical site and provides space for various functions, including:\n- A Seminar Auditorium: Hosting talks and conferences on sustainable practices and industry advancements.\nAccommodation Rooms: Offering practical lodging for extended stays, allowing deeper engagement with sustainability discussions.\n\nCultural and Economic Benefits\nThe Museum of Circular Textiles will elevate Le Havre’s global profile as a leader in sustainability. By attracting international investors and industry figures, it will boost local economic growth, create new business opportunities, and enhance tourism. The involvement of local factories in textile remanufacturing will further strengthen the city’s role in global sustainability efforts.\n\nConclusion\nThe Museum of Circular Textiles at the Port of Le Havre is more than an architectural landmark; it’s a powerful statement about the future. Combining historical reverence with innovative design and sustainable practices, it will inspire a global audience and position Le Havre at the forefront of the zero-waste movement. This project celebrates the city’s maritime heritage and advances the agenda for a sustainable future, culminating in a memorable boat journey through the Seine River.",
+      "ar": "في ميناء لو هافر النابض بالحياة، يبرز \"متحف المنسوجات الدائرية\" كمشروع تحويلي يدمج التراث البحري لمنطقة نورماندي مع حلول مبتكرة لأزمة نفايات المنسوجات العالمية.\n\nالمفهوم والإلهام\nيحتفي تصميمنا بالإرث البحري لنورماندي، مستلهماً من حطام السفن التاريخية في المنطقة. ومن خلال دمج الجدار الأصلي للمبنى القائم مع واجهة زجاجية درامية، يربط المتحف بين الماضي والمستقبل مع التفاعل الحي مع بيئة الميناء النشطة.\n\nمعالجة نفايات المنسوجات\nيعالج المتحف القضية الملحة المتمثلة في نفايات المنسوجات، حيث تتسبب الملابس المهملة من الدول الغنية في أضرار جسيمة في المناطق الأقل نمواً. هدفنا هو إظهار كيف يمكن إعادة تصنيع هذه المنسوجات وتحويلها إلى موارد قيّمة. ويكمن مفتاح هذه المهمة في إشراك المصانع المحلية في ميناء لو هافر؛ إذ ستلعب هذه المصانع دوراً محورياً في إعادة تصنيع المنسوجات، مما ينشئ سلسلة إمداد مستدامة تفيد البيئة والاقتصاد المحلي على حد سواء.\n\nالتصميم والمميزات\nيمثل الهيكل الفولاذي للمتحف، بترتيبه الذي يبدو فوضوياً، حالة الفوضى الناتجة عن نفايات المنسوجات ويعمل كشاشة للعروض الرقمية الديناميكية. سيتنقل الزوار عبر مسار حلزوني حول هذا العنصر المركزي، ليعيشوا تجربة تحول النفايات إلى حلول مستدامة.\nتبدأ الرحلة بممر طويل مضاء ينقل الزوار من واقع النفايات إلى عالم خالٍ من النفايات (Zero Waste). وتصل التجربة إلى ذروتها برحلة في مصعد زجاجي مصمم على شكل مقدمة سفينة، يقود إلى واحة خضراء ترمز إلى مستقبل مستدام.\n\nمغادرة لا تُنسى\nولإكمال زيارتهم، يغادر الضيوف عبر الواحة الخضراء وينطلقون في رحلة بالقارب على طول نهر السين. لا تقتصر هذه الخاتمة الهادئة على إثراء تجربتهم فحسب، بل تعزز أيضاً رسالة المتحف المتمثلة في الاستدامة والانسجام مع الطبيعة.\n\nالوظائف والأثر\nسيضم الطابق الأرضي للمتحف معارض متجددة تعرض أعمال فنانين وحرفيين يركزون على الاستدامة. ويحتفي التصميم المغمور جزئياً تحت الماء بالموقع التاريخي ويوفر مساحة لوظائف متنوعة، تشمل:\n- قاعة ندوات ومحاضرات: لاستضافة الحوارات والمؤتمرات حول الممارسات المستدامة والتطورات الصناعية.\n- غرف إقامة: توفر سكناً عملياً للإقامات الطويلة، مما يتيح انخراطاً أعمق في نقاشات الاستدامة.\n\nالفوائد الثقافية والاقتصادية\nسيرفع متحف المنسوجات الدائرية مكانة لو هافر العالمية كرائدة في مجال الاستدامة. ومن خلال جذب المستثمرين الدوليين وشخصيات الصناعة، سيعزز النمو الاقتصادي المحلي، ويخلق فرص عمل جديدة، وينشط السياحة. كما أن مشاركة المصانع المحلية في إعادة تصنيع المنسوجات ستعزز دور المدينة في جهود الاستدامة العالمية.\n\nخاتمة\nإن متحف المنسوجات الدائرية في ميناء لو هافر هو أكثر من مجرد معلم معماري؛ إنه بيان قوي حول المستقبل. فمن خلال الجمع بين احترام التاريخ والتصميم المبتكر والممارسات المستدامة، سيلهم جمهوراً عالمياً ويضع لو هافر في طليعة حركة القضاء على النفايات. يحتفي هذا المشروع بالتراث البحري للمدينة ويدفع قدماً بأجندة المستقبل المستدام، متوجاً برحلة قارب لا تُنسى عبر نهر السين.",
+      "he": "בנמל לה האבר הסואן, מוזיאון הטקסטיל המעגלי מתגלה כפרויקט טרנספורמטיבי, המשלב את המורשת הימית של נורמנדי עם פתרונות חדשניים למשבר פסולת הטקסטיל העולמי.\n\nקונספט והשראה\nהעיצוב שלנו מחווה את המורשת הימית של נורמנדי, בהשראת ספינות טרופות היסטוריות של האזור. על ידי שילוב הקיר המקורי של המבנה הקיים עם חזית זכוכית דרמטית, המוזיאון מחבר עבר ועתיד תוך כדי מעורבות בסביבת הנמל הפעילה.\n\nטיפול בפסולת טקסטיל\nהמוזיאון מתמודד עם הנושא הדחוף של פסולת טקסטיל, שבו בגדים שהושלכו ממדינות עשירות גורמים נזק חמור באזורים פחות מפותחים. מטרתנו היא להציג כיצד ניתן לייצר מחדש טקסטיל זה למשאבים יקרי ערך. המפתח למשימה זו הוא מעורבותם של מפעלים מקומיים בנמל לה האבר. מפעלים אלה ימלאו תפקיד מרכזי בייצור מחדש של טקסטיל, וייצרו שרשרת אספקה בת קיימא שתועיל הן לסביבה והן לכלכלה המקומית.\n\nעיצוב ומאפיינים\nמבנה הפלדה של המוזיאון, עם סידורו הכאוטי לכאורה, מייצג את אי-הסדר של פסולת טקסטיל ומתפקד כמסך לתערוכות דיגיטליות דינמיות. המבקרים ינוטטו במסלול ספירלי סביב מאפיין מרכזי זה, ויחוו את הטרנספורמציה של פסולת לפתרונות בני קיימא.\nהמסע מתחיל במסדרון ארוך ומואר, המעביר את המבקרים ממציאות הפסולת לעולם של אפס פסולת. החוויה מגיעה לשיאה בנסיעה במעלית זכוכית המעוצבת כמו חרטום של ספינה, המובילה לנווה מדבר ירוק המסמל עתיד בר-קיימא.\n\nיציאה בלתי נשכחת\nלהשלמת ביקורם, האורחים ייצאו דרך נווה המדבר הירוק ויצאו לשיט בסירה לאורך נהר הסיין. סיום שליו זה לא רק משפר את חווייתם, אלא גם מחזק את מסר המוזיאון לקיימות והרמוניה עם הטבע.\n\nפונקציות והשפעה\nקומת הקרקע של המוזיאון תציג תערוכות מתחלפות, המציגות עבודות של אמנים ואומנים המתמקדים בקיימות. העיצוב התת-ימי חלקית מכבד את האתר ההיסטורי ומספק מקום למגוון פונקציות, כולל:\n- אולם סמינרים: אירוח הרצאות וכנסים בנושא שיטות עבודה בנות קיימא והתקדמות בתעשייה.\nחדרי לינה: מציעים לינה פרקטית לשהייה ממושכת, המאפשרת מעורבות מעמיקה יותר בדיונים על קיימות.\n\nיתרונות תרבותיים וכלכליים\nמוזיאון הטקסטיל המעגלי יעלה את הפרופיל העולמי של לה האבר כמובילה בתחום הקיימות. על ידי משיכת משקיעים בינלאומיים ואנשי תעשייה, הוא יגביר את הצמיחה הכלכלית המקומית, ייצור הזדמנויות עסקיות חדשות וישפר את התיירות. מעורבותם של מפעלים מקומיים בייצור מחדש של טקסטיל תחזק עוד יותר את תפקידה של העיר במאמצי הקיימות הגלובליים.\n\nסיכום\nמוזיאון הטקסטיל המעגלי בנמל לה האבר הוא יותר מאשר ציון דרך אדריכלי; זהו הצהרה עוצמתית על העתיד. בשילוב יראת כבוד היסטורית עם עיצוב חדשני ושיטות עבודה בנות קיימא, הוא יעורר השראה בקהל עולמי וימקם את לה האבר בחזית התנועה לאפס פסולת. פרויקט זה חוגג את המורשת הימית של העיר ומקדם את האג'נדה לעתיד בר-קיימא, שיגיע לשיאו במסע שייט בלתי נשכח דרך נהר הסיין."
     },
-    "coverImage": "./images/projects/complex-challenges-slope/cover.jpg",
+    "coverImage": "./images/projects/complex-challenges-slope/cover.jpeg",
     "gallery": [
       "./images/projects/complex-challenges-slope/01.jpg",
       "./images/projects/complex-challenges-slope/02.jpg",
+      "./images/projects/complex-challenges-slope/cover.jpg",
       "./images/projects/complex-challenges-slope/plan.jpg"
+    ]
+  },
+  {
+    "id": "digital-studio-parametric",
+    "category": "technology",
+    "projectType": {
+      "en": "U-nity",
+      "ar": "U-nity (الوحدة)",
+      "he": "אחדות"
+    },
+    "year": {
+      "en": "April, 2024",
+      "ar": "أبريل، 2024",
+      "he": "אפריל, 2024"
+    },
+    "location": null,
+    "links": [
+      {
+        "type": "video",
+        "url": "https://youtu.be/myWcr3eseEI?si=tdrQjkJLN-bFaG-o",
+        "label": {
+          "en": "Youtube Video",
+          "ar": "فيديو يوتيوب",
+          "he": "סרטון יוטיוב"
+        }
+      },
+      {
+        "type": "video",
+        "url": "https://youtube.com/shorts/i303PNPyI7U?feature=share",
+        "label": {
+          "en": "Video",
+          "ar": "فيديو",
+          "he": "סרטון יוטיוב"
+        }
+      }
+    ],
+    "title": {
+      "en": "Digital Studio",
+      "ar": "الاستوديو الرقمي",
+      "he": "סטודיו דיגיטלי"
+    },
+    "description": {
+      "en": "Final Submission - U-nity\n\nThe Tension Between the Collective and the Individual\nThe solitary body moves between two states — at times it is part of a larger system that grants it strength, belonging, and a sense of security; and at other times, it detaches, left exposed, fragile, and limited in its movement.\nWithin the group, it is protected yet confined — connected, yet deprived of freedom.\nIn the other state, when the individual breaks away from the group, they breathe new air — moving without restriction, rediscovering the boundaries of their own motion.\nYet precisely then, the other side of the story is revealed: the group remains behind, bound and constrained, heavier than before.\nThus unfolds a story of interaction between freedom and belonging, between dependence and independence — a story in which every movement of the individual alters the breath of the group, and every breath of the group echoes within the solitary body.\nIt is expressed through the classical ballet Swan Lake, from which we drew our inspiration.\n\nObject Principles\nThe object is conceived from the desire to express two synchronized conditions that exist simultaneously:\na state in which the individual radiates strength through solitude while the group remains restrained and limited;\nand the opposite state, in which power emerges from the collective — from the group’s ability to provide stability and support to each of its members.\nThe object creates a constant tension between the individual and the collective, between inner strength and shared power.\nIt embodies a continuous transition between freedom and dependence through shifts in spatial scale — expansion and contraction, openness and enclosure — reflecting the changing relationship between the solitary body and the collective environment surrounding it",
+      "ar": "التسليم النهائي - U-nity\n\nالتوتر بين الجماعة والفرد\nيتحرك الجسد المنفرد بين حالتين — ففي بعض الأحيان يكون جزءاً من منظومة أكبر تمنحه القوة والانتماء والشعور بالأمان؛ وفي أحيان أخرى ينفصل عنها، ليبقى مكشوفاً وهشاً ومحدود الحركة.\nداخل المجموعة، يكون محمياً ولكنه مقيد — متصلاً، ولكنه محروم من الحرية.\nوفي الحالة الأخرى، عندما ينفصل الفرد عن المجموعة، يتنفس هواءً جديداً — فيتحرك بلا قيود، ويعيد اكتشاف حدود حركته الخاصة.\nولكن في تلك اللحظة تحديداً، ينكشف الجانب الآخر من القصة: تبقى المجموعة في الخلف، مقيدة ومكبلة، وأثقل مما كانت عليه من قبل.\nوهكذا تتكشف قصة تفاعل بين الحرية والانتماء، وبين الاعتمادية والاستقلال — قصة تغير فيها كل حركة للفرد أنفاس المجموعة، ويتردد فيها صدى كل نَفَس للمجموعة داخل الجسد المنفرد.\nويُعبَّر عن ذلك من خلال الباليه الكلاسيكي \"بحيرة البجع\" (Swan Lake)، الذي استمددنا منه إلهامنا.\n\nمبادئ المجسّم (Object Principles)\nصُمم المجسّم انطلاقاً من الرغبة في التعبير عن حالتين متزامنتين توجدان في آن واحد:\nحالة يشع فيها الفرد بالقوة من خلال العزلة بينما تظل المجموعة مقيدة ومحدودة؛\nوالحالة المعاكسة، التي تنبثق فيها القوة من الجماعة — من قدرة المجموعة على توفير الاستقرار والدعم لكل فرد من أفرادها.\nيخلق المجسّم توتراً دائماً بين الفرد والجماعة، وبين القوة الداخلية والقوة المشتركة.\nفهو يجسد انتقالاً مستمراً بين الحرية والاعتمادية من خلال تحولات في المقياس المكاني — التمدد والانكماش، الانفتاح والانغلاق — مما يعكس العلاقة المتغيرة بين الجسد المنفرد والبيئة الجماعية المحيطة به.",
+      "he": "הגשה סופית - אחדות\n\nהמתח בין הקולקטיב לפרט\nהגוף הבודד נע בין שני מצבים - לעיתים הוא חלק ממערכת גדולה יותר המעניקה לו כוח, שייכות ותחושת ביטחון; ובמקרים אחרים, הוא מתנתק, נותר חשוף, שביר ומוגבל בתנועתו.\nבתוך הקבוצה, הוא מוגן אך מוגבל - מחובר, אך משולל חופש.\nבמצב השני, כאשר הפרט מתנתק מהקבוצה, הוא נושם אוויר חדש - נע ללא הגבלה, מגלה מחדש את גבולות תנועתו.\nאך דווקא אז, נחשף הצד השני של הסיפור: הקבוצה נשארת מאחור, כבולה ומוגבלת, כבדה יותר מבעבר.\nכך מתגלה סיפור של אינטראקציה בין חופש לשייכות, בין תלות לעצמאות - סיפור שבו כל תנועה של הפרט משנה את נשימת הקבוצה, וכל נשימה של הקבוצה מהדהדת בתוך הגוף הבודד.\nזה בא לידי ביטוי דרך הבלט הקלאסי אגם הברבורים, שממנו שאבנו את השראתנו.\n\nעקרונות האובייקט\nהאובייקט נתפס מתוך הרצון לבטא שני תנאים מסונכרנים המתקיימים בו זמנית:\nמצב שבו הפרט מקרין כוח דרך בדידות בעוד שהקבוצה נשארת מרוסן ומוגבלת;\nומצב הפוך, שבו כוח נובע מהקולקטיב - מיכולתה של הקבוצה לספק יציבות ותמיכה לכל אחד מחבריה.\nהאובייקט יוצר מתח מתמיד בין הפרט לקולקטיב, בין כוח פנימי לכוח משותף.\nהוא מגלם מעבר מתמשך בין חופש לתלות באמצעות שינויים בקנה מידה מרחבי - התרחבות והתכווצות, פתיחות וסגירה - המשקפים את היחסים המשתנים בין הגוף הבודד לסביבה הקולקטיבית הסובבת אותו."
+    },
+    "coverImage": "./images/projects/digital-studio-parametric/cover.jpg",
+    "gallery": [
+      {
+        "id": "final-submission",
+        "title": {
+          "en": "Final Submission",
+          "ar": "التسليم النهائي",
+          "he": "הגשה סופית"
+        },
+        "coverImage": "./images/projects/digital-studio-parametric/final-submission/cover.jpg",
+        "images": [
+          "./images/projects/digital-studio-parametric/final-submission/01.jpg",
+          "./images/projects/digital-studio-parametric/final-submission/02.jpg"
+        ]
+      },
+      {
+        "id": "first-submission",
+        "title": {
+          "en": "First Submission",
+          "ar": "التسليم الأول",
+          "he": "הגשה ראשונה"
+        },
+        "coverImage": "./images/projects/digital-studio-parametric/first-submission/cover.jpg",
+        "images": [
+          "./images/projects/digital-studio-parametric/first-submission/01.jpg",
+          "./images/projects/digital-studio-parametric/first-submission/02.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "urban-studio-wadi",
+    "category": "urban",
+    "projectType": {
+      "en": "Urban",
+      "ar": "حضري",
+      "he": "עירוני"
+    },
+    "year": {
+      "en": "July, 2023",
+      "ar": "يوليو، 2023",
+      "he": "יולי, 2023"
+    },
+    "location": {
+      "en": "Wadi Nisnas",
+      "ar": "وادي النسناس",
+      "he": "ואדי ניסנאס"
+    },
+    "title": {
+      "en": "Urban Studio-WEINS IN THE WADI",
+      "ar": "الاستوديو الحضري - WEINS IN THE WADI",
+      "he": "סטודיו אורבני"
+    },
+    "description": {
+      "en": "Ideology\nThe relationship between a city’s civil society and the urban environment they inhabit is shaped by their shared collective memory—formed through the events and experiences lived together in the city’s public realm.\nWithout memory, there is no genuine connection to place.\n\nWadi Nisnas is a historic neighborhood in the city of Haifa. Our ideology centers on reconnecting the Wadi to Haifa and the sea through social links, and making art accessible to the entire community. The project preserves the neighborhood’s historic fabric while introducing an urban network that connects its streets to rooftops, existing and new cultural centers such as museums and the school, and continues seamlessly into the market.\n\nThe design ties together the community of artists with the residents of the Wadi to enrich communal life through art. Wadi Street acts as the neighborhood’s main artery, linking key nodes, gardens, and alleys—revitalizing the area and bringing it back to life.",
+      "ar": "الأيديولوجية\nتتشكّل العلاقة بين المجتمع المدني للمدينة والبيئة الحضرية التي يسكنها من خلال ذاكرتهم الجمعية المشتركة—التي تكوّنت عبر الأحداث والتجارب التي عاشوها معاً في الفضاء العام للمدينة.\nفبدون الذاكرة، لا يوجد ارتباط حقيقي بالمكان.\n\nوادي النسناس هو حي تاريخي في مدينة حيفا. تتمحور أيديولوجيتنا حول إعادة ربط الوادي بحيفا والبحر عبر روابط اجتماعية، وجعل الفن متاحاً للمجتمع بأكمله. يحافظ المشروع على النسيج التاريخي للحي مع إدخال شبكة حضرية تربط شوارعه بالأسطح، وبالمراكز الثقافية القائمة والجديدة مثل المتاحف والمدرسة، وتمتد بسلاسة إلى داخل السوق.\n\nيربط التصميم بين مجتمع الفنانين وسكان الوادي لإثراء الحياة المجتمعية من خلال الفن. ويعمل شارع الوادي كشريان رئيسي للحي، حيث يربط العقد الرئيسية والحدائق والأزقة—مما يعيد الحيوية للمنطقة ويعيدها إلى الحياة.",
+      "he": "אידיאולוגיה\nהקשר בין החברה האזרחית של עיר לבין הסביבה העירונית בה היא מתגוררת מעוצב על ידי הזיכרון הקולקטיבי המשותף שלהן - שנוצר באמצעות אירועים וחוויות שחיו יחד במרחב הציבורי של העיר.\nללא זיכרון, אין קשר אמיתי למקום.\n\nואדי ניסנאס היא שכונה היסטורית בעיר חיפה. האידיאולוגיה שלנו מתמקדת בחיבור מחדש של הוואדי לחיפה ולים באמצעות קשרים חברתיים, והנגשת האמנות לכל הקהילה. הפרויקט משמר את המרקם ההיסטורי של השכונה תוך הצגת רשת עירונית המחברת את רחובותיה לגגות, מרכזי תרבות קיימים וחדשים כמו מוזיאונים ובית הספר, וממשיכה בצורה חלקה אל תוך השוק.\n\nהעיצוב קושר את קהילת האמנים עם תושבי הוואדי כדי להעשיר את חיי הקהילה באמצעות אמנות. רחוב הוואדי משמש כעורק ראשי של השכונה, המחבר צמתים מרכזיים, גנים וסמטאות - מחייה את האזור ומחזיר אותו לחיים."
+    },
+    "coverImage": "./images/projects/urban-studio-wadi/cover.jpg",
+    "gallery": [
+      {
+        "id": "ideology-development-with-a-process",
+        "title": {
+          "en": "Ideology - Development with a Process",
+          "ar": "الأيديولوجية - التطوير والعملية",
+          "he": "אידיאולוגיה - פיתוח עם תהליך"
+        },
+        "coverImage": "./images/projects/urban-studio-wadi/ideology-development-with-a-process/cover.jpg",
+        "images": [
+          "./images/projects/urban-studio-wadi/ideology-development-with-a-process/01.jpg",
+          "./images/projects/urban-studio-wadi/ideology-development-with-a-process/02.jpg"
+        ]
+      },
+      {
+        "id": "model-and-schematics",
+        "title": {
+          "en": "Model and Schematics",
+          "ar": "النموذج والمخططات التوضيحية",
+          "he": "מודל וסכמות"
+        },
+        "coverImage": "./images/projects/urban-studio-wadi/model-and-schematics/cover.jpg",
+        "images": [
+          "./images/projects/urban-studio-wadi/model-and-schematics/01.jpg",
+          "./images/projects/urban-studio-wadi/model-and-schematics/02.jpg"
+        ]
+      },
+      {
+        "id": "final-submission",
+        "title": {
+          "en": "Final Submission",
+          "ar": "التسليم النهائي",
+          "he": "הגשה סופית"
+        },
+        "coverImage": "./images/projects/urban-studio-wadi/final-submission/cover.jpg",
+        "images": [
+          "./images/projects/urban-studio-wadi/final-submission/01.jpg",
+          "./images/projects/urban-studio-wadi/final-submission/02.jpg"
+        ]
+      },
+      {
+        "id": "final-model",
+        "title": {
+          "en": "Final Model",
+          "ar": "النموذج النهائي",
+          "he": "מודל סופי"
+        },
+        "coverImage": "./images/projects/urban-studio-wadi/final-model/cover.jpg",
+        "images": [
+          "./images/projects/urban-studio-wadi/final-model/01.jpg",
+          "./images/projects/urban-studio-wadi/final-model/02.jpg"
+        ]
+      }
     ]
   },
   {
     "id": "drawings-tectonic-sections",
     "category": "drawings",
-    "year": "2024",
-    "location": {
-      "en": "Studio Archive",
-      "ar": "أرشيف الاستوديو",
-      "he": "ארכיון הסטודיו"
-    },
+    "year": null,
+    "location": null,
     "title": {
-      "en": "Architectural Drawings & Axonometric Sections",
-      "ar": "رسومات معمارية ومقاطع أكسونومترية",
-      "he": "רישומים אדריכליים וחתכים אקסונומטריים"
+      "en": "Some Of My Drawings",
+      "ar": "بعض رسوماتي",
+      "he": "חלק מהציורים שלי"
     },
-    "description": {
-      "en": "Precision linework exploring internal spatial flows, structural stratigraphy, and technical assembly details. Drawn through combined manual drafting and BIM-derived vector overlays.",
-      "ar": "خطوط هندسية دقيقة تستكشف التدفق المكاني الداخلي، وطبقات الإنشاء، وتفاصيل التركيب التقنية. مرسومة بمزيج من الرسم اليدوي وطبقات المتجهات المشتقة من BIM.",
-      "he": "רישום קווי בדיוק מירבי החוקר זרימה מרחבית פנימית, שכבות בנייה ופרטי הרכבה הנדסיים. שילוב בין שרטוט ידני לוקטורים מתוכנות BIM."
-    },
+    "description": null,
     "coverImage": "./images/projects/drawings-tectonic-sections/cover.jpg",
     "gallery": [
       "./images/projects/drawings-tectonic-sections/01.jpg",
@@ -234,24 +927,165 @@
     ]
   },
   {
-    "id": "sketches-ideation",
-    "category": "drawings",
-    "year": "2024",
+    "id": "small-community-inbetweav",
+    "category": "civic",
+    "year": {
+      "en": "June, 2022",
+      "ar": "يونيو، 2022",
+      "he": "יוני, 2022"
+    },
     "location": {
-      "en": "Field Notebooks & Conceptual Studies",
-      "ar": "دفاتر الميدان ودراسات المفهوم",
-      "he": "פנקסי שדה ומחקרי קונספט"
+      "en": "Park HaMesila",
+      "ar": "منتزه همسيلاه (Park HaMesila)",
+      "he": "פארק המסילה"
     },
     "title": {
-      "en": "Concept Sketches & Freehand Ideation",
-      "ar": "اسكتشات أولية واستكشاف الأفكار الحرة",
-      "he": "סקיצות רעיוניות ורישום חופשי"
+      "en": "Small Community Building -INBETWEAV",
+      "ar": "مبنى مجتمعي صغير - INBETWEAV",
+      "he": "בניין קהילתי קטן - INBETWEAV"
     },
     "description": {
-      "en": "Spontaneous gestures capturing light gradients, shadow depths, and spatial proportions. Executed with ink, graphite, and Morpholio Trace during design conceptualization phases.",
-      "ar": "خطوط عفوية تلتقط تدرجات الضوء، وظلال الكتل، والتناسب المكاني. أُنجزت بالحبر والرصاص وMorpholio Trace خلال المراحل الأولى لولادة الفكرة المعمارية.",
-      "he": "מחוות קו ספונטניות הלוכדות גווני אור, עומקי צל ופרופורציות מרחביות. בוצעו בדיו, גרפיט ו-Morpholio Trace בשלבי הגיבוש הראשוניים של הרעיון."
+      "en": "An interweaving of body, earth, and space\n\nThe project explores the idea of fields — spaces where material, body, memory, and land intertwine.\nI chose to engage with artificial fields, inspired by the work of artist Spencer Tunick, who photographs nude human bodies spread across open spaces, transforming them into a living, collective landscape.\nThe work examines a complex system of human relationships — a connection formed through the gaze, while at the same time marked by physical separation.\nThrough analyzing the image, I discovered that the relationships between figures are defined by distance, angle, and exposure: the one in front of me feels close, while the one beside me fades from presence.\nThe state of nudity intensifies both vulnerability and absence, creating a delicate tension between intimacy and detachment.\n\nFrom this insight, I began translating these relationships into spatial models.\nI worked with different groups of elements to understand how relationships can be constructed — connection, separation, or an ongoing tension between them.\nWhen choosing the site, I found a direct correspondence between the network of human relations and the urban landscape.\nI selected the typography site, where the street itself becomes a grid — a system of lines, connections, and thresholds.\nThis grid became both a design tool and a conceptual language — structural yet emotional, organizational yet personal — a typography that I create with my own hands.\n\nIntegrating the grid into my design process allowed me to study what is revealed and what remains hidden, and how layers interact in a liminal state where each one uncovers the other.\nIn one gesture, I dug into the ground and returned the soil in intervals of two meters — as I did in the “Railway Chapter.”\nThrough this action, a dual process emerged: I weave my project into the earth, and the earth weaves itself into my project.\nThis act represents the reciprocal relationship between matter, memory, and place, where the boundary between body and land becomes blurred.\n\nI returned to the early groups I had formed, organizing the program into three main clusters, as seen in the drawings.\nThe language of connection between them relies on distance — the farther one is in space, the closer they may become through the gaze.\nThe spatial disconnection originated from two parallel walls facing one another, within each space, creating a simultaneous sense of closeness and distance.\nLater, the walls became glass partitions, with vegetation growing between them — unreachable yet visible — forming a fragile boundary between seeing and touching, between proximity and separation.\nThe distance between them varies from fifty centimeters to two meters, echoing the rhythm of the typographic structure itself.\n\nIn my early models, I began to play with perspective — sometimes I see only part of you, sometimes not at all.\nThe change of angle shifts the experience, altering the relationship between interior and exterior, between exposure and concealment.\nFrom these explorations, the groups evolved into small compositions of three elements.\nAlong the northern façade, larger openings create a direct dialogue with the park, while the southern façade remains enclosed and self-contained — the body folding inward.\nEven within the internal structure, a continuous relationship unfolds between openness and enclosure, between visibility and concealment.\nIn perspective, one can see how the typography itself becomes interwoven into the spatial fabric — from the railway axis to the lecture hall — until the entire project transforms into a single living tissue of earth, matter, light.",
+      "ar": "تشابك بين الجسد والأرض والفضاء\n\nيستكشف المشروع فكرة الحقول — تلك الفضاءات التي تتشابك فيها المادة والجسد والذاكرة والأرض.\nاخترت التعامل مع الحقول الاصطناعية، مستلهمةً من أعمال الفنان سبنسر تونيك (Spencer Tunick)، الذي يصور أجساداً بشرية عارية منتشرة في فضاءات مفتوحة، محولاً إياها إلى مشهد طبيعي جماعي حي.\nيبحث العمل في منظومة معقدة من العلاقات الإنسانية — رابط يتشكل عبر النظرة، ولكنه يتسم في الوقت ذاته بالانفصال الجسدي.\nومن خلال تحليل الصورة، اكتشفت أن العلاقات بين الأجساد تتحدد بالمسافة والزاوية والانكشاف: فالشخص الذي أمامي يبدو قريباً، بينما يتلاشى الشخص الذي بجانبي من الحضور.\nوتكثف حالة العري كلاً من الهشاشة والغياب، خالقـةً توتراً رقيقاً بين الحميمية والانفصال.\n\nانطلاقاً من هذه الرؤية، بدأت بترجمة هذه العلاقات إلى نماذج مكانية.\nعملت مع مجموعات مختلفة من العناصر لفهم كيفية بناء العلاقات — الاتصال، أو الانفصال، أو التوتر المستمر بينهما.\nوعند اختيار الموقع، وجدت تطابقاً مباشراً بين شبكة العلاقات الإنسانية والمشهد الحضري.\nاخترت موقع التيبوغرافيا، حيث يتحول الشارع نفسه إلى شبكة (Grid) — نظام من الخطوط والروابط والعتبات.\nأصبحت هذه الشبكة أداة تصميمية ولغة مفاهيمية في آن واحد — إنشائية ولكنها عاطفية، تنظيمية ولكنها شخصية — تيبوغرافيا أصنعها بيديّ.\n\nأتاح لي دمج الشبكة في عمليتي التصميمية دراسة ما ينكشف وما يظل مخفياً، وكيف تتفاعل الطبقات في حالة بينية تكشف فيها كل طبقة عن الأخرى.\nوفي حركة واحدة، حفرت في الأرض وأعدت التراب على فترات كل مترين — كما فعلت في \"فصل سكة الحديد\".\nومن خلال هذا الفعل، برزت عملية مزدوجة: أنسج مشروعي في الأرض، وتنسج الأرض نفسها في مشروعي.\nيمثل هذا الفعل العلاقة التبادلية بين المادة والذاكرة والمكان، حيث تتلاشى الحدود بين الجسد والأرض.\n\nعدت إلى المجموعات الأولى التي شكلتها، ونظمت البرنامج في ثلاث كتل رئيسية كما يظهر في الرسومات.\nتعتمد لغة الاتصال بينها على المسافة — فكلما ابتعد المرء في الفضاء، اقترب أكثر عبر النظرة.\nنشأ الانفصال المكاني من جدارين متوازيين يواجه أحدهما الآخر داخل كل فضاء، مما يخلق شعوراً متزامناً بالقرب والبعد.\nلاحقاً، تحولت الجدران إلى قواطع زجاجية تنمو بينها النباتات — مرئية ولكن لا يمكن الوصول إليها — مشكلةً حداً هشاً بين الرؤية واللمس، وبين القرب والانفصال.\nتتراوح المسافة بينها من خمسين سنتيمتراً إلى مترين، محاكيةً إيقاع البنية التيبوغرافية ذاتها.\n\nفي نماذجي الأولية، بدأت باللعب بالمنظور — فأحياناً أرى جزءاً منك فقط، وأحياناً لا أراك على الإطلاق.\nيغيّر اختلاف الزاوية التجربة، فيبدل العلاقة بين الداخل والخارج، وبين الانكشاف والاحتجاب.\nومن هذه الاستكشافات، تطورت المجموعات إلى تكوينات صغيرة من ثلاثة عناصر.\nعلى طول الواجهة الشمالية، تخلق الفتحات الأكبر حواراً مباشراً مع المنتزه، بينما تظل الواجهة الجنوبية مغلقة ومكتفية بذاتها — كجسد ينطوي نحو الداخل.\nوحتى داخل الهيكل الداخلي، تتكشف علاقة مستمرة بين الانفتاح والانغلاق، وبين الرؤية والاحتجاب.\nوفي المنظور، يمكن للمرء أن يرى كيف تتشابك التيبوغرافيا نفسها في النسيج المكاني — من محور سكة الحديد إلى قاعة المحاضرات — حتى يتحول المشروع بأكمله إلى نسيج حي واحد من الأرض والمادة والضوء.",
+      "he": "An interweaving of body, earth, and space\n\nThe project explores the idea of fields — spaces where material, body, memory, and land intertwine.\nI chose to engage with artificial fields, inspired by the work of artist Spencer Tunick, who photographs nude human bodies spread across open spaces, transforming them into a living, collective landscape.\nThe work examines a complex system of human relationships — a connection formed through the gaze, while at the same time marked by physical separation.\nThrough analyzing the image, I discovered that the relationships between figures are defined by distance, angle, and exposure: the one in front of me feels close, while the one beside me fades from presence.\nThe state of nudity intensifies both vulnerability and absence, creating a delicate tension between intimacy and detachment.\n\nFrom this insight, I began translating these relationships into spatial models.\nI worked with different groups of elements to understand how relationships can be constructed — connection, separation, or an ongoing tension between them.\nWhen choosing the site, I found a direct correspondence between the network of human relations and the urban landscape.\nI selected the typography site, where the street itself becomes a grid — a system of lines, connections, and thresholds.\nThis grid became both a design tool and a conceptual language — structural yet emotional, organizational yet personal — a typography that I create with my own hands.\n\nIntegrating the grid into my design process allowed me to study what is revealed and what remains hidden, and how layers interact in a liminal state where each one uncovers the other.\nIn one gesture, I dug into the ground and returned the soil in intervals of two meters — as I did in the “Railway Chapter.”\nThrough this action, a dual process emerged: I weave my project into the earth, and the earth weaves itself into my project.\nThis act represents the reciprocal relationship between matter, memory, and place, where the boundary between body and land becomes blurred.\n\nI returned to the early groups I had formed, organizing the program into three main clusters, as seen in the drawings.\nThe language of connection between them relies on distance — the farther one is in space, the closer they may become through the gaze.\nThe spatial disconnection originated from two parallel walls facing one another, within each space, creating a simultaneous sense of closeness and distance.\nLater, the walls became glass partitions, with vegetation growing between them — unreachable yet visible — forming a fragile boundary between seeing and touching, between proximity and separation.\nThe distance between them varies from fifty centimeters to two meters, echoing the rhythm of the typographic structure itself.\n\nIn my early models, I began to play with perspective — sometimes I see only part of you, sometimes not at all.\nThe change of angle shifts the experience, altering the relationship between interior and exterior, between exposure and concealment.\nFrom these explorations, the groups evolved into small compositions of three elements.\nAlong the northern façade, larger openings create a direct dialogue with the park, while the southern façade remains enclosed and self-contained — the body folding inward.\nEven within the internal structure, a continuous relationship unfolds between openness and enclosure, between visibility and concealment.\nIn perspective, one can see how the typography itself becomes interwoven into the spatial fabric — from the railway axis to the lecture hall — until the entire project transforms into a single living tissue of earth, matter, light."
     },
+    "coverImage": "./images/projects/small-community-inbetweav/cover.jpg",
+    "gallery": [
+      {
+        "id": "artist-work",
+        "title": {
+          "en": "Artist Work",
+          "ar": "عمل الفنان",
+          "he": "עבודת האמן"
+        },
+        "coverImage": "./images/projects/small-community-inbetweav/artist-work/cover.jpg",
+        "images": [
+          "./images/projects/small-community-inbetweav/artist-work/01.jpg",
+          "./images/projects/small-community-inbetweav/artist-work/02.jpg"
+        ]
+      },
+      {
+        "id": "2d-analysis",
+        "title": {
+          "en": "2D Analysis",
+          "ar": "تحليل ثنائي الأبعاد",
+          "he": "ניתוח דו-ממדי"
+        },
+        "coverImage": "./images/projects/small-community-inbetweav/2d-analysis/cover.jpg",
+        "images": [
+          "./images/projects/small-community-inbetweav/2d-analysis/01.jpg",
+          "./images/projects/small-community-inbetweav/2d-analysis/02.jpg"
+        ]
+      },
+      {
+        "id": "conceptual-scheme-for-planning",
+        "title": {
+          "en": "Conceptual Scheme for Planning",
+          "ar": "مخطط مفاهيمي للتخطيط",
+          "he": "סכמה רעיונית לתכנון"
+        },
+        "coverImage": "./images/projects/small-community-inbetweav/conceptual-scheme-for-planning/cover.jpg",
+        "images": [
+          "./images/projects/small-community-inbetweav/conceptual-scheme-for-planning/01.jpg",
+          "./images/projects/small-community-inbetweav/conceptual-scheme-for-planning/02.jpg"
+        ]
+      },
+      {
+        "id": "concept-models",
+        "title": {
+          "en": "Concept Models",
+          "ar": "نماذج المفهوم",
+          "he": "מודלים קונספט"
+        },
+        "coverImage": "./images/projects/small-community-inbetweav/concept-models/cover.jpg",
+        "images": [
+          "./images/projects/small-community-inbetweav/concept-models/01.jpg",
+          "./images/projects/small-community-inbetweav/concept-models/02.jpg"
+        ]
+      },
+      {
+        "id": "final-model",
+        "title": {
+          "en": "Final Model",
+          "ar": "النموذج النهائي",
+          "he": "מודל סופי"
+        },
+        "coverImage": "./images/projects/small-community-inbetweav/final-model/cover.jpg",
+        "images": [
+          "./images/projects/small-community-inbetweav/final-model/01.jpg",
+          "./images/projects/small-community-inbetweav/final-model/02.jpg"
+        ]
+      },
+      {
+        "id": "plans",
+        "title": {
+          "en": "Plans",
+          "ar": "المخططات",
+          "he": "תוכניות"
+        },
+        "coverImage": "./images/projects/small-community-inbetweav/plans/cover.jpg",
+        "images": [
+          "./images/projects/small-community-inbetweav/plans/01.jpg",
+          "./images/projects/small-community-inbetweav/plans/02.jpg"
+        ]
+      },
+      {
+        "id": "sections",
+        "title": {
+          "en": "Sections",
+          "ar": "المقاطع",
+          "he": "חתכים"
+        },
+        "coverImage": "./images/projects/small-community-inbetweav/sections/cover.jpg",
+        "images": [
+          "./images/projects/small-community-inbetweav/sections/01.jpg",
+          "./images/projects/small-community-inbetweav/sections/02.jpg"
+        ]
+      },
+      {
+        "id": "facades",
+        "title": {
+          "en": "Facades",
+          "ar": "الواجهات",
+          "he": "חזיתות"
+        },
+        "coverImage": "./images/projects/small-community-inbetweav/facades/cover.jpg",
+        "images": [
+          "./images/projects/small-community-inbetweav/facades/01.jpg",
+          "./images/projects/small-community-inbetweav/facades/02.jpg"
+        ]
+      },
+      {
+        "id": "perspective",
+        "title": {
+          "en": "Perspective",
+          "ar": "المنظور",
+          "he": "פרספקטיבה"
+        },
+        "coverImage": "./images/projects/small-community-inbetweav/perspective/cover.jpg",
+        "images": [
+          "./images/projects/small-community-inbetweav/perspective/01.jpg",
+          "./images/projects/small-community-inbetweav/perspective/02.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sketches-ideation",
+    "category": "drawings",
+    "projectType": {
+      "en": "Sketches",
+      "ar": "اسكتشات",
+      "he": "סקיצות"
+    },
+    "year": null,
+    "location": null,
+    "title": {
+      "en": "Some Sketches",
+      "ar": "بعض الاسكتشات",
+      "he": "כמה סקיצות"
+    },
+    "description": null,
     "coverImage": "./images/projects/sketches-ideation/cover.jpg",
     "gallery": [
       "./images/projects/sketches-ideation/01.jpg",
@@ -262,22 +1096,14 @@
   {
     "id": "digital-draw-art",
     "category": "drawings",
-    "year": "2024",
-    "location": {
-      "en": "Digital Art Lab",
-      "ar": "مختبر الفن الرقمي",
-      "he": "מעבדת אמנות דיגיטלית"
-    },
+    "year": null,
+    "location": null,
     "title": {
-      "en": "Digital Architectural Art & Atmospheric Moods",
-      "ar": "فن معماري رقمي وتعبيرات جوية",
-      "he": "אמנות אדריכלית דיגיטלית ואווירה מרחבית"
+      "en": "Some Digital Draw Art",
+      "ar": "بعض فنون الرسم الرقمي",
+      "he": "קצת ציור דיגיטלי"
     },
-    "description": {
-      "en": "Digital visualization exploring ethereal architectural atmosphere, material textures, and moody nocturnal lighting through Procreate, Photoshop, and Lumion render post-production.",
-      "ar": "إظهار رقمي فني يستكشف الأجواء المعمارية الحالمة، ملامس المواد، والإضاءة الليلية التعبيرية باستخدام Procreate وPhotoshop ومرحلة ما بعد الإنتاج في Lumion.",
-      "he": "הדמיות אמנותיות החוקרות אטמוספירה אדריכלית, טקסטורות חומר ותאורת לילה דרמטית באמצעות Procreate, Photoshop ועיבודים מתקדמים ב-Lumion."
-    },
+    "description": null,
     "coverImage": "./images/projects/digital-draw-art/cover.jpg",
     "gallery": [
       "./images/projects/digital-draw-art/01.jpg",

@@ -3,18 +3,19 @@ import { useTranslation } from '../../hooks/useTranslation';
 import ArchitecturalImage from '../ui/ArchitecturalImage';
 
 const SOFTWARE_STACK = [
-  { name: 'Autodesk Revit', category: 'BIM & Production', level: 'Advanced' },
-  { name: 'AutoCAD', category: '2D Drafting', level: 'Advanced' },
-  { name: 'Rhinoceros 3D', category: 'Parametric & Modeling', level: 'Advanced' },
-  { name: 'Enscape', category: 'Real-Time Render', level: 'Advanced' },
-  { name: 'Lumion', category: 'Atmospheric Renders', level: 'Advanced' },
-  { name: 'Twinmotion', category: 'Cinematic Visualization', level: 'Proficient' },
-  { name: 'Adobe InDesign', category: 'Editorial & Portfolios', level: 'Advanced' },
-  { name: 'Adobe Illustrator', category: 'Vector & Diagrams', level: 'Advanced' },
-  { name: 'Adobe Photoshop', category: 'Post-Production', level: 'Advanced' },
-  { name: 'Morpholio Trace', category: 'Concept Drafting', level: 'Proficient' },
-  { name: 'Procreate', category: 'Digital Sketching', level: 'Proficient' },
-  { name: 'Microsoft Office', category: 'Documentation', level: 'Proficient' },
+  { name: 'AutoCAD' },
+  { name: 'Revit' },
+  { name: 'Rhino' },
+  { name: 'Enscape' },
+  { name: 'Lumion' },
+  { name: 'Twinmotion Render' },
+  { name: 'Adobe InDesign' },
+  { name: 'Adobe Illustrator' },
+  { name: 'Adobe Photoshop' },
+  { name: 'Microsoft Office' },
+  { name: 'Canva' },
+  { name: 'Procreate' },
+  { name: 'Trace' },
 ];
 
 export default function About() {
@@ -53,7 +54,7 @@ export default function About() {
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-[4/5] rounded-none md:rounded-sm overflow-hidden border border-[#E5E5E5] bg-white group">
               <ArchitecturalImage
-                src="./images/profile/bio.jpg"
+                src="./images/profile/me.JPG"
                 alt="Haya Asaad Portrait"
                 category="Architect"
                 title="Haya Asaad, B.Arch"
@@ -87,9 +88,6 @@ export default function About() {
               <p className="text-sm sm:text-base italic font-serif-title text-[#222222] leading-relaxed relative z-10">
                 "{t('about.quote')}"
               </p>
-              <span className="block text-xs font-mono font-medium text-[#444444] mt-3 uppercase tracking-wider">
-                — Architectural Manifesto
-              </span>
             </div>
           </div>
         </div>
@@ -120,9 +118,11 @@ export default function About() {
                       {pillar.subtitle}
                     </span>
                   </div>
-                  <p className="text-xs text-[#333333] leading-relaxed">
-                    {pillar.desc}
-                  </p>
+                  {pillar.desc && (
+                    <p className="text-xs text-[#333333] leading-relaxed">
+                      {pillar.desc}
+                    </p>
+                  )}
                 </div>
               ))}
           </div>
@@ -135,7 +135,7 @@ export default function About() {
               {t('about.educationTitle')}
             </h3>
             <span className="text-xs font-mono font-medium text-[#444444]">
-              2014 — 2025
+              2014-2025
             </span>
           </div>
 
@@ -150,10 +150,7 @@ export default function About() {
                     <span className="px-2 py-0.5 bg-[#F4F4F1] text-[#111111] border border-[#E5E5E5] font-medium">
                       {edu.period}
                     </span>
-                    <span className="text-[#444444] font-medium flex items-center gap-1">
-                      <GraduationCap className="w-3.5 h-3.5 text-[#111111]" />
-                      Accredited
-                    </span>
+                    <GraduationCap className="w-4 h-4 text-[#111111]" />
                   </div>
 
                   <h4 className="font-serif-title text-lg font-bold text-[#111111]">
@@ -164,9 +161,11 @@ export default function About() {
                     {edu.school}
                   </p>
 
-                  <p className="text-xs text-[#333333] leading-relaxed">
-                    {edu.desc}
-                  </p>
+                  {edu.desc && (
+                    <p className="text-xs text-[#333333] leading-relaxed">
+                      {edu.desc}
+                    </p>
+                  )}
                 </div>
               ))}
           </div>
@@ -178,12 +177,14 @@ export default function About() {
             <h3 className="font-serif-title text-2xl font-bold text-[#111111]">
               {t('about.softwareTitle')}
             </h3>
-            <p className="text-xs text-[#555555] mt-1">
-              {t('about.softwareSubtitle')}
-            </p>
+            {t('about.softwareSubtitle') && (
+              <p className="text-xs text-[#555555] mt-1">
+                {t('about.softwareSubtitle')}
+              </p>
+            )}
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
             {SOFTWARE_STACK.map((item, idx) => (
               <div
                 key={idx}
@@ -194,9 +195,6 @@ export default function About() {
                 </div>
                 <span className="block text-xs font-medium text-[#111111] truncate">
                   {item.name}
-                </span>
-                <span className="block text-[10px] font-mono text-[#888888] truncate uppercase">
-                  {item.category}
                 </span>
               </div>
             ))}

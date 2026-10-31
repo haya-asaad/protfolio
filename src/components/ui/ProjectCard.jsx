@@ -12,9 +12,11 @@ export default function ProjectCard({
   const { t, getLocalized } = useTranslation();
 
   const title = getLocalized(project.title);
+  const projectName = getLocalized(project.projectName);
+  const year = getLocalized(project.year);
   const location = getLocalized(project.location);
   const description = getLocalized(project.description);
-  const categoryLabel = t(`filters.${project.category}`);
+  const categoryLabel = getLocalized(project.projectType) || t(`filters.${project.category}`);
 
   return (
     <article className="group relative bg-white border border-[#E5E5E5] rounded-sm overflow-hidden hover:border-[#111111] transition-colors flex flex-col h-full">
@@ -34,9 +36,11 @@ export default function ProjectCard({
           <span className="px-2.5 py-0.5 rounded-xs text-[10px] font-mono uppercase tracking-wider bg-white/95 text-[#111111] border border-[#E5E5E5]">
             {categoryLabel}
           </span>
-          <span className="px-2 py-0.5 rounded-xs text-[10px] font-mono bg-white/95 text-[#555555] border border-[#E5E5E5]">
-            {project.year}
-          </span>
+          {year && (
+            <span className="px-2 py-0.5 rounded-xs text-[10px] font-mono bg-white/95 text-[#333333] border border-[#E5E5E5]">
+              {year}
+            </span>
+          )}
         </div>
 
         {/* Quick Gallery Trigger Button */}
@@ -59,12 +63,14 @@ export default function ProjectCard({
       <div className="p-6 flex flex-col flex-grow justify-between space-y-4">
         <div>
           {/* Metadata Row */}
-          <div className="flex items-center gap-2 text-xs text-[#444444] font-mono font-medium mb-2">
-            <span className="flex items-center gap-1">
-              <MapPin className="w-3.5 h-3.5 text-[#111111]" />
-              <span className="truncate max-w-[200px]">{location}</span>
-            </span>
-          </div>
+          {location && (
+            <div className="flex items-center gap-2 text-xs text-[#444444] font-mono font-medium mb-2">
+              <span className="flex items-center gap-1">
+                <MapPin className="w-3.5 h-3.5 text-[#111111]" />
+                <span className="truncate max-w-[200px]">{location}</span>
+              </span>
+            </div>
+          )}
 
           {/* Project Title */}
           <h3
@@ -74,10 +80,18 @@ export default function ProjectCard({
             {title}
           </h3>
 
+          {projectName && (
+            <p className="mt-1 text-xs font-mono font-medium text-[#444444]">
+              {projectName}
+            </p>
+          )}
+
           {/* Project Concept Excerpt */}
-          <p className="mt-2 text-xs text-[#333333] line-clamp-2 leading-relaxed font-normal">
-            {description}
-          </p>
+          {description && (
+            <p className="mt-2 text-xs text-[#333333] line-clamp-2 leading-relaxed font-normal">
+              {description}
+            </p>
+          )}
         </div>
 
         {/* Action Footnote */}

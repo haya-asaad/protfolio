@@ -29,7 +29,7 @@ export default function Hero({ totalProjects = 11 }) {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-xs sm:text-sm font-mono font-medium tracking-widest text-[#444444] uppercase"
         >
-          {t('hero.tagline')} • TEL AVIV
+          {t('hero.tagline')}
         </motion.p>
 
         {/* Sharp Editorial Headline */}

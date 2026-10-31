@@ -107,13 +107,27 @@ projects.forEach((proj, idx) => {
   fs.writeFileSync(path.join(projDir, 'cover.jpg'), coverPng);
 
   const g1Png = generateGalleryPng(900, 600, 244, 243, 240);
-  fs.writeFileSync(path.join(projDir, '01.jpg'), g1Png);
-
   const g2Png = generateGalleryPng(900, 600, 242, 241, 238);
-  fs.writeFileSync(path.join(projDir, '02.jpg'), g2Png);
-
   const planPng = generateGalleryPng(900, 600, 248, 247, 244);
-  fs.writeFileSync(path.join(projDir, 'plan.jpg'), planPng);
+
+  const hasSubGalleries = Array.isArray(proj.gallery) && proj.gallery.some((item) => typeof item === 'object' && item !== null);
+
+  if (hasSubGalleries) {
+    proj.gallery.forEach((sub, sIdx) => {
+      if (typeof sub === 'object' && sub !== null && sub.id) {
+        const subDir = path.join(projDir, sub.id);
+        fs.mkdirSync(subDir, { recursive: true });
+        const subCoverPng = generateGalleryPng(900, 600, 245 - (sIdx % 3) * 2, 244 - (sIdx % 2) * 2, 240);
+        fs.writeFileSync(path.join(subDir, 'cover.jpg'), subCoverPng);
+        fs.writeFileSync(path.join(subDir, '01.jpg'), g1Png);
+        fs.writeFileSync(path.join(subDir, '02.jpg'), g2Png);
+      }
+    });
+  } else {
+    fs.writeFileSync(path.join(projDir, '01.jpg'), g1Png);
+    fs.writeFileSync(path.join(projDir, '02.jpg'), g2Png);
+    fs.writeFileSync(path.join(projDir, 'plan.jpg'), planPng);
+  }
 
   console.log(`Updated gallery placeholders for ${proj.id}`);
 });

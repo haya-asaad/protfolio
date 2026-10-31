@@ -10,18 +10,10 @@ export default function MobileNav({ isOpen, onClose }) {
 
   const navLinks = [
     { href: '#hero', label: t('nav.home') },
-    { href: '#works', label: t('nav.works') },
     { href: '#studio', label: t('nav.studio') },
+    { href: '#works', label: t('nav.works') },
     { href: '#contact', label: t('nav.contact') },
   ];
-
-  const handleLinkClick = (href) => {
-    onClose();
-    const elem = document.querySelector(href);
-    if (elem) {
-      elem.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <AnimatePresence>
@@ -54,17 +46,18 @@ export default function MobileNav({ isOpen, onClose }) {
           {/* Navigation items */}
           <div className="flex flex-col gap-6 my-auto">
             {navLinks.map((link, idx) => (
-              <motion.button
+              <motion.a
                 key={link.href}
+                href={link.href}
                 initial={{ opacity: 0, x: -15 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.04 * idx }}
-                onClick={() => handleLinkClick(link.href)}
+                onClick={onClose}
                 className="text-start flex items-center justify-between text-2xl font-serif-title font-medium text-[#111111] hover:text-[#555555] transition-colors py-3 border-b border-[#EAEAE6]"
               >
                 <span>{link.label}</span>
                 <span className="font-mono text-xs text-[#888888]">0{idx + 1}</span>
-              </motion.button>
+              </motion.a>
             ))}
           </div>
 

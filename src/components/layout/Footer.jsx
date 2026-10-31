@@ -54,13 +54,13 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#works" className="hover:text-[#111111] transition-colors">
-                  {t('nav.works')}
+                <a href="#studio" className="hover:text-[#111111] transition-colors">
+                  {t('nav.studio')}
                 </a>
               </li>
               <li>
-                <a href="#studio" className="hover:text-[#111111] transition-colors">
-                  {t('nav.studio')}
+                <a href="#works" className="hover:text-[#111111] transition-colors">
+                  {t('nav.works')}
                 </a>
               </li>
               <li>

@@ -10,9 +10,20 @@ import ProjectDetailModal from './components/sections/ProjectDetailModal';
 import LightboxModal from './components/ui/LightboxModal';
 import projectsData from './data/projects.json';
 
+function parseHashRoute(hashStr) {
+  const clean = (hashStr || '').replace(/^#/, '');
+  if (clean.startsWith('project/')) {
+    const parts = clean.split('/');
+    const slug = parts[1] || '';
+    const subGalleryId = parts[2] || null;
+    const found = projectsData.find((p) => p.id === slug) || null;
+    return { project: found, subGalleryId, sectionId: null };
+  }
+  return { project: null, subGalleryId: null, sectionId: clean || null };
+}
+
 function PortfolioApp() {
-  const [selectedProject, setSelectedProject] = useState(null);
-  const [isDetailOpen, setIsDetailOpen] = useState(false);
+  const [route, setRoute] = useState(() => parseHashRoute(window.location.hash));
 
   // Lightbox state
   const [lightboxState, setLightboxState] = useState({
@@ -23,41 +34,67 @@ function PortfolioApp() {
     category: '',
   });
 
-  // Hash-based deep link handler for projects (e.g. #project-slug)
   useEffect(() => {
     const handleHashChange = () => {
-      const hash = window.location.hash.replace('#', '');
-      if (hash && hash.startsWith('project/')) {
-        const slug = hash.replace('project/', '');
-        const found = projectsData.find((p) => p.id === slug);
-        if (found) {
-          setSelectedProject(found);
-          setIsDetailOpen(true);
-        }
+      const nextRoute = parseHashRoute(window.location.hash);
+      setRoute(nextRoute);
+
+      if (!nextRoute.project && nextRoute.sectionId) {
+        requestAnimationFrame(() => {
+          const elem = document.getElementById(nextRoute.sectionId);
+          if (elem) {
+            elem.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
       }
     };
 
-    handleHashChange();
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
   const handleOpenDetails = (project) => {
-    setSelectedProject(project);
-    setIsDetailOpen(true);
+    window.location.hash = `#project/${project.id}`;
   };
 
   const handleCloseDetails = () => {
-    setIsDetailOpen(false);
+    window.location.hash = '#works';
   };
 
-  const handleOpenLightbox = (project, startIndex = 0) => {
-    const allImages = [project.coverImage, ...(project.gallery || [])];
+  const handleSelectSubGalleryId = (subGalleryId) => {
+    if (!route.project) return;
+    if (subGalleryId) {
+      window.location.hash = `#project/${route.project.id}/${subGalleryId}`;
+    } else {
+      window.location.hash = `#project/${route.project.id}`;
+    }
+  };
+
+  const handleOpenLightbox = (
+    project,
+    startIndex = 0,
+    customImages = null,
+    customTitle = null
+  ) => {
+    let allImages;
+    if (Array.isArray(customImages) && customImages.length > 0) {
+      allImages = customImages;
+    } else {
+      const galleryCovers = (project.gallery || [])
+        .map((item) =>
+          typeof item === 'object' && item !== null
+            ? item.coverImage || item.images?.[0]
+            : item
+        )
+        .filter(Boolean);
+      allImages = [project.coverImage, ...galleryCovers].filter(Boolean);
+    }
+
     setLightboxState({
       isOpen: true,
       images: allImages,
       currentIndex: startIndex,
-      title: project.title?.en || project.id,
+      title: customTitle || project.title?.en || project.id,
       category: project.category,
     });
   };
@@ -66,33 +103,50 @@ function PortfolioApp() {
     setLightboxState((prev) => ({ ...prev, isOpen: false }));
   };
 
+  const currentProjectIndex = route.project
+    ? projectsData.findIndex((p) => p.id === route.project.id)
+    : -1;
+  const prevProject =
+    currentProjectIndex > 0 ? projectsData[currentProjectIndex - 1] : null;
+  const nextProject =
+    currentProjectIndex >= 0 && currentProjectIndex < projectsData.length - 1
+      ? projectsData[currentProjectIndex + 1]
+      : null;
+
   return (
     <div className="min-h-screen bg-[#FAF9F6] text-[#111111] flex flex-col selection:bg-[#111111] selection:text-white">
       {/* Sticky Header */}
       <Navbar />
 
-      {/* Main Sections */}
+      {/* Main Content: Either Full Project Page or Home Sections */}
       <main className="flex-grow">
-        <Hero totalProjects={projectsData.length} />
-        <ProjectGrid
-          projects={projectsData}
-          onOpenDetails={handleOpenDetails}
-          onOpenLightbox={handleOpenLightbox}
-        />
-        <About />
-        <Contact />
+        {route.project ? (
+          <ProjectDetailModal
+            project={route.project}
+            subGalleryId={route.subGalleryId}
+            onClose={handleCloseDetails}
+            onSelectProject={handleOpenDetails}
+            onSelectSubGalleryId={handleSelectSubGalleryId}
+            onOpenLightbox={handleOpenLightbox}
+            prevProject={prevProject}
+            nextProject={nextProject}
+          />
+        ) : (
+          <>
+            <Hero totalProjects={projectsData.length} />
+            <About />
+            <ProjectGrid
+              projects={projectsData}
+              onOpenDetails={handleOpenDetails}
+              onOpenLightbox={handleOpenLightbox}
+            />
+            <Contact />
+          </>
+        )}
       </main>
 
       {/* Footer */}
       <Footer />
-
-      {/* Project Detail Slide-over / Modal */}
-      <ProjectDetailModal
-        project={selectedProject}
-        isOpen={isDetailOpen}
-        onClose={handleCloseDetails}
-        onOpenLightbox={handleOpenLightbox}
-      />
 
       {/* High-Performance Fullscreen Lightbox */}
       <LightboxModal
